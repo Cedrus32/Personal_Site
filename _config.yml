@@ -1,5 +1,17 @@
 name: Cedrus's Neocities Site
 
+gems:
+    - jekyll-paginate-v2
+
+pagination:
+    enabled: true
+    per_page: 3
+    permalink: "/page:num/"
+    title: " - page :num"
+    limit: 0
+    sort_field: "date"
+    sort_reverse: true
+
 pages: ./_pages
 
 collections:
