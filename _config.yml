@@ -1,3 +1,7 @@
+name: Cedrus's Neocities Site
+
+pages: ./_pages
+
 collections:
     authors:
         output: true
@@ -16,4 +20,4 @@ defaults:
     - scope:
           path: ""
       values:
-          layout: "default"
+          layout: "global"
