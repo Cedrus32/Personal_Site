@@ -1,4 +1,4 @@
 node_modules/
 .DS_Store
-jeckyll-cache/
+.jekyll-cache/
 _site
