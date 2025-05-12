@@ -1,5 +1,7 @@
 ---
 author: ted
+date: 2018-08-22
+category: tamas
 ---
 
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the

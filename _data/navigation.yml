@@ -1,5 +1,11 @@
 - name: Home
   link: /
+- name: Knits
+  link: /knits.html
+- name: Games
+  link: /games.html
+- name: Tamas
+  link: /tamas.html
 - name: Collections
   link: /collections.html
 - name: About
