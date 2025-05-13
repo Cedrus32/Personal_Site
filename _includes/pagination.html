@@ -1,3 +1,4 @@
+{% if paginator.total_posts >= 3 %}
 <nav>
 	{% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}"> Previous </a>
@@ -9,3 +10,4 @@
 	<span>Next</span>
 	{% endif %}
 </nav>
+{% endif %}
