@@ -3,6 +3,8 @@ title: Collections
 layout: global
 ---
 
-<h1>Collections page</h1>
+<h1>Collections</h1>
 
-<p>This is a landing page for my collections</p>
+{% for item in site.data.collections %}
+<a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.name }}" /></a>
+{% endfor %}

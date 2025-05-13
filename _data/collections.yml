@@ -1,0 +1,12 @@
+- name: Finished Objects
+  link: /finished_objects/
+  image: assets/images/finished_objects.png
+- name: Tamagotchis
+  link: /tamagotchis/
+  image: assets/image/tamagotchis.png
+- name: Adoptables
+  link: /adoptables/
+  image: assets/image/adoptables.png
+- name: Adopted
+  link: /adopted/
+  image: assets/image/adopted.png
