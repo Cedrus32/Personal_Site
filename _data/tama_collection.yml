@@ -1,0 +1,55 @@
+- name: Original Era
+  series:
+      - name: Angel
+        shells: [White (Japanese)]
+
+      - name: Mesutchi & Osutchi
+        shells: [Green, Orange]
+
+      - name: Original Remakes
+        generations:
+            - name: Gen 1
+              shells: [Flames, Ginjirotchi Comic, Kuchipatchi Comic, Mametchi Comic]
+
+            - name: Gen 2
+              shells: [Mimitchi Comic, Rock Glitter, Tama Picnic]
+
+            - name: Gen 3
+              shells: [Angel Sky]
+
+- name: Connections Era
+  series:
+      - name: V1
+        shells: [Green Squares]
+
+      - name: V2
+        shells: [Clear Pink, Island]
+
+      - name: v3
+        shells: [Japan, Waves]
+
+      - name: v4
+        shells: [Black Lightning]
+
+      - name: K-Tama
+        shells: [Lemon Yellow]
+
+      - name: Akai
+        shells: [Pirate, Viking]
+
+      - name: Entama
+        shells: [Guts Blue]
+
+      - name: Connection Remakes
+        shells: [Ice Cream, Bubbles, Melon Soda]
+
+- name: Modern Era
+  series:
+      - name: 4U
+        shells: [Blue (Comic Book Faceplate)]
+
+      - name: Pix
+        shells: [Nature]
+
+      - name: Uni
+        shells: [Angel Festival, Moster Carnival, Purple (shell swapped)]
