@@ -5,5 +5,5 @@ title: Collections
 <h1>Collections</h1>
 
 {% for item in site.data.collections %}
-<a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.name }}" /></a>
+<a href="{{ item.link | prepend: "/collections" }}"><img src="{{ item.image }}" alt="{{ item.name }}" /></a>
 {% endfor %}
