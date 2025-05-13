@@ -1,4 +1,5 @@
 name: Cedrus's Neocities Site
+url: "https://cedrus.neocities.org"
 
 gems:
     - jekyll-paginate-v2
@@ -6,7 +7,7 @@ gems:
 pagination:
     enabled: true
     per_page: 3
-    permalink: "./page:num/"
+    permalink: "/page:num/"
     title: " - page :num"
     limit: 0
     sort_field: "date"
