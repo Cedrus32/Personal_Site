@@ -1,3 +1,29 @@
+:root {
+	--body-margin: 20px;
+	--line-height: 1.5em;
+	--nav-foot-height: var(--line-height);
+	--content-height: calc(100vh - calc(var(--body-margin) * 2) - calc(var(--line-height) * 2));
+}
+
+body {
+	display: grid;
+	grid-template-rows: var(--nav-foot-height) var(--content-height) var(--nav-foot-height);
+	grid-template-areas:
+		"nav"
+		"main"
+		"footer";
+	margin: 20px;
+}
+
+.global_nav {
+	grid-area: nav;
+}
+
+main {
+	grid-area: main;
+	overflow: auto;
+}
+
 .current {
 	color: green;
 }
@@ -5,4 +31,15 @@
 .collection_imgs,
 .layout_imgs {
 	width: 20%;
+}
+
+.collection_imgs,
+.layout_imgs,
+.adoptables {
+	display: inline;
+}
+
+footer {
+	grid-area: footer;
+	text-align: end;
 }
