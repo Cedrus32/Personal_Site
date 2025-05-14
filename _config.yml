@@ -2,8 +2,8 @@ name: Cedrus's Neocities Site
 url: "https://cedrus.neocities.org"
 
 gems:
-    - jekyll-paginate-v2
     - jekyll-truthyfalsy
+    - jekyll-paginate-v2
 
 pagination:
     enabled: true
