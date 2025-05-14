@@ -35,6 +35,6 @@ tag: about
 
 <h2 id="layouts">Old School Layouts</h2>
 
-{% for image in site.data.layouts %} {% assign imgURL = image.file | prepend: "../assets/images/layouts/retro/" | append: ".PNG" %}
+{% for image in site.data.layouts %} {% assign imgURL = image.file | prepend: "/assets/images/layouts/retro/" | append: ".PNG" %}
 <img src="{{imgURL}}" alt="{{image.name}}" class="layout_imgs" />
 {% endfor %}

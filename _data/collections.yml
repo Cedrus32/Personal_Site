@@ -1,12 +1,12 @@
 - name: Finished Objects
-  link: /finished_objects/
-  image: ../assets/images/ui/purple.PNG
+  link: /finished_objects
+  image: /assets/images/ui/purple.PNG
 - name: Tamagotchis
-  link: /tamagotchis/
-  image: ../assets/images/ui/orange.png
+  link: /tamagotchis
+  image: /assets/images/ui/orange.PNG
 - name: Adoptables
-  link: /adoptables/
-  image: ../assets/images/ui/pink.png
+  link: /adoptables
+  image: /assets/images/ui/pink.PNG
 - name: Adopted
-  link: /adopted/
-  image: ../assets/images/ui/green.png
+  link: /adopted
+  image: /assets/images/ui/green.PNG
