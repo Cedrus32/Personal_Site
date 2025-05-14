@@ -7,9 +7,4 @@ pagination:
     category: tamas
 ---
 
-{% for post in site.categories.tamas %}
-<article>
-	<h2>{{post.date | date_to_string}}</h2>
-	{{post.content}}
-</article>
-{% endfor %}
+{% for post in site.categories.tamas %} {% include posts.html %} {% endfor %} {% include pagination.html %}

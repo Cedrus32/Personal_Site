@@ -5,9 +5,7 @@ pagination:
     enabled: true
 ---
 
-{% for post in paginator.posts %}
-<article>
-	<h2>{{post.date | date_to_string}}</h2>
-	{{post.content}}
-</article>
-{% endfor %} {% include pagination.html %}
+{% assign viewing = page.parent %} {% if viewing == "home" or site.categories[viewing].size > 0 %} {% assign posts_exist = true %} {% endif %} {% if posts_exist == true %} {% for post in
+paginator.posts %} {% include post.html %} {% endfor %} {% include pagination.html %} {% else %}
+<p>Whoops! No posts in this category yet.</p>
+{% endif %}
