@@ -3,6 +3,7 @@ url: "https://cedrus.neocities.org"
 
 gems:
     - jekyll-paginate-v2
+    - jekyll-truthyfalsy
 
 pagination:
     enabled: true
