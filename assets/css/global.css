@@ -33,6 +33,15 @@ main {
 	width: 20%;
 }
 
+figure {
+	width: 15%;
+}
+
+figure {
+	display: inline-block;
+	height: min-content;
+}
+
 .collection_imgs,
 .layout_imgs,
 .adoptables {

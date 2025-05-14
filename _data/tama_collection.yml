@@ -1,55 +1,49 @@
 - name: Original Era
   series:
       - name: Angel
-        shells: [White (Japanese)]
+        shells: [[White (Japanese), angel_white]]
 
       - name: Mesutchi & Osutchi
-        shells: [Green, Orange]
+        shells: [[Green, osumesu_green], [Orange, osumesu_orange]]
 
       - name: Original Remakes
         generations:
             - name: Gen 1
-              shells: [Flames, Ginjirotchi Comic, Kuchipatchi Comic, Mametchi Comic]
+              shells: [[Flames, flames], [Ginjirotchi Comic, ginjiro_comic], [Kuchipatchi Comic, kuchipa_comic], [Mametchi Comic, mame_comic]]
 
             - name: Gen 2
-              shells: [Mimitchi Comic, Rock Glitter, Tama Picnic]
+              shells: [[Mimitchi Comic, mimi_comic], [Rock Glitter, rock_glitter], [Tama Picnic, tama_picnic]]
 
             - name: Gen 3
-              shells: [Angel Sky]
+              shells: [[Angel Sky, angel_sky]]
 
 - name: Connections Era
   series:
       - name: V1
-        shells: [Green Squares]
+        shells: [[Green Squares, green_squares]]
 
       - name: V2
-        shells: [Clear Pink, Island]
+        shells: [[Clear Pink, clear_pink], [Island, island]]
 
-      - name: v3
-        shells: [Japan, Waves]
+      - name: V3
+        shells: [[Japan, japan], [Waves, waves]]
 
-      - name: v4
-        shells: [Black Lightning]
-
-      - name: K-Tama
-        shells: [Lemon Yellow]
+      - name: V4
+        shells: [[Black Lightning, black_lightning]]
 
       - name: Akai
-        shells: [Pirate, Viking]
-
-      - name: Entama
-        shells: [Guts Blue]
+        shells: [[Pirate, pirate], [Viking, viking]]
 
       - name: Connection Remakes
-        shells: [Ice Cream, Bubbles, Melon Soda]
+        shells: [[Ice Cream, ice_cream], [Bubbles, bubbles], [Melon Soda, melon_soda]]
 
 - name: Modern Era
   series:
       - name: 4U
-        shells: [Blue (Comic Book Faceplate)]
+        shells: [[Blue (Comic Book Faceplate), 4u_blue]]
 
       - name: Pix
-        shells: [Nature]
+        shells: [[Nature, pix_nature]]
 
       - name: Uni
-        shells: [Angel Festival, Moster Carnival, Purple (shell swapped)]
+        shells: [[Angel Festival, uni_angel], [Monster Carnival, uni_monster]]
