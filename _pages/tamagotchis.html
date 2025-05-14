@@ -1,0 +1,33 @@
+---
+title: Cedrus's Site - Tamagotchis
+parent: collections
+permalink: /collections/tamagotchis
+---
+
+<h1>Tamagotchis</h1>
+<h2>Currently Running</h2>
+<ul>
+	{% for item in site.data.tama_runs %}
+	<li>{{item.name}}: {{item.details}}</li>
+	{% endfor %}
+</ul>
+
+<h2>Collection</h2>
+{% for era in site.data.tama_collection %}
+<h3>{{era.name}}</h3>
+{% for series in era.series %}
+<h4>{{series.name}}</h4>
+{% if series.generations %} {% for gen in series.generations %}
+<h5>{{gen.name}}</h5>
+<ul>
+	{% for shell in gen.shells %}
+	<li>{{shell}}</li>
+	{% endfor %}
+</ul>
+{% endfor %} {% else %}
+<ul>
+	{% for shell in series.shells %}
+	<li>{{shell}}</li>
+	{% endfor %}
+</ul>
+{% endif %} {% endfor %} {% endfor %}

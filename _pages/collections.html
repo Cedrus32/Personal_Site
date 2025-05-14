@@ -1,0 +1,10 @@
+---
+title: Cedrus's Site - Collections
+parent: collections
+---
+
+<h1>Collections</h1>
+
+{% for item in site.data.collections %}
+<a href="{{ item.link | prepend: '/collections' }}"><img src="{{ item.image }}" alt="{{ item.name }}" class="collection_imgs" /></a>
+{% endfor %}
