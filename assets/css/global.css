@@ -2,6 +2,7 @@
 	color: green;
 }
 
-.collection_imgs {
+.collection_imgs,
+.layout_imgs {
 	width: 20%;
 }
