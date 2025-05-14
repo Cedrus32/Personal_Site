@@ -1,5 +1,4 @@
 {
-  "dependencies": {
-    "async-neocities": "^4.1.0"
-  }
+	"name": "cedruss-site",
+	"version": "1.0.0"
 }
