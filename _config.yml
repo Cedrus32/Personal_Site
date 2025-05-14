@@ -1,6 +1,8 @@
 name: Cedrus's Site
 url: "https://cedrus.neocities.org"
 
+destination: public
+
 gems:
     - jekyll-truthyfalsy
     - jekyll-paginate-v2
