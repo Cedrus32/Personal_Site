@@ -1,11 +1,7 @@
-body {
-	background-color: black;
-}
-
-* {
-	color: white;
-}
-
 .current {
 	color: green;
+}
+
+.collection_imgs {
+	width: 20%;
 }
