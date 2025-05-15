@@ -6,6 +6,8 @@ permalink: /collections/adoptables
 
 <h1>Adoptables</h1>
 
+<p>These are free for you to add to your own site. Please link back to me if you do!</p>
+
 {% for img_set in site.data.adoptables %}
 <h2>{{img_set.name}}</h2>
 {% for item in img_set.items %} {% assign img_url = img_set.base | append: item | append: img_set.ext %}
