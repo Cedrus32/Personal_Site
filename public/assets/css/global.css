@@ -33,6 +33,14 @@ main {
 	width: 20%;
 }
 
+article {
+	margin-bottom: 2em;
+}
+
+article figure {
+	width: 50%;
+}
+
 figure {
 	width: 15%;
 }
@@ -40,6 +48,10 @@ figure {
 figure {
 	display: inline-block;
 	height: min-content;
+}
+
+figcaption {
+	font-style: italic;
 }
 
 .collection_imgs,

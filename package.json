@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"serve": "bundle exec jekyll serve",
-		"build": "bundle exec jekyll build"
+		"build": "bundle exec jekyll build",
+		"drafts": "bundle exec jekyll serve --drafts"
 	}
 }
