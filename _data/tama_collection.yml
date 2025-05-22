@@ -25,20 +25,26 @@
       - name: V2
         shells: [[Clear Pink, clear_pink], [Island, island]]
 
+      - name: Akai
+        shells: [[Pirate, pirate], [Viking, viking]]
+
       - name: V3
         shells: [[Japan, japan], [Waves, waves]]
 
+      - name: Entama
+        shells: [[Blue Guts, blue_guts]]
+
       - name: V4
         shells: [[Black Lightning, black_lightning]]
-
-      - name: Akai
-        shells: [[Pirate, pirate], [Viking, viking]]
 
       - name: Connection Remakes
         shells: [[Ice Cream, ice_cream], [Bubbles, bubbles], [Melon Soda, melon_soda]]
 
 - name: Modern Era
   series:
+      - name: iD L
+        shells: [[Pink, idl_pink]]
+
       - name: 4U
         shells: [[Blue (Comic Book Faceplate), 4u_blue]]
 
@@ -46,4 +52,4 @@
         shells: [[Nature, pix_nature]]
 
       - name: Uni
-        shells: [[Angel Festival, uni_angel], [Monster Carnival, uni_monster]]
+        shells: [[Angel Festival, uni_angel], [Monster Carnival, uni_monster], [Custom, uni_custom]]
