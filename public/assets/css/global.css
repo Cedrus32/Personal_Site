@@ -10,8 +10,8 @@
 	--bg-width: 324px;
 	--bg-height: 597px;
 	--small-img: 225px;
-	--tb-margin: 10vh;
-	--lr-small-margin: 10vw;
+	--tb-margin: 10dvh;
+	--lr-small-margin: 10dvw;
 	--lr-big-margin: calc(var(--bg-width) + calc(var(--lr-small-margin) * 0.75));
 	--line-height: 1.5rem;
 	--border-size: 1px;
@@ -26,7 +26,6 @@ body {
 	grid-template-areas: "links content" "links buttons" "footer footer";
 	gap: var(--layout-gap);
 	padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
-	/* margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin); */
 	font-family: Nunito, Arial, Helvetica, sans-serif;
 	color: var(--black);
 }
@@ -38,7 +37,8 @@ body {
 	bottom: 0px;
 	right: 0px;
 	z-index: -2;
-	margin: 0vh var(--lr-small-margin) var(--tb-margin) 0vw;
+	margin: 0dvh var(--lr-small-margin) var(--tb-margin) 0dvw;
+	display: none; /* remove this line later */
 }
 
 .global_links,
@@ -69,8 +69,10 @@ footer {
 .global_links {
 	grid-area: links;
 	display: flex;
+	flex: 0 0 auto;
 	flex-flow: column;
 	align-items: end;
+	gap: var(--layout-gap);
 }
 
 a {
@@ -95,8 +97,8 @@ main {
 .buttons a {
 	grid-area: buttons;
 	display: flex;
+	flex: 0 0 auto;
 	align-items: center;
-	flex: none;
 	flex-wrap: wrap;
 }
 
@@ -206,4 +208,25 @@ article figure img {
 
 .light {
 	border-color: var(--light-blue);
+}
+
+/* SMALL SCREENS */
+
+@media only screen and (max-width: 999px) {
+	body {
+		padding: var(--layout-gap);
+		grid-template-rows: auto 1fr auto;
+		grid-template-areas: "buttons" "content" "links";
+		height: 100dvh;
+	}
+
+	.bg-image,
+	footer {
+		display: none;
+	}
+
+	.global_links {
+		flex-direction: row;
+		gap: var(--layout-gap);
+	}
 }
