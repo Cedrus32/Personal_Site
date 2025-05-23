@@ -9,6 +9,7 @@
 	--black: #292929;
 	--bg-width: 324px;
 	--bg-height: 597px;
+	--small-img: 225px;
 	--tb-margin: 10vh;
 	--lr-small-margin: 10vw;
 	--lr-big-margin: calc(var(--bg-width) + calc(var(--lr-small-margin) * 0.75));
@@ -24,7 +25,8 @@ body {
 	grid-template-rows: auto auto auto;
 	grid-template-areas: "links content" "links buttons" "footer footer";
 	gap: var(--layout-gap);
-	margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
+	padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
+	/* margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin); */
 	font-family: Nunito, Arial, Helvetica, sans-serif;
 	color: var(--black);
 }
@@ -87,6 +89,8 @@ main {
 	overflow: auto;
 }
 
+/* simplify button sizing rules */
+
 .buttons,
 .buttons a {
 	grid-area: buttons;
@@ -122,7 +126,8 @@ article,
 
 p,
 article figure,
-.static-page ~ h2 {
+.static-page ~ h2,
+.h2 {
 	padding-top: 1em;
 }
 
@@ -134,21 +139,8 @@ article figure,
 	padding-top: 0.25em;
 }
 
-.static-page {
+.static-page ~ h5 {
 	padding-top: 0.15em;
-}
-
-.shell-group {
-	display: flex;
-	align-items: top;
-}
-
-.shell-group > figure {
-	width: 20%;
-}
-
-article figure {
-	width: 50%;
 }
 
 figure {
@@ -160,18 +152,37 @@ figcaption {
 	font-style: italic;
 }
 
-.collection_imgs {
-	width: 33%;
+article figure img {
+	width: 100%;
+	max-width: calc(var(--small-img) * 2);
 }
 
-.layout_imgs {
-	width: 20%;
+.shell-group {
+	display: flex;
+	align-items: top;
+	flex-wrap: wrap;
+}
+
+.shell-group > figure img {
+	height: var(--small-img);
+	width: auto;
 }
 
 .collection_imgs,
-.layout_imgs,
-.adoptables {
+.adoptables,
+.layout_imgs {
 	display: inline;
+}
+
+.h2-collections {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--layout-gap);
+}
+
+.h2-collections a {
+	width: 45%;
+	max-width: var(--small-img);
 }
 
 .divider {
