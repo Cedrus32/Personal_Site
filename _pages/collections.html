@@ -5,6 +5,6 @@ parent: collections
 
 <h1>Collections</h1>
 
-{% for item in site.data.collections %} {% assign imgURL = item.image | prepend: "/assets/images/ui/" | append: ".png" %}
+{% for item in site.data.collections %} {% assign imgURL = item.image | prepend: "/assets/images/layouts/v1/" | append: ".png" %}
 <a href="{{ item.link | prepend: '/collections' }}"><img src="{{ imgURL }}" alt="{{ item.name }}" class="collection_imgs" /></a>
 {% endfor %}

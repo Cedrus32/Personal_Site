@@ -14,18 +14,18 @@ permalink: /collections/tamagotchis
 
 <h2>Collection</h2>
 {% for era in site.data.tama_collection %}
-<div class="era-group">
+<section class="era-group">
 	<h3>{{era.name}}</h3>
 	{% for series in era.series %} {% if series.name == "divider" %}
-	<div class="divider dark"></div>
+	<div class="divider dark sup"></div>
 	{% else %}
 
 	<h4>{{series.name}}</h4>
 	{% if series.generations %} {% for gen in series.generations %} {% if gen.name == "divider" %}
-	<div class="divider light"></div>
+	<div class="divider light sub"></div>
 	{% else %}
 	<h5>{{gen.name}}</h5>
-	<div class="shell-group sub">
+	<div class="shell-group">
 		{% for shell in gen.shells %} {% assign imgURL = shell[1] | prepend: "/assets/images/tama_collection/" | append: ".jpeg" %}
 		<figure>
 			<img src="{{imgURL}}" alt="{{shell[0]}}" class="tama_imgs" />
@@ -34,7 +34,7 @@ permalink: /collections/tamagotchis
 		{% endfor %}
 	</div>
 	{% endif %} {% endfor %} {% else %}
-	<div class="shell-group sup">
+	<div class="shell-group">
 		{% for shell in series.shells %} {% assign imgURL = shell[1] | prepend: "/assets/images/tama_collection/" | append: ".jpeg" %}
 		<figure>
 			<img src="{{imgURL}}" alt="{{shell[0]}}" class="tama_imgs" />
@@ -43,5 +43,5 @@ permalink: /collections/tamagotchis
 		{% endfor %}
 	</div>
 	{% endif %} {% endif %} {% endfor %}
-</div>
+</section>
 {% endfor %}

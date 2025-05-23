@@ -1,12 +1,12 @@
 - name: Finished Objects
   link: /finished_objects
-  image: purple
+  image: square
 - name: Tamagotchis
   link: /tamagotchis
-  image: orange
+  image: starburst
 - name: Adoptables
   link: /adoptables
-  image: pink
+  image: flower1
 - name: Adopted
   link: /adopted
-  image: green
+  image: flower2
