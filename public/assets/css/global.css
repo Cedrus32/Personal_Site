@@ -21,7 +21,7 @@ body {
 	background-color: var(--light-blue);
 	display: grid;
 	grid-template-columns: auto 1fr;
-	grid-template-rows: 1fr auto auto;
+	grid-template-rows: auto auto auto;
 	grid-template-areas: "links content" "links buttons" "footer footer";
 	gap: var(--layout-gap);
 	margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
@@ -48,7 +48,7 @@ footer {
 }
 
 .global_links,
-main,
+.content,
 .buttons {
 	padding: calc(var(--line-height) / 2);
 }
@@ -81,6 +81,9 @@ a {
 
 main {
 	grid-area: content;
+}
+
+.content {
 	overflow: auto;
 }
 
