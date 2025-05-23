@@ -15,16 +15,13 @@
 	--line-height: 1.5rem;
 	--border-size: 1px;
 	--layout-gap: calc(var(--line-height) / 2);
-	--button-box-height: calc(var(--line-height) * 2);
-	--foot-height: calc(var(--line-height));
-	--content-height: calc(100vh - calc(var(--tb-margin) * 2) - var(--foot-height) - var(--button-box-height) - calc(var(--layout-gap) * 2));
 }
 
 body {
 	background-color: var(--light-blue);
 	display: grid;
 	grid-template-columns: auto 1fr;
-	grid-template-rows: var(--content-height) var(--button-box-height) var(--foot-height);
+	grid-template-rows: 1fr auto auto;
 	grid-template-areas: "links content" "links buttons" "footer footer";
 	gap: var(--layout-gap);
 	margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
@@ -51,7 +48,7 @@ footer {
 }
 
 .global_links,
-.content,
+main,
 .buttons {
 	padding: calc(var(--line-height) / 2);
 }
@@ -82,8 +79,8 @@ a {
 	color: var(--dark-pink);
 }
 
-.content {
-	height: calc(var(--content-height) - calc(var(--border-size) * 2));
+main {
+	grid-area: content;
 	overflow: auto;
 }
 
