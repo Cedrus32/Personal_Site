@@ -15,17 +15,17 @@
 	--line-height: 1.5rem;
 	--border-size: 1px;
 	--layout-gap: calc(var(--line-height) / 2);
-	--badge-box-height: calc(var(--line-height) * 2);
+	--button-box-height: calc(var(--line-height) * 2);
 	--foot-height: calc(var(--line-height));
-	--content-height: calc(100vh - calc(var(--tb-margin) * 2) - var(--foot-height) - var(--badge-box-height) - calc(var(--layout-gap) * 2));
+	--content-height: calc(100vh - calc(var(--tb-margin) * 2) - var(--foot-height) - var(--button-box-height) - calc(var(--layout-gap) * 2));
 }
 
 body {
 	background-color: var(--light-blue);
 	display: grid;
 	grid-template-columns: auto 1fr;
-	grid-template-rows: var(--content-height) var(--badge-box-height) var(--foot-height);
-	grid-template-areas: "links content" "links badges" "footer footer";
+	grid-template-rows: var(--content-height) var(--button-box-height) var(--foot-height);
+	grid-template-areas: "links content" "links buttons" "footer footer";
 	gap: var(--layout-gap);
 	margin: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
 	font-family: Nunito, Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@ body {
 
 .global_links,
 main,
-.badges,
+.buttons,
 footer {
 	position: relative; /* necessary for positioning child bg div*/
 	border: var(--border-size) dashed var(--med-blue);
@@ -52,7 +52,7 @@ footer {
 
 .global_links,
 .content,
-.badges {
+.buttons {
 	padding: calc(var(--line-height) / 2);
 }
 
@@ -87,10 +87,19 @@ a {
 	overflow: auto;
 }
 
-.badges {
-	grid-area: badges;
+.buttons,
+.buttons a {
+	grid-area: buttons;
 	display: flex;
 	align-items: center;
+	flex: none;
+	flex-wrap: wrap;
+}
+
+.buttons img,
+.buttons a img {
+	width: 88px;
+	height: 31px;
 }
 
 footer {

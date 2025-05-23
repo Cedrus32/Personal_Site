@@ -1,0 +1,27 @@
+- name: Cyber Girls Rule
+  image: cybergirls.gif
+
+- name: Internet Archive
+  url: https://archive.org
+  image: e-ia.png
+
+- name: Emulate Now!
+  image: emulate.gif
+
+- name: LGBT
+  image: lgbt.png
+
+- name: Neocities
+  url: https://neocities.org/
+  image: neocitiesblue.gif
+
+- name: Right to Repair
+  image: right2repair.png
+
+- name: No Web3
+  url: https://yesterweb.org/no-to-web3/
+  image: roly-saynotoweb3.gif
+
+- name: Under Construction
+  url: https://scp-wiki.wikidot.com/fantem-s-poi-file
+  image: underconstruction.png
