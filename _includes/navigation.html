@@ -1,4 +1,4 @@
-<nav class="global_nav">
+<nav class="global_links">
     {% for item in site.data.navigation %}
         {% assign root = {{item.name | downcase}} %}
         <a href="{{ item.link }}"
@@ -7,4 +7,5 @@
             {% endif %}
         > {{ item.name }} </a>
     {% endfor %}
+    <div class="bg-color"></div>
 </nav>

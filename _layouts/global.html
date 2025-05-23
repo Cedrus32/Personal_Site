@@ -5,10 +5,14 @@
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/reset.css" />
 		<link rel="stylesheet" href="/assets/css/global.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sono:wght@200..800&display=swap");
+		</style>
 	</head>
 	<body>
 		{% include navigation.html %}
-		<main>{{ content }}</main>
-		{% include footer.html %}
+		<main><div class="content">{{ content }}</div><div class="bg-color"></div></main>
+		{% include badges.html %} {% include footer.html %}
+		<img src="/assets/images/layouts/v1/bg.png" class="bg-image" alt="background_image" />
 	</body>
 </html>
