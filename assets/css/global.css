@@ -214,6 +214,7 @@ article figure img {
 
 @media only screen and (max-width: 999px) {
 	body {
+		font-size: 2em;
 		padding: var(--layout-gap);
 		grid-template-rows: auto 1fr auto;
 		grid-template-areas: "buttons" "content" "links";
@@ -223,6 +224,12 @@ article figure img {
 	.bg-image,
 	footer {
 		display: none;
+	}
+
+	.buttons img,
+	.buttons a img {
+		width: calc(88px * 2);
+		height: calc(31px * 2);
 	}
 
 	.global_links {
