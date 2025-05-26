@@ -1,0 +1,50 @@
+/* GLOBAL */
+
+:root {
+	--light-blue: #e5f4ff;
+	--med-blue: #91bad8;
+	--dark-blue: #2d7bb3;
+	--deep-blue: #1d5480;
+	--yellow: #ffea80;
+	--light-green: #77e5a4;
+}
+
+body {
+	background-color: var(--deep-blue);
+	color: white;
+}
+
+.global_links,
+main,
+.buttons,
+footer {
+	border: var(--border-size) dashed var(--light-blue);
+}
+
+.bg-color {
+	background-color: white;
+	mix-blend-mode: soft-light;
+}
+
+a {
+	color: var(--yellow);
+}
+
+.current {
+	color: var(--light-green);
+}
+
+/* PAGE SPECIFIC */
+
+article,
+.era-group {
+	border: var(--border-size) solid var(--light-blue);
+}
+
+.dark {
+	border-color: var(--light-blue);
+}
+
+.light {
+	border-color: var(--med-blue);
+}

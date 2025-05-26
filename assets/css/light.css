@@ -1,0 +1,47 @@
+/* GLOBAL */
+
+:root {
+	--light-blue: #e5f4ff;
+	--med-blue: #91bad8;
+	--dark-blue: #2d7bb3;
+	--green: #00cc22;
+}
+
+body {
+	background-color: var(--light-blue);
+}
+
+.global_links,
+main,
+.buttons,
+footer {
+	border: var(--border-size) dashed var(--dark-blue);
+}
+
+.bg-color {
+	background-color: white;
+	mix-blend-mode: soft-light;
+}
+
+a {
+	color: var(--dark-blue);
+}
+
+.current {
+	color: var(--green);
+}
+
+/* PAGE SPECIFIC */
+
+article,
+.era-group {
+	border: var(--border-size) solid var(--dark-blue);
+}
+
+.dark {
+	border-color: var(--dark-blue);
+}
+
+.light {
+	border-color: var(--med-blue);
+}

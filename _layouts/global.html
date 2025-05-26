@@ -8,12 +8,15 @@
 		</style>
 		<link rel="stylesheet" href="/assets/css/reset.css" />
 		<link rel="stylesheet" href="/assets/css/global.css" />
+		<link rel="stylesheet" href="/assets/css/light.css" />
+		<!-- <link rel="stylesheet" href="/assets/css/dark.css" /> -->
 	</head>
 	<body>
 		{% include navigation.html %}
 		<main><div class="content">{{ content }}</div><div class="bg-color"></div></main>
-		{% include buttons.html %} {% include footer.html %}
-		<img src="/assets/images/layouts/v1/bg.png" class="bg-image" alt="background_image" />
+		{% include buttons.html %} {% include footer.html %} {% include themes.html %}
+		<img src="/assets/images/layouts/v1/day.gif" class="bg-image" alt="background_image" />
+		<!-- <img src="/assets/images/layouts/v1/night.gif" class="bg-image" alt="background_image" /> -->
 	</body>
-	<script src="/assets/scripts/css.js" async></script>
+	<script src="/assets/scripts/size_content.js" async></script>
 </html>
