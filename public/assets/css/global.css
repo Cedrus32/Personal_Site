@@ -1,29 +1,12 @@
-/* NON-RETINA DISPLAY */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1) {
-	:root {
-		--bg-width: calc(523px);
-		--bg-height: calc(1078px);
-	}
-}
-
-/* RETINA DISPLAY */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	:root {
-		--bg-width: calc(523px / 2);
-		--bg-height: calc(1078px / 2);
-	}
-}
-
 /* GLOBAL */
 
 :root {
+	--bg-width: calc(523px / 2);
+	--bg-height: calc(1078px / 2);
 	--small-img: 225px;
 	--tb-margin: 10dvh;
 	--lr-small-margin: 10dvw;
 	--lr-big-margin: calc(var(--bg-width) + calc(var(--lr-small-margin) * 2));
-	--content-button-width: calc(100dvw - var(--lr-small-margin) - var(--lr-big-margin));
 	--line-height: 1.5rem;
 	--border-size: 1px;
 	--layout-gap: calc(var(--line-height) / 2);
@@ -203,7 +186,7 @@ article figure img {
 	body {
 		padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
 		grid-template-columns: auto 1fr 0; /* column width */
-		grid-template-rows: auto 1fr auto; /* row height */
+		grid-template-rows: 1fr auto auto; /* row height */
 		grid-template-areas: "links content themes" "links buttons buttons" "footer footer footer";
 	}
 
