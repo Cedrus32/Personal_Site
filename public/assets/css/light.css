@@ -1,0 +1,57 @@
+/* GLOBAL */
+
+:root {
+	--dark-purple: #411e58;
+	--light-blue: #c8f4f6;
+	--med-blue: #79e4ec;
+	--dark-blue: #1ebbc7;
+	--dark-pink: #de5c90;
+	--black: #292929;
+	--white: #e5f4ff;
+	--yellow: #ffea80;
+	--light-green: #8fe539;
+	--dark-green: #00cc22;
+	--purple: #8650a1;
+	--dark-blue: #2d7bb3;
+}
+
+body {
+	background-color: var(--light-blue);
+	color: var(--black);
+}
+
+.global_links,
+main,
+.buttons,
+footer {
+	border: var(--border-size) dashed var(--med-blue);
+}
+
+.bg-color {
+	background-color: white;
+}
+
+a {
+	color: var(--dark-blue);
+}
+
+.current {
+	color: var(--dark-pink);
+}
+
+/* PAGE SPECIFIC */
+
+/* PAGE SPECIFIC */
+
+article,
+.era-group {
+	border: var(--border-size) solid var(--med-blue);
+}
+
+.dark {
+	border-color: var(--med-blue);
+}
+
+.light {
+	border-color: var(--light-blue);
+}
