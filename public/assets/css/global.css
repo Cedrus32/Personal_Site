@@ -53,7 +53,6 @@ footer {
 	position: absolute;
 	top: 0;
 	left: 0;
-	mix-blend-mode: soft-light;
 	height: 100%;
 	width: 100%;
 	z-index: -1;

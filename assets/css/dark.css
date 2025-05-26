@@ -4,18 +4,21 @@
 	--light-blue: #e5f4ff;
 	--med-blue: #91bad8;
 	--dark-blue: #2d7bb3;
-	--green: #00cc22;
+	--deep-blue: #1d5480;
+	--yellow: #ffea80;
+	--light-green: #77e5a4;
 }
 
 body {
-	background-color: var(--light-blue);
+	background-color: var(--deep-blue);
+	color: white;
 }
 
 .global_links,
 main,
 .buttons,
 footer {
-	border: var(--border-size) dashed var(--dark-blue);
+	border: var(--border-size) dashed var(--light-blue);
 }
 
 .bg-color {
@@ -24,22 +27,22 @@ footer {
 }
 
 a {
-	color: var(--dark-blue);
+	color: var(--yellow);
 }
 
 .current {
-	color: var(--green);
+	color: var(--light-green);
 }
 
 /* PAGE SPECIFIC */
 
 article,
 .era-group {
-	border: var(--border-size) solid var(--dark-blue);
+	border: var(--border-size) solid var(--light-blue);
 }
 
 .dark {
-	border-color: var(--dark-blue);
+	border-color: var(--light-blue);
 }
 
 .light {

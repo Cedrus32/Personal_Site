@@ -1,34 +1,26 @@
 /* GLOBAL */
 
 :root {
-	--dark-purple: #411e58;
-	--light-blue: #c8f4f6;
-	--med-blue: #79e4ec;
-	--dark-blue: #1ebbc7;
-	--dark-pink: #de5c90;
-	--black: #292929;
-	--white: #e5f4ff;
-	--yellow: #ffea80;
-	--light-green: #8fe539;
-	--dark-green: #00cc22;
-	--purple: #8650a1;
+	--light-blue: #e5f4ff;
+	--med-blue: #91bad8;
 	--dark-blue: #2d7bb3;
+	--green: #00cc22;
 }
 
 body {
 	background-color: var(--light-blue);
-	color: var(--black);
 }
 
 .global_links,
 main,
 .buttons,
 footer {
-	border: var(--border-size) dashed var(--med-blue);
+	border: var(--border-size) dashed var(--dark-blue);
 }
 
 .bg-color {
 	background-color: white;
+	mix-blend-mode: soft-light;
 }
 
 a {
@@ -36,22 +28,20 @@ a {
 }
 
 .current {
-	color: var(--dark-pink);
+	color: var(--green);
 }
-
-/* PAGE SPECIFIC */
 
 /* PAGE SPECIFIC */
 
 article,
 .era-group {
-	border: var(--border-size) solid var(--med-blue);
+	border: var(--border-size) solid var(--dark-blue);
 }
 
 .dark {
-	border-color: var(--med-blue);
+	border-color: var(--dark-blue);
 }
 
 .light {
-	border-color: var(--light-blue);
+	border-color: var(--med-blue);
 }
