@@ -226,7 +226,6 @@ article figure img {
 		flex-flow: column;
 		gap: var(--layout-gap);
 		padding: 0 0 0 var(--layout-gap);
-		display: none; /* remove later */
 	}
 
 	#theme-menu li {
