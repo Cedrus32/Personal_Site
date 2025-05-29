@@ -1,11 +1,15 @@
 <nav class="global_links">
     {% for item in site.data.navigation %}
-        {% assign root = {{item.name | downcase}} %}
-        <a href="{{ item.link }}"
-            {% if page.parent == root %}
-            class="current"
-            {% endif %}
-        > {{ item.name }} </a>
+        {% if item.name == 'divider' %}
+            <div class="divider dark"></div>
+        {% else %}
+            {% assign root = {{item.name | downcase}} %}
+            <a href="{{ item.link }}"
+                {% if page.parent == root %}
+                class="current"
+                {% endif %}
+            > {{ item.name }} </a>
+        {% endif %}
     {% endfor %}
     <div class="bg-color"></div>
 </nav>

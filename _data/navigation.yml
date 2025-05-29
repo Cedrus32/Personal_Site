@@ -6,7 +6,9 @@
   link: /games
 - name: Tamas
   link: /tamas
+- name: divider
 - name: Collections
   link: /collections
+- name: divider
 - name: About
   link: /about

@@ -6,4 +6,12 @@ permalink: /collections/adopted
 
 <h1 class="static-page">Adopted</h1>
 
-<p>This page is to hold pixel art I've added from others' sites.</p>
+<div class="h2-adopted">
+	{% for set in site.data.adopted %}
+	<a href="{{ set.url }}" alt="{{ set.name }}">
+		{% for image in set.items %} {% assign img_name = image | split: '.' %}
+		<img src="{{ image | prepend: '/assets/images/pixels/adopted/' }}" alt="{{ image_name[0]}}" />
+		{% endfor %}
+	</a>
+	{% endfor %}
+</div>
