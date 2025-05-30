@@ -1,6 +1,9 @@
 - name: Cyber Girls Rule
   image: cybergirls.gif
 
+- name: Don't feed Archive
+  image: dontfeedai.gif
+
 - name: Internet Archive
   url: https://archive.org
   image: e-ia.png

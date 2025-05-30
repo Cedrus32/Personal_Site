@@ -5,7 +5,7 @@
 	--bg-height: calc(1078px / 2);
 	--small-img: 225px;
 	--tb-margin: 10dvh;
-	--lr-small-margin: 10dvw;
+	--lr-small-margin: 7dvw;
 	--lr-big-margin: calc(var(--bg-width) + calc(var(--lr-small-margin) * 2));
 	--line-height: 1.5rem;
 	--border-size: 1px;
