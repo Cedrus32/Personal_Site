@@ -1,8 +1,8 @@
 - name: Cyber Girls Rule
-  image: cybergirls.gif
+  image: cybergirls.png
 
 - name: Don't feed Archive
-  image: dontfeedai.gif
+  image: dontfeedai.png
 
 - name: Internet Archive
   url: https://archive.org
@@ -23,7 +23,7 @@
 
 - name: No Web3
   url: https://yesterweb.org/no-to-web3/
-  image: roly-saynotoweb3.gif
+  image: roly-saynotoweb3.png
 
 - name: Under Construction
   url: https://scp-wiki.wikidot.com/fantem-s-poi-file
