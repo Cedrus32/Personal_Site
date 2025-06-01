@@ -1,14 +1,8 @@
 - name: Home
   link: /
-- name: Knits
-  link: /knits
-- name: Games
-  link: /games
-- name: Tamas
-  link: /tamas
-- name: divider
+- name: Blog
+  link: /blog
 - name: Collections
   link: /collections
-- name: divider
 - name: About
   link: /about

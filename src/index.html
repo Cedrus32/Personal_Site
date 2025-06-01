@@ -1,11 +1,10 @@
 ---
 title: Cedrus's Site
 parent: home
-pagination:
-    enabled: true
 ---
 
-{% assign viewing = page.parent %} {% if viewing == "home" or site.categories[viewing].size > 0 %} {% assign posts_exist = true %} {% endif %} {% if posts_exist == true %} {% for post in
-paginator.posts %} {% include post.html %} {% endfor %} {% include pagination.html %} {% else %}
-<p>Whoops! No posts in this category yet.</p>
-{% endif %}
+<p class="static-page header">Welcome!</p>
+
+<p>I aim to make this site accessible and responsive to the best of my abilities. If something is broken, please <a href="/contact.html">let me know</a>!</p>
+
+{% include webrings.html %} {% include buttons.html %} {% include footer.html %}

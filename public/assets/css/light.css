@@ -11,14 +11,14 @@ body {
 	background-color: var(--light-blue);
 }
 
-.global_links,
+.global-nav,
 main,
-.buttons,
-footer {
+.webrings,
+.buttons {
 	border: var(--border-size) dashed var(--dark-blue);
 }
 
-.bg-color {
+.box-bg {
 	background-color: white;
 	mix-blend-mode: soft-light;
 }

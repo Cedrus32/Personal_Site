@@ -1,10 +1,13 @@
 <section class="buttons">
-	{% for button in site.data.buttons %} {% assign img_comps = button.image | split: "." %} {% assign img_src = button.image | prepend: "/assets/images/buttons/" %} {% if button.url %}
-	<a href="{{ button.url }}" alt="{{ button.name }}">
+	<h2>Buttons</h2>
+	<p>Buttons link back to original creater or relevant site when possible.</p>
+	<div class="img-group">
+		{% for button in site.data.buttons %} {% assign img_comps = button.image | split: "." %} {% assign img_src = button.image | prepend: "/assets/images/buttons/" %} {% if button.url %}
+		<a href="{{ button.url }}" alt="{{ button.name }}">
+			<img src="{{ img_src }}" alt="{{ img_comps[0] }}" />
+		</a>
+		{% else %}
 		<img src="{{ img_src }}" alt="{{ img_comps[0] }}" />
-	</a>
-	{% else %}
-	<img src="{{ img_src }}" alt="{{ img_comps[0] }}" />
-	{% endif %} {% endfor %}
-	<div class="bg-color"></div>
+		{% endif %} {% endfor %}
+	</div>
 </section>

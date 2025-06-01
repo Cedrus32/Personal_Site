@@ -17,12 +17,12 @@ permalink: /collections/tamagotchis
 <section class="era-group">
 	<h3>{{era.name}}</h3>
 	{% for series in era.series %} {% if series.name == "divider" %}
-	<div class="divider dark sup"></div>
+	<div class="divider dark"></div>
 	{% else %}
 
 	<h4>{{series.name}}</h4>
 	{% if series.generations %} {% for gen in series.generations %} {% if gen.name == "divider" %}
-	<div class="divider light sub"></div>
+	<div class="divider light"></div>
 	{% else %}
 	<h5>{{gen.name}}</h5>
 	<div class="shell-group">
