@@ -125,21 +125,11 @@ figcaption {
 	gap: var(--layout-gap);
 }
 
-.shell-group > figure img {
-	height: var(--small-img);
-	width: auto;
-}
-
 .img-group {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	gap: var(--layout-gap);
-}
-
-.img-group.large a {
-	width: 45%;
-	max-width: var(--small-img);
 }
 
 .divider {
@@ -181,8 +171,18 @@ figcaption {
 		height: calc(var(--button-height) * 2);
 	}
 
+	.img-group.large a {
+		min-width: var(--small-img);
+		width: 45%;
+	}
+
 	article figure img {
 		width: 100%;
+	}
+
+	.shell-group > figure img {
+		height: calc(var(--small-img) * 1.5);
+		width: auto;
 	}
 }
 
@@ -215,8 +215,18 @@ figcaption {
 		align-items: end;
 	}
 
+	.img-group.large a {
+		width: 45%;
+		max-width: calc(var(--small-img) * 1.25);
+	}
+
 	article figure img {
 		width: 100%;
-		max-width: calc(var(--small-img) * 2);
+		max-width: calc(var(--small-img) * 3);
+	}
+
+	.shell-group > figure img {
+		height: var(--small-img);
+		width: auto;
 	}
 }
