@@ -86,9 +86,13 @@ section ul li {
 	margin-top: 1em;
 }
 
+article,
+.era-group {
+	border-radius: 0.5em;
+}
+
 article {
 	margin-bottom: 2rem;
-	border-radius: 0.5em;
 }
 
 article p,
