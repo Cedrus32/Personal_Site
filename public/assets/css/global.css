@@ -165,7 +165,7 @@ figcaption {
 	}
 
 	.content {
-		height: calc(100vh - calc(calc(var(--line-height) * 2)) - calc(var(--layout-gap) * 3) - var(--line-height));
+		height: calc(100dvh - calc(calc(var(--line-height) * 2)) - calc(var(--layout-gap) * 3) - var(--line-height));
 	}
 
 	.global-nav {
@@ -194,7 +194,7 @@ figcaption {
 	}
 
 	.content {
-		height: calc(100vh - calc(var(--tb-margin) * 2));
+		height: calc(100dvh - calc(var(--tb-margin) * 2));
 	}
 
 	.global-nav {
