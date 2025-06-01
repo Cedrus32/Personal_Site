@@ -167,7 +167,8 @@ article figure img {
 
 	.bg-image,
 	footer,
-	#theme-menu {
+	#theme-menu,
+	#webrings {
 		display: none;
 	}
 
@@ -225,7 +226,7 @@ article figure img {
 		margin-right: calc(var(--layout-gap) * -1);
 	}
 
-	#theme-menu {
+	/* #theme-menu {
 		width: max-content;
 		grid-area: themes;
 		display: flex;
@@ -233,6 +234,15 @@ article figure img {
 		gap: var(--layout-gap);
 		padding: 0 0 0 var(--layout-gap);
 		display: none;
+	} */
+
+	#webrings {
+		width: max-content;
+		grid-area: themes;
+		display: flex;
+		flex-flow: column;
+		gap: var(--layout-gap);
+		padding: 0 0 0 var(--layout-gap);
 	}
 
 	#theme-menu li {
