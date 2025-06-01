@@ -14,10 +14,11 @@ body {
 	color: white;
 }
 
-.global_links,
+.global-nav,
 main,
+.webrings,
 .buttons,
-footer {
+.webrings {
 	border: var(--border-size) dashed var(--light-blue);
 }
 

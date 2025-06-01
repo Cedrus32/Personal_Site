@@ -32,8 +32,7 @@ main {
 .webrings,
 .buttons,
 article,
-.era-group,
-footer {
+.era-group {
 	padding: var(--box-padding);
 }
 

@@ -14,7 +14,8 @@ body {
 .global-nav,
 main,
 .webrings,
-.buttons {
+.buttons,
+.webrings {
 	border: var(--border-size) dashed var(--dark-blue);
 }
 
