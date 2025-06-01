@@ -1,6 +1,7 @@
 name: Cedrus's Site
 url: "https://cedrus.neocities.org"
 
+source: src
 destination: public
 
 gems:
