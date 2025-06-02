@@ -11,6 +11,10 @@ body {
 	background-color: var(--light-blue);
 }
 
+.bg-image {
+	content: url("/assets/images/layouts/v1/light.gif");
+}
+
 .global-nav,
 main,
 .webrings,

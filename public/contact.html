@@ -2,19 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>Cedrus's Site - Contact</title>
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sono:wght@200..800&display=swap");
 		</style>
 		<link rel="stylesheet" href="/assets/css/reset.css" />
 		<link rel="stylesheet" href="/assets/css/global.css" />
-		<link rel="stylesheet" href="/assets/css/light.css" id="theme" />
+		<link rel="stylesheet" href="" id="theme" />
+		<script src="/assets/scripts/changeStyle.js"></script>
 	</head>
 	<body>
 		<nav class="global-nav">
     
         
-            <a href="/" > Home </a>
+            <a href="/"  class="current" > Home </a>
     
         
             <a href="/blog" > Blog </a>
@@ -25,6 +26,7 @@
         
             <a href="/about" > About </a>
     
+    <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>
     <div class="box-bg"></div>
 </nav>
 
@@ -40,6 +42,6 @@
 </div>
 			<div class="box-bg"></div>
 		</main>
-		<img src="/assets/images/layouts/v1/light.gif" class="bg-image" alt="background_image" />
+		<img src="" class="bg-image" alt="background_image" />
 	</body>
 </html>

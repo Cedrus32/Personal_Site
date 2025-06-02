@@ -88,6 +88,8 @@ section ul li {
 	margin-top: 1em;
 }
 
+.webrings,
+.buttons,
 article,
 .era-group {
 	border-radius: 0.5em;
@@ -164,6 +166,10 @@ figcaption {
 		flex-direction: row;
 	}
 
+	#switch {
+		margin-left: auto;
+	}
+
 	.webrings img,
 	.buttons img {
 		width: calc(var(--button-width) * 2);
@@ -212,6 +218,10 @@ figcaption {
 	.global-nav {
 		flex-flow: column;
 		align-items: end;
+	}
+
+	#switch {
+		margin-top: auto;
 	}
 
 	.img-group.large a {

@@ -14,6 +14,10 @@ body {
 	color: white;
 }
 
+.bg-image {
+	content: url("/assets/images/layouts/v1/dark.gif");
+}
+
 .global-nav,
 main,
 .webrings,
