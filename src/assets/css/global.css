@@ -152,6 +152,11 @@ article,
 	border: var(--border-size) solid;
 }
 
+#switch {
+	border: var(--border-size) solid;
+	border-radius: 0.25em;
+}
+
 /* SMALL SCREENS */
 
 @media only screen and (max-width: 999px) {
