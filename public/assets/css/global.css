@@ -88,13 +88,6 @@ section ul li {
 	margin-top: 1em;
 }
 
-.webrings,
-.buttons,
-article,
-.era-group {
-	border-radius: 0.5em;
-}
-
 article {
 	margin-bottom: 2rem;
 }
@@ -121,7 +114,7 @@ figcaption {
 
 .shell-group {
 	display: flex;
-	align-items: top;
+	align-items: start;
 	flex-wrap: wrap;
 	gap: var(--layout-gap);
 }
@@ -137,6 +130,26 @@ figcaption {
 	border-width: 1px;
 	border-style: dotted;
 	margin: 1em 0;
+}
+
+.webrings,
+.buttons,
+article,
+.era-group {
+	border-radius: 0.5em;
+}
+
+.global-nav,
+main,
+.webrings,
+.buttons,
+.webrings {
+	border: var(--border-size) dashed;
+}
+
+article,
+.era-group {
+	border: var(--border-size) solid;
 }
 
 /* SMALL SCREENS */

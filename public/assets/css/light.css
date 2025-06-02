@@ -19,8 +19,15 @@ body {
 main,
 .webrings,
 .buttons,
-.webrings {
-	border: var(--border-size) dashed var(--dark-blue);
+.webrings,
+article,
+.era-group,
+.dark {
+	border-color: var(--dark-blue);
+}
+
+.light {
+	border-color: var(--med-blue);
 }
 
 .box-bg {
@@ -34,19 +41,4 @@ a {
 
 .current {
 	color: var(--green);
-}
-
-/* PAGE SPECIFIC */
-
-article,
-.era-group {
-	border: var(--border-size) solid var(--dark-blue);
-}
-
-.dark {
-	border-color: var(--dark-blue);
-}
-
-.light {
-	border-color: var(--med-blue);
 }

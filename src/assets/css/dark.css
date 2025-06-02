@@ -22,8 +22,15 @@ body {
 main,
 .webrings,
 .buttons,
-.webrings {
-	border: var(--border-size) dashed var(--light-blue);
+.webrings,
+article,
+.era-group,
+.dark {
+	border-color: var(--light-blue);
+}
+
+.light {
+	border-color: var(--med-blue);
 }
 
 .bg-color {
@@ -40,16 +47,3 @@ a {
 }
 
 /* PAGE SPECIFIC */
-
-article,
-.era-group {
-	border: var(--border-size) solid var(--light-blue);
-}
-
-.dark {
-	border-color: var(--light-blue);
-}
-
-.light {
-	border-color: var(--med-blue);
-}
