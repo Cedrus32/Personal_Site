@@ -3,15 +3,15 @@
 :root {
 	--light-blue: #e5f4ff;
 	--med-blue: #91bad8;
-	--dark-blue: #2d7bb3;
-	--deep-blue: #1d5480;
-	--yellow: #ffea80;
-	--light-green: #77e5a4;
+	--dark-blue: #1d5480;
+	--green: #a2ecc1;
+	--yellow: #ffd91a;
+	--lissa: #ffccff;
 }
 
 body {
-	background-color: var(--deep-blue);
-	color: white;
+	background-color: var(--dark-blue);
+	color: var(--light-blue);
 }
 
 .bg-image {
@@ -39,15 +39,28 @@ article,
 }
 
 a {
+	color: var(--green);
+}
+
+*:focus {
+	outline-color: var(--light-blue);
+}
+
+a:hover:not(:has(.webrings)),
+.current {
 	color: var(--yellow);
 }
 
-.current {
-	color: var(--light-green);
+#switch {
+	background-color: transparent;
+	color: var(--light-blue);
+	border-color: var(--light-blue);
 }
 
-#switch {
-	background-color: var(--med-blue);
-	color: white;
-	border-color: var(--light-blue);
+.lissa a,
+.lissa a:hover {
+	color: var(--lissa) !important;
+	text-decoration: none;
+	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+	text-align: center;
 }

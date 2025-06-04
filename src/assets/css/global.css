@@ -60,6 +60,33 @@ main {
 	overflow: auto;
 }
 
+.current::before {
+	content: "✦ ";
+}
+
+a[rel="external"]:not(:has(img))::after {
+	content: " ↗";
+}
+
+a:hover {
+	text-decoration-style: double;
+}
+
+*:focus {
+	outline-width: 2px;
+	outline-style: solid;
+	border-radius: 0.15em;
+}
+
+#switch {
+	border: var(--border-size) solid;
+	border-radius: 0.15em;
+}
+
+#switch:hover {
+	text-decoration: underline solid 2px;
+}
+
 /* PAGE SPECIFIC */
 
 .header {
@@ -140,21 +167,18 @@ article,
 }
 
 .global-nav,
-main,
-.webrings,
-.buttons,
-.webrings {
+main {
 	border: var(--border-size) dashed;
+}
+
+.webrings,
+.buttons {
+	border: var(--border-size) solid;
 }
 
 article,
 .era-group {
 	border: var(--border-size) solid;
-}
-
-#switch {
-	border: var(--border-size) solid;
-	border-radius: 0.25em;
 }
 
 /* SMALL SCREENS */
