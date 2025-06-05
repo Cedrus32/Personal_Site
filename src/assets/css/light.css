@@ -3,10 +3,10 @@
 :root {
 	--light-blue: #e5f4ff;
 	--med-blue: #91bad8;
-	--dark-blue: #1f547a;
-	--green: #006b12;
-	--yellow: #6a5e06;
-	--lissa: #a800a8;
+	--dark-blue: #27729b;
+	--green: #007a14;
+	--yellow: #796c06;
+	--lissa: #bd00bd;
 }
 
 body {
@@ -34,7 +34,7 @@ article,
 }
 
 .box-bg {
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	mix-blend-mode: soft-light;
 }
 

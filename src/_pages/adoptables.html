@@ -9,7 +9,7 @@ permalink: /collections/adoptables
 
 {% for img_set in site.data.adoptables %}
 <h2>{{img_set.name}}</h2>
-<div class="img-group">
+<div class="img-group small">
 	{% for item in img_set.items %} {% assign img_url = img_set.base | append: item | append: img_set.ext %}
 	<img src="{{img_url}}" alt="{{img_url}}" />
 	{% endfor %}

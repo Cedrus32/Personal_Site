@@ -7,10 +7,9 @@
 	--tb-margin: 10dvh;
 	--lr-small-margin: 7dvw;
 	--lr-big-margin: calc(var(--bg-width) + calc(var(--lr-small-margin) * 2));
-	--line-height: 1.5rem;
+	--line-height: 1.5em;
 	--border-size: 1px;
 	--layout-gap: calc(var(--line-height) / 2);
-	--box-padding: calc(var(--line-height) / 2);
 	--header-font-size: 2em;
 	--button-width: 88px;
 	--button-height: 31px;
@@ -33,7 +32,7 @@ main {
 .buttons,
 article,
 .era-group {
-	padding: var(--box-padding);
+	padding: var(--layout-gap);
 }
 
 .box-bg {
@@ -150,7 +149,6 @@ figcaption {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: var(--layout-gap);
 }
 
 .divider {
@@ -201,7 +199,7 @@ article,
 	}
 
 	.content {
-		height: calc(100dvh - calc(calc(var(--line-height) * 2)) - calc(var(--layout-gap) * 3) - var(--line-height));
+		height: calc(100dvh - calc(var(--layout-gap) * 5) - var(--line-height) - calc(var(--border-size) * 4) - 4px);
 	}
 
 	.global-nav {
@@ -210,12 +208,22 @@ article,
 
 	#switch {
 		margin-left: auto;
+		font-size: 1em;
+		/* display: none; */
 	}
 
 	.webrings img,
 	.buttons img {
 		width: calc(var(--button-width) * 2);
 		height: calc(var(--button-height) * 2);
+	}
+
+	.img-group.small {
+		gap: calc(var(--layout-gap) * 2);
+	}
+
+	.img-group.small img {
+		scale: 2;
 	}
 
 	.img-group.large a {
@@ -264,6 +272,10 @@ article,
 
 	#switch {
 		margin-top: auto;
+	}
+
+	.img-group.small {
+		gap: var(--layout-gap);
 	}
 
 	.img-group.large a {

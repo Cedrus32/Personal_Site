@@ -1,12 +1,12 @@
 /* GLOBAL */
 
 :root {
-	--light-blue: #e5f4ff;
+	--light-blue: #cce8ff;
 	--med-blue: #91bad8;
 	--dark-blue: #1d5480;
-	--green: #a2ecc1;
-	--yellow: #ffd91a;
-	--lissa: #ffccff;
+	--green: #baf2d1;
+	--yellow: #ffe45c;
+	--lissa: #ffdbff;
 }
 
 body {
@@ -33,8 +33,8 @@ article,
 	border-color: var(--med-blue);
 }
 
-.bg-color {
-	background-color: white;
+.box-bg {
+	background-color: rgb(255, 255, 255, 0.25);
 	mix-blend-mode: soft-light;
 }
 
