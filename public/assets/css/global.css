@@ -209,7 +209,6 @@ article,
 	#switch {
 		margin-left: auto;
 		font-size: 1em;
-		/* display: none; */
 	}
 
 	.webrings img,
@@ -218,6 +217,7 @@ article,
 		height: calc(var(--button-height) * 2);
 	}
 
+	.img-group,
 	.img-group.small {
 		gap: calc(var(--layout-gap) * 2);
 	}
@@ -274,6 +274,7 @@ article,
 		margin-top: auto;
 	}
 
+	.img-group,
 	.img-group.small {
 		gap: var(--layout-gap);
 	}
