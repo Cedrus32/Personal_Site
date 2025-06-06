@@ -8,9 +8,9 @@ permalink: /collections/adopted
 
 <div class="img-group small">
 	{% for set in site.data.adopted %}
-	<a rel="external" href="{{ set.url }}" alt="{{ set.name }}">
+	<a rel="external" href="{{ set.url }}">
 		{% for image in set.items %} {% assign img_name = image | split: '.' %}
-		<img src="{{ image | prepend: '/assets/images/pixels/adopted/' }}" alt="{{ image_name[0]}}" />
+		<img src="{{ image | prepend: '/assets/images/pixels/adopted/' }}" />
 		{% endfor %}
 	</a>
 	{% endfor %}
