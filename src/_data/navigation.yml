@@ -22,6 +22,6 @@ pixels:
     - name: Adoptables
       url: /pixels/adoptables
     - name: Adopted
-      url: /pixels/Adopted
+      url: /pixels/adopted
     - name: Clubs
       url: /pixels/clubs
