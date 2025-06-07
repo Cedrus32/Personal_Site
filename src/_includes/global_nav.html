@@ -1,4 +1,4 @@
-<nav class="global-nav">
+<nav class="global-nav desktop">
     {% for item in site.data.navigation.global %}
         {% assign root = {{item.name | downcase}} %}
         <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>

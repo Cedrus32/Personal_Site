@@ -215,6 +215,7 @@ article,
 		font-size: 1em;
 	}
 
+	.personal-button,
 	.link-group img {
 		width: calc(var(--button-width) * 2);
 		height: calc(var(--button-height) * 2);
