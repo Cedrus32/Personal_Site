@@ -1,0 +1,109 @@
+mutual:
+
+personal:
+    root: /assets/images/links/other_sites/
+    items:
+        - name: 10kph/Karma
+          url: https://karma.computer
+          img: CqWV3QPpEA-88
+          ext: .webp
+
+        - name: Autistic As Fxxk
+          url: https://www.autisticasfxxk.com
+          img: autisticasfxxk
+          ext: .gif
+
+        - name: cervidaze
+          url: https://cervidaze.me
+          img: cervidaze_button
+          ext: .png
+
+        - name: Cloverbell
+          url: https://cloverbell.neocities.org/
+          img: cloverbell
+          ext: .gif
+
+        - name: Colrana
+          url: https://colrana.neocities.org/
+          img: col_button
+          ext: .gif
+
+        - name: Digipiedra
+          url: https://digipiedra.neocities.org
+          img: digipiedraBtn
+          ext: .png
+
+        - name: dustbunnybedroom
+          url: https://dustbunnybedroom.neocities.org
+          img: dstbnnybdrm-button
+          ext: .gif
+
+        - name: The Frugal Gamer
+          url: https://www.thefrugalgamer.net/
+          img: frugalgamer_button1
+          ext: .png
+
+        - name: Kiosrel
+          url: https://kiosrel.com/
+          img: Kioweb-button
+          ext: .gif
+
+        - name: lazybones
+          url: https://lazybones.neocities.org
+          img: lazybgif
+          ext: .gif
+
+        - name: Maya.land
+          url: https://maya.land
+          img: mayaland
+          ext: .png
+
+        - name: Midnight Reading - Renkon's Personal Blog
+          url: https://renkotsuban.com/index.html
+          img: hcOScjp0ia-88
+          ext: .webp
+
+        - name: miela583
+          url: https://miela583.neocities.org
+          img: miela_button
+          ext: .gif
+
+        - name: Nora's Digital Underground
+          url: https://norea3a.neocities.org
+          img: norasDigitalUndergroundButton
+          ext: .png
+
+        - name: Oopsie Doodle
+          url: https://oopsiedoodle.com
+          img: OopsieDoodleButton
+          ext: .png
+
+        - name: Sankt Blamensir
+          url: https://blamensir.neocities.org/
+          img: sanktblamensir
+          ext: .png
+
+        - name: Starry's Grove
+          url: https://starry-knight.neocities.org/
+          img: button-starrys-grove
+          ext: .png
+
+non-personal:
+    root: /assets/images/links/other_sites/
+    items:
+        - name: 32-Bit cafe
+          url: https://32bit.cafe
+          img: 32bitty-loren
+          ext: .png
+        - name: A11y Cat
+          url: https://www.a11ycat.net
+          img:
+          ext:
+        - name: The Reading Project
+          url: https://readingproject.au
+          img: ReadingProjectButton2
+          ext: .png
+        - name: Surfscape
+          url: https://surfscape.neocities.org
+          img: surfscape_v2
+          ext: .png

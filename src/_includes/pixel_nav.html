@@ -1,0 +1,10 @@
+<h1 class="static-page">Pixels</h1>
+
+<nav>
+	{% for item in site.data.navigation.pixels %}
+	{% assign childRef = {{item.name | downcase}} %}
+	<li>
+		<a href="{{item.url}}" {% if page.child == childRef %} class="current" {% endif %}>{{item.name}}</a>
+	</li>
+	{% endfor %}
+</nav>

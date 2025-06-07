@@ -1,16 +1,20 @@
 ---
-title: Cedrus's Site - Adopted
-parent: collections
-permalink: /collections/adopted
+title: Cedrus's Site - Pixels - Adopted
+parent: pixels
+child: adopted
+permalink: /pixels/adopted
 ---
 
-<h1 class="static-page">Adopted</h1>
+{% include pixel_nav.html %}
+
+<h2>Adopted</h2>
+<p>A collection of pixels from other creators.</p>
 
 <div class="img-group small">
-	{% for set in site.data.adopted %}
+	{% for set in site.data.adopted.sets %}
 	<a rel="external" href="{{ set.url }}">
-		{% for image in set.items %} {% assign img_name = image | split: '.' %}
-		<img src="{{ image | prepend: '/assets/images/pixels/adopted/' }}" />
+		{% for item in set.items %} {% assign name = image | split: '.' %}
+		<img src="{{ site.data.adopted.root | append: item }}" alt="{{name[0]}}" />
 		{% endfor %}
 	</a>
 	{% endfor %}

@@ -1,17 +1,20 @@
 ---
-title: Cedrus's Site - Adoptables
-parent: collections
-permalink: /collections/adoptables
+title: Cedrus's Site - Pixels - Adoptables
+parent: pixels
+child: adoptables
+permalink: /pixels/adoptables
 ---
 
-<h1 class="static-page">Adoptables</h1>
+{% include pixel_nav.html %}
+
+<h2>Adoptables</h2>
 <p>These are free for you to add to your own site. Please link back to me if you do!</p>
 
-{% for img_set in site.data.adoptables %}
-<h2>{{img_set.name}}</h2>
+{% for set in site.data.adoptables.sets %}
+<h3>{{set.name}}</h3>
 <div class="img-group small">
-	{% for item in img_set.items %} {% assign img_url = img_set.base | append: item | append: img_set.ext %}
-	<img src="{{img_url}}" alt="{{img_url}}" />
+	{% for item in set.items %} {% assign url = site.data.adoptables.root | append: set.base | append: item | append: set.ext %}
+	<img src="{{url}}" alt="{{url}}" />
 	{% endfor %}
 </div>
 {% endfor %}

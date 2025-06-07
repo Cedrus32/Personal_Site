@@ -1,34 +1,36 @@
-- name: Maneki Nekos
-  base: /assets/images/pixels/adoptables/retro/maneki_nekos/
-  ext: .gif
-  items: [maneki1, maneki2, maneki3]
+root: /assets/images/pixels/adoptables/
+sets:
+    - name: Maneki Nekos
+      base: maneki_nekos/
+      ext: .gif
+      items: [maneki1, maneki2, maneki3]
 
-- name: Monsters
-  base: /assets/images/pixels/adoptables/retro/monsters/
-  ext: .gif
-  items: [count, frank, mummy]
+    - name: Monsters
+      base: monsters/
+      ext: .gif
+      items: [count, frank, mummy]
 
-- name: Planet Pops
-  base: /assets/images/pixels/adoptables/retro/planet_pops/
-  ext: .gif
-  items: [earthpop, marspop, saturnpop, sunpop]
+    - name: Planet Pops
+      base: planet_pops/
+      ext: .gif
+      items: [earthpop, marspop, saturnpop, sunpop]
 
-- name: Smart Robos
-  base: /assets/images/pixels/adoptables/retro/smart_robos/
-  ext: .gif
-  items: [smartrobo1, smartrobo2]
+    - name: Smart Robos
+      base: smart_robos/
+      ext: .gif
+      items: [smartrobo1, smartrobo2]
 
-- name: Truffles
-  base: /assets/images/pixels/adoptables/retro/truffles/
-  ext: .gif
-  items: [truff1, truff2, truff3, truff4]
+    - name: Truffles
+      base: truffles/
+      ext: .gif
+      items: [truff1, truff2, truff3, truff4]
 
-- name: Cloud Emotes
-  base: /assets/images/pixels/adoptables/retro/cloud_emotes/
-  ext: .gif
-  items: [emote1s1, emote2s1, emote3s1, emote4s1, emote5s1, emote6s1, emote7s1, emote8s1]
+    - name: Cloud Emotes
+      base: cloud_emotes/
+      ext: .gif
+      items: [emote1s1, emote2s1, emote3s1, emote4s1, emote5s1, emote6s1, emote7s1, emote8s1]
 
-- name: Pumpkin Emotes
-  base: /assets/images/pixels/adoptables/retro/pumpkin_emotes/
-  ext: .gif
-  items: [emote1s2, emote2s2, emote3s2, emote4s2, emote5s2, emote6s2, emote7s2, emote8s2]
+    - name: Pumpkin Emotes
+      base: pumpkin_emotes/
+      ext: .gif
+      items: [emote1s2, emote2s2, emote3s2, emote4s2, emote5s2, emote6s2, emote7s2, emote8s2]

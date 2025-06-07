@@ -1,0 +1,42 @@
+---
+title: Cedrus's Site - Tamas - Collection
+parent: tamas
+child: collection
+permalink: /tamas/collection
+---
+
+{% include tama_nav.html %}
+
+<h2>Collection</h2>
+{% for era in site.data.collection.eras %}
+<section class="era-group">
+	<h3>{{era.name}}</h3>
+	{% for series in era.series %} {% if series.name == "divider" %}
+	<div class="divider dark"></div>
+	{% else %}
+
+	<h4>{{series.name}}</h4>
+	{% if series.generations %} {% for gen in series.generations %} {% if gen.name == "divider" %}
+	<div class="divider light"></div>
+	{% else %}
+	<h5>{{gen.name}}</h5>
+	<div class="shell-group">
+		{% for shell in gen.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: ".jpeg"%}
+		<figure>
+			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+			<figcaption>{{shell[0]}}</figcaption>
+		</figure>
+		{% endfor %}
+	</div>
+	{% endif %} {% endfor %} {% else %}
+	<div class="shell-group">
+		{% for shell in series.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: ".jpeg"%}
+		<figure>
+			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+			<figcaption>{{shell[0]}}</figcaption>
+		</figure>
+		{% endfor %}
+	</div>
+	{% endif %} {% endif %} {% endfor %}
+</section>
+{% endfor %}

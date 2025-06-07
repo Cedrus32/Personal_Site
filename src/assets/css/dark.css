@@ -15,7 +15,7 @@ body {
 }
 
 .bg-image {
-	content: url("/assets/images/layouts/v1/dark.gif");
+	content: url("/assets/images/layout/dark.gif");
 }
 
 .global-nav,

@@ -1,8 +1,27 @@
-- name: Home
-  url: /
-- name: Blog
-  url: /blog
-- name: Collections
-  url: /collections
-- name: About
-  url: /about
+global:
+    - name: Home
+      url: /
+    - name: Blog
+      url: /blog
+    - name: Tamas
+      url: /tamas/collection
+    - name: Pixels
+      url: /pixels/adoptables
+    - name: About
+      url: /about
+    - name: Links
+      url: /links
+
+tamas:
+    - name: Collection
+      url: /tamas/collection
+    - name: Runs
+      url: /tamas/runs
+
+pixels:
+    - name: Adoptables
+      url: /pixels/adoptables
+    - name: Adopted
+      url: /pixels/Adopted
+    - name: Clubs
+      url: /pixels/clubs

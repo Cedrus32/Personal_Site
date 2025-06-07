@@ -1,0 +1,26 @@
+---
+title: Cedrus's Site - Tamas - Runs
+parent: tamas
+child: runs
+permalink: /tamas/runs
+---
+
+{% include tama_nav.html %}
+
+<h2>Runs</h2>
+<ul class="runs">
+	{% for set in site.data.runs.sets %}
+	<li>
+		<h3>{{set.name}}</h3>
+		<h4>Status: {{set.status}}</h4>
+		<div class="shell-group">
+			{% for item in set.details %}
+			<figure>
+				<img src="{{site.data.runs.root | append: item[1] | append: site.data.runs.ext}}" alt="{{item[1]}}" />
+				<figcaption>{{item[0]}}</figcaption>
+			</figure>
+			{% endfor %}
+		</div>
+	</li>
+	{% endfor %}
+</ul>

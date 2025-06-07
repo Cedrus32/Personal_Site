@@ -28,8 +28,7 @@ main {
 
 .global-nav,
 .content,
-.webrings,
-.buttons,
+.link-group,
 article,
 .era-group {
 	padding: var(--layout-gap);
@@ -44,11 +43,14 @@ article,
 	z-index: -1;
 }
 
-.global-nav {
-	grid-area: nav;
+nav {
 	display: flex;
 	flex: 0 0 auto;
 	gap: var(--layout-gap);
+}
+
+.global-nav {
+	grid-area: nav;
 }
 
 main {
@@ -57,6 +59,10 @@ main {
 
 .content {
 	overflow: auto;
+}
+
+nav li {
+	list-style: none;
 }
 
 .current::before {
@@ -157,8 +163,7 @@ figcaption {
 	margin: 1em 0;
 }
 
-.webrings,
-.buttons,
+.link-group,
 article,
 .era-group {
 	border-radius: 0.5em;
@@ -169,8 +174,7 @@ main {
 	border: var(--border-size) dashed;
 }
 
-.webrings,
-.buttons {
+.link-group {
 	border: var(--border-size) solid;
 }
 
@@ -211,8 +215,7 @@ article,
 		font-size: 1em;
 	}
 
-	.webrings img,
-	.buttons img {
+	.link-group img {
 		width: calc(var(--button-width) * 2);
 		height: calc(var(--button-height) * 2);
 	}

@@ -1,0 +1,15 @@
+root: /assets/images/tama_collection/
+ext: .jpeg
+
+sets:
+    - name: Main
+      status: live
+      details: [[Connection v1 Green Squares, green_squares]]
+
+    - name: Summer 2025
+      status: upcoming
+      details: [[Entama Guts Summer, guts_summer], [Entama Guts Swimming, guts_swimming]]
+
+    - name: Football Season
+      status: upcoming
+      details: [[Akai Viking, viking]]

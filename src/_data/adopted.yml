@@ -1,15 +1,37 @@
-- name: jeith
-  url: https://jeith.com
-  items: [spot-the-dog-barking.gif]
+root: /assets/images/pixels/adopted/
+sets:
+    - name: jeith
+      url: https://jeith.com
+      items: [spot-the-dog-barking.gif]
 
-- name: artwork
-  url: https://artwork.neocities.org
-  items: [0bunniesartwork.gif]
+    - name: artwork
+      url: https://artwork.neocities.org
+      items: [0bunniesartwork.gif]
 
-- name: pomelo
-  url: https://pomelo.lol/pixel/home
-  items: [lycheekiwijelly.png]
+    - name: pomelo
+      url: https://pomelo.lol/pixel/home
+      items: [lycheekiwijelly.png]
 
-- name: pastellhell
-  url: https://pastelhello.com/
-  items: [greysk.gif]
+    - name: pastellhell
+      url: https://pastelhello.com/
+      items: [greysk.gif]
+
+    - name: Whimsical
+      url: http://whimsical.heartette.net/index
+      items: [fruitdrink1b.gif]
+
+    - name: Appledust
+      url: https://www.lejlart.com/apple.html
+      items: [skellygreen.gif]
+
+    - name: Rose Dryad
+      url: https://rosedryad.com/
+      items: [SailorMoon.png]
+
+    - name: Floral-Tears
+      url: https://floral-tears.neocities.org
+      items: [PothosVineTop.png]
+
+    - name: Neonriser
+      url: https://neonriser.neocities.org
+      items: [chatt.png]

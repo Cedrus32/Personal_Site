@@ -1,0 +1,50 @@
+---
+title: Cedrus's Site - Links
+parent: links
+---
+
+<h1 class="static-page">Links</h1>
+<p>
+	Link back to me! Please don't hotlink. Host the image yourself. =)
+	<br />
+	<img src="/assets/images/links/cedrus.png" alt="cedrus" />
+</p>
+
+<section class="link-group">
+	<h2>Mutuals</h2>
+	<span>These sites also link back to me.</span>
+	<span>None yet. =(</span>
+</section>
+
+<section class="link-group">
+	<h2>Other Sites</h2>
+	<span>These are sites I find helpful, interesting, cute, or otherwise enjoyable.</span>
+	<h3>Personals</h3>
+	<div class="img-group">
+		{% assign root = site.data.links.personal.root %} {% for link in site.data.links.personal.items %}
+		<a rel="external" href="{{link.url}}"> <img src="{{link.img | prepend: root | append: link.ext}}" alt="{{link.img}}" /></a>
+		{% endfor %}
+	</div>
+	<h3>Non-Personals</h3>
+	<div class="img-group">
+		{% assign root = site.data.links.non-personal.root %} {% for link in site.data.links.non-personal.items %}
+		<a rel="external" href="{{link.url}}"> <img src="{{link.img | prepend: root | append: link.ext}}" alt="{{link.img}}" /></a>
+		{% endfor %}
+	</div>
+</section>
+
+<section class="link-group">
+	<h2>Webrings & Listings</h2>
+	<p>I do not feature explicit content. The same cannot be said for others in the webrings/listings below.</p>
+	<div class="img-group">
+		<nav class="lissa webring">
+			<ul>
+				<li><a href="https://genlissa.baccyflap.com/?prv&s=ced" target="_top">«</a></li>
+				<li><a href="https://genlissa.baccyflap.com" target="_blank">I'm Gen Lissa</a></li>
+				<li><a href="https://genlissa.baccyflap.com/?nxt&s=ced" target="_top">»</a></li>
+			</ul>
+		</nav>
+		<a href="https://kalechips.net/responsive/index"><img src="/assets/images/links/webrings/responsiveweb.png" /></a>
+		<a href="https://kalechips.net/responsive/index"><img src="/assets/images/links/webrings/focusfirst.png" /></a>
+	</div>
+</section>

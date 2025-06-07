@@ -1,0 +1,89 @@
+root: /assets/images/tama_collection/
+
+eras:
+    - name: Original Era
+      series:
+          - name: Angel
+            shells: [[White (Japanese), angel_white]]
+
+          - name: divider
+
+          - name: Mesutchi & Osutchi
+            shells: [[Green, osumesu_green], [Orange, osumesu_orange]]
+
+          - name: divider
+
+          - name: Original Remakes (Oritama)
+            generations:
+                - name: Gen 1
+                  shells: [[Flames, flames], [Ginjirotchi Comic, ginjiro_comic], [Kuchipatchi Comic, kuchipa_comic], [Mametchi Comic, mame_comic]]
+
+                - name: divider
+
+                - name: Gen 2
+                  shells: [[Mimitchi Comic, mimi_comic], [Pochitchi Comic, pochi_comic], [Rock Glitter, rock_glitter], [Tama Picnic, tama_picnic]]
+
+                - name: divider
+
+                - name: Gen 3
+                  shells: [[Angel Sky, angel_sky]]
+
+    - name: Connections Era
+      series:
+          - name: V1
+            shells: [[Green Squares, green_squares], [Pearl Purple, pearl_purple]]
+
+          - name: divider
+
+          - name: V2
+            shells: [[Clear Pink, clear_pink], [Island, island]]
+
+          - name: divider
+
+          - name: K-Tama
+            shells: [[Lemon Yellow, lemon_yellow]]
+
+          - name: divider
+
+          - name: Akai
+            shells: [[Pirate, pirate], [Viking, viking]]
+
+          - name: divider
+
+          - name: V3
+            shells: [[Japan, japan], [Waves, waves]]
+
+          - name: divider
+
+          - name: Entama
+            shells: [[Blue Guts, blue_guts], [Guts Summer, guts_summer]]
+
+          - name: divider
+
+          - name: V4
+            shells: [[Black Lightning, black_lightning]]
+
+          - name: divider
+
+          - name: Connection Remakes (RV3)
+            shells: [[Ice Cream, ice_cream], [Bubbles, bubbles], [Melon Soda, melon_soda]]
+
+    - name: Modern Era
+      series:
+          - name: iD L
+            shells: [[Pink, idl_pink]]
+
+          - name: divider
+
+          - name: 4U
+            shells: [[Blue (Comic Book Faceplate), 4u_blue]]
+
+          - name: divider
+
+          - name: Pix
+            shells: [[Nature, pix_nature]]
+
+          - name: divider
+
+          - name: Uni
+            shells: [[Angel Festival, uni_angel], [Monster Carnival, uni_monster], [Custom, uni_custom]]

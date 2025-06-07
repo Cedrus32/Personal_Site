@@ -1,0 +1,8 @@
+<nav class="global-nav">
+    {% for item in site.data.navigation.global %}
+        {% assign root = {{item.name | downcase}} %}
+        <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
+    {% endfor %}
+    <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>
+    <div class="box-bg"></div>
+</nav>
