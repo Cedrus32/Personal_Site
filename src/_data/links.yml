@@ -97,8 +97,8 @@ non-personal:
           ext: .png
         - name: A11y Cat
           url: https://www.a11ycat.net
-          img:
-          ext:
+          img: a11ycat
+          ext: .png
         - name: The Reading Project
           url: https://readingproject.au
           img: ReadingProjectButton2

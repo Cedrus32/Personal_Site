@@ -1,5 +1,5 @@
 ---
-title: Cedrus's Site - Tamas - Collection
+title: Cedrus's Site - Tama Collection
 parent: tamas
 child: collection
 permalink: /tamas/collection
@@ -21,7 +21,7 @@ permalink: /tamas/collection
 	{% else %}
 	<h5>{{gen.name}}</h5>
 	<div class="shell-group">
-		{% for shell in gen.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: ".jpeg"%}
+		{% for shell in gen.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
 		<figure>
 			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
 			<figcaption>{{shell[0]}}</figcaption>
@@ -30,7 +30,7 @@ permalink: /tamas/collection
 	</div>
 	{% endif %} {% endfor %} {% else %}
 	<div class="shell-group">
-		{% for shell in series.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: ".jpeg"%}
+		{% for shell in series.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
 		<figure>
 			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
 			<figcaption>{{shell[0]}}</figcaption>
