@@ -7,6 +7,8 @@
 	--green: #007a14;
 	--yellow: #796c06;
 	--lissa: #bd00bd;
+	--box-bg: #fcffff;
+	--open-bg: rgb(252, 255, 255, 0.9);
 }
 
 body {
@@ -16,6 +18,15 @@ body {
 
 .bg-image {
 	content: url("/assets/images/layout/light.gif");
+}
+
+.global-menu,
+main {
+	background-color: var(--box-bg);
+}
+
+.global-menu:has(details:open) {
+	background-color: var(--open-bg);
 }
 
 .global-nav,

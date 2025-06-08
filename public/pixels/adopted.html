@@ -9,29 +9,59 @@
 		<script src="/assets/scripts/changeStyle.js"></script>
 	</head>
 	<body>
-		<nav class="global-nav desktop">
-    
+		<div class="global-menu">
+
+    <nav id="desktop-nav" class="global-nav">
         
-        <li><a href="/" > Home </a></li>
-    
+            
+            <li><a href="/" > Home </a></li>
         
-        <li><a href="/blog" > Blog </a></li>
-    
+            
+            <li><a href="/blog" > Blog </a></li>
         
-        <li><a href="/tamas/collection" > Tamas </a></li>
-    
+            
+            <li><a href="/tamas/collection" > Tamas </a></li>
         
-        <li><a href="/pixels/adoptables"  class="current" > Pixels </a></li>
-    
+            
+            <li><a href="/pixels/adoptables"  class="current" > Pixels </a></li>
         
-        <li><a href="/about" > About </a></li>
-    
+            
+            <li><a href="/about" > About </a></li>
         
-        <li><a href="/links" > Links </a></li>
-    
+            
+            <li><a href="/links" > Links </a></li>
+        
+    </nav>
+
+    <details id="mobile-nav">
+        <summary id="toggle">Navigation</summary>
+        <nav class="global-nav">
+            
+                
+                <li><a href="/" > Home </a></li>
+            
+                
+                <li><a href="/blog" > Blog </a></li>
+            
+                
+                <li><a href="/tamas/collection" > Tamas </a></li>
+            
+                
+                <li><a href="/pixels/adoptables"  class="current" > Pixels </a></li>
+            
+                
+                <li><a href="/about" > About </a></li>
+            
+                
+                <li><a href="/links" > Links </a></li>
+            
+            <li class="skip"><a href="#toggle">back to top</a></li>
+        </nav>
+    </details>
+
     <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>
-    <div class="box-bg"></div>
-</nav>
+
+</div>
 		<main>
 			<div class="content"><h1 class="static-page">Pixels</h1>
 
@@ -116,7 +146,6 @@
 	
 </div>
 </div>
-			<div class="box-bg"></div>
 		</main>
 		<img src="" class="bg-image" alt="background_image" />
 	</body>

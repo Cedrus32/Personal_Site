@@ -1,8 +1,23 @@
-<nav class="global-nav desktop">
-    {% for item in site.data.navigation.global %}
-        {% assign root = {{item.name | downcase}} %}
-        <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
-    {% endfor %}
+<div class="global-menu">
+
+    <nav id="desktop-nav" class="global-nav">
+        {% for item in site.data.navigation.global %}
+            {% assign root = {{item.name | downcase}} %}
+            <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
+        {% endfor %}
+    </nav>
+
+    <details id="mobile-nav">
+        <summary id="toggle">Navigation</summary>
+        <nav class="global-nav">
+            {% for item in site.data.navigation.global %}
+                {% assign root = {{item.name | downcase}} %}
+                <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
+            {% endfor %}
+            <li class="skip"><a href="#toggle">back to top</a></li>
+        </nav>
+    </details>
+
     <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>
-    <div class="box-bg"></div>
-</nav>
+
+</div>
