@@ -125,6 +125,9 @@ article,
 	.global-nav {
 		gap: 0px;
 		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
+		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
+		overflow: auto;
+		flex-wrap: wrap;
 	}
 
 	.global-nav li:not(.skip),
