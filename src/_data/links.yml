@@ -88,6 +88,11 @@ personal:
           img: button-starrys-grove
           ext: .png
 
+        - name: Virtual Observer
+          url: https://virtualobserver.moe
+          img: virtualobserver
+          ext: .png
+
 non-personal:
     root: /assets/images/links/other_sites/
     items:
