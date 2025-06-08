@@ -14,29 +14,32 @@ permalink: /tamas/collection
 	{% for series in era.series %} {% if series.name == "divider" %}
 	<div class="divider dark"></div>
 	{% else %}
-
 	<h4>{{series.name}}</h4>
 	{% if series.generations %} {% for gen in series.generations %} {% if gen.name == "divider" %}
 	<div class="divider light"></div>
 	{% else %}
 	<h5>{{gen.name}}</h5>
-	<div class="shell-group">
+	<ul class="shell-group">
 		{% for shell in gen.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
-		<figure>
-			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
-			<figcaption>{{shell[0]}}</figcaption>
-		</figure>
+		<li>
+			<figure>
+				<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+				<figcaption>{{shell[0]}}</figcaption>
+			</figure>
+		</li>
 		{% endfor %}
-	</div>
+	</ul>
 	{% endif %} {% endfor %} {% else %}
-	<div class="shell-group">
+	<ul class="shell-group">
 		{% for shell in series.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
-		<figure>
-			<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
-			<figcaption>{{shell[0]}}</figcaption>
-		</figure>
+		<li>
+			<figure>
+				<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+				<figcaption>{{shell[0]}}</figcaption>
+			</figure>
+		</li>
 		{% endfor %}
-	</div>
+	</ul>
 	{% endif %} {% endif %} {% endfor %}
 </section>
 {% endfor %}
