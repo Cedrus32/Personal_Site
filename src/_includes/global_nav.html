@@ -1,21 +1,28 @@
-<div class="global-menu">
+<div id="desktop-nav" class="global-menu">
 
-    <nav id="desktop-nav" class="global-nav">
+    <nav class="global-nav">
         {% for item in site.data.navigation.global %}
             {% assign root = {{item.name | downcase}} %}
             <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
         {% endfor %}
     </nav>
 
-    <details id="mobile-nav">
+    <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>
+
+</div>
+
+<div id="mobile-nav" class="global-menu">
+
+    <details>
         <summary id="toggle">Navigation</summary>
         <nav class="global-nav">
             {% for item in site.data.navigation.global %}
                 {% assign root = {{item.name | downcase}} %}
                 <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
             {% endfor %}
-            <li class="skip"><a href="#toggle">back to top</a></li>
+            <li class="skip"><a href="#toggle">[top]</a></li>
         </nav>
+        <div class="box-bg"></div>
     </details>
 
     <button id="switch" onClick="changeStyle('toggle')">toggle theme</button>

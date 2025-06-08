@@ -8,7 +8,7 @@
 	--yellow: #796c06;
 	--lissa: #bd00bd;
 	--box-bg: #fcffff;
-	--open-bg: rgb(252, 255, 255, 0.9);
+	--open-bg: rgb(252, 255, 255, 0.5);
 }
 
 body {
@@ -23,10 +23,6 @@ body {
 .global-menu,
 main {
 	background-color: var(--box-bg);
-}
-
-.global-menu:has(details:open) {
-	background-color: var(--open-bg);
 }
 
 .global-nav,

@@ -207,20 +207,36 @@ article,
 		grid-template-rows: auto 1fr; /* row height */
 		grid-template-areas: "toggles nav" ". nav";
 		gap: 0px;
-		position: fixed;
 		z-index: 1000;
 		width: calc(100dvw - calc(var(--layout-gap) * 2));
 	}
 
-	.global-menu:has(details:open) {
+	.global-nav {
+		gap: 0px;
+		/* border: var(--border-size) solid; */
+		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
+	}
+
+	.global-nav li:not(.skip),
+	.global-nav li.skip:has(a:focus) {
+		padding-top: var(--layout-gap);
+	}
+
+	.box-bg {
+		position: absolute;
+		z-index: -1;
+		top: var(--layout-gap);
+		left: var(--layout-gap);
 		height: calc(100dvh - calc(var(--layout-gap) * 2));
+		width: calc(100dvw - calc(var(--layout-gap) * 2));
+		border: var(--border-size) dashed;
 	}
 
 	#desktop-nav {
 		display: none;
 	}
 
-	#mobile-nav {
+	#mobile-nav details {
 		grid-area: nav;
 		margin-left: auto;
 		z-index: 1000;
@@ -228,10 +244,6 @@ article,
 
 	details {
 		height: calc(2em + calc(var(--border-size) * 2));
-	}
-
-	.global-nav {
-		margin-top: var(--layout-gap);
 	}
 
 	.skip a {
