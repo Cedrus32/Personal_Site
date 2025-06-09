@@ -13,6 +13,11 @@ personal:
           img: autisticasfxxk
           ext: .gif
 
+        - name: Beep Bird
+          url: https://www.beepbird.net/
+          img: greenowl
+          ext: .webp
+
         - name: cervidaze
           url: https://cervidaze.me
           img: cervidaze_button
@@ -27,6 +32,11 @@ personal:
           url: https://colrana.neocities.org/
           img: col_button
           ext: .gif
+
+        - name: Craftinatorics
+          url: https://craftinatorics.com/credits/
+          img: craftinatorics_button
+          ext: .png
 
         - name: Digipiedra
           url: https://digipiedra.neocities.org
