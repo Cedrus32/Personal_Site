@@ -1,5 +1,6 @@
 function changeStyle(style) {
 	if (style === "toggle") {
+		// toggle style
 		style = localStorage.getItem("style");
 		if (style === "light") {
 			style = "dark";
@@ -7,14 +8,14 @@ function changeStyle(style) {
 			style = "light";
 		}
 	} else if (style == null) {
+		// check local storage
 		style = localStorage.getItem("style");
 		if (style == null) {
-			if (window.matchMedia) {
-				if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-					style = "dark";
-				} else {
-					style = "light";
-				}
+			// check system preference
+			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+				style = "dark";
+			} else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+				style = "light";
 			} else {
 				style = "light";
 			}

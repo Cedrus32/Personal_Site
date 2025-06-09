@@ -243,6 +243,16 @@ summary:hover {
 	text-decoration: underline solid 2px;
 }
 
+@media (scripting: none) {
+	#switch {
+		display: none;
+	}
+
+	.global-menu {
+		width: 10ch;
+	}
+}
+
 /* main content components */
 
 main {
