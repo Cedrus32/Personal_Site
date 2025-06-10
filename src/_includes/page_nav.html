@@ -1,0 +1,16 @@
+<h1 class="static-page">{{site.data.navigation[page.parent].header}}</h1>
+
+<nav>
+	{% for link in site.data.navigation.[page.parent].links %}
+        {% assign childRef = {{link.name | downcase}} %}
+        {% if page.parent == 'about' %}
+        <li>
+            <a href="{{link.url}}" {% if page.child == childRef %} class="current" {% endif %}>{{link.name | prepend: 'The '}}</a>
+        </li>
+        {% else %}
+        <li>
+            <a href="{{link.url}}" {% if page.child == childRef %} class="current" {% endif %}>{{link.name}}</a>
+        </li>
+        {% endif %}
+	{% endfor %}
+</nav>

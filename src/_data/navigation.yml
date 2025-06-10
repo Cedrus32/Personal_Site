@@ -8,20 +8,32 @@ global:
     - name: Pixels
       url: /pixels/adoptables
     - name: About
-      url: /about
+      url: /about/person
     - name: Links
       url: /links
 
 tamas:
-    - name: Collection
-      url: /tamas/collection
-    - name: Runs
-      url: /tamas/runs
+    header: Tamas
+    links:
+        - name: Collection
+          url: /tamas/collection
+        - name: Runs
+          url: /tamas/runs
 
 pixels:
-    - name: Adoptables
-      url: /pixels/adoptables
-    - name: Adopted
-      url: /pixels/adopted
-    - name: Clubs
-      url: /pixels/clubs
+    header: Pixels
+    links:
+        - name: Adoptables
+          url: /pixels/adoptables
+        - name: Adopted
+          url: /pixels/adopted
+        - name: Clubs
+          url: /pixels/clubs
+
+about:
+    header: About
+    links:
+        - name: Person
+          url: /about/person
+        - name: Site
+          url: /about/site
