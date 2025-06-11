@@ -23,6 +23,10 @@ function changeStyle(style) {
 	}
 
 	document.querySelector("#theme").setAttribute("href", "/assets/css/" + style + ".css");
+	let switchButton = document.querySelector("#switch");
+	if (switchButton) {
+		switchButton.textContent = "theme: " + style;
+	}
 	localStorage.setItem("style", style);
 }
 
