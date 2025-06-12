@@ -36,7 +36,7 @@
     </nav>
 
     <details id="mobile-nav">
-        <summary id="toggle">Navigation</summary>
+        <summary id="nav-top">Navigation</summary>
         <nav class="global-nav">
             
                 
@@ -57,12 +57,35 @@
                 
                 <li><a href="/links" > Links </a></li>
             
-            <li class="skip"><a href="#toggle">[top]</a></li>
+            <li class="skip"><a href="#nav-top">[top]</a></li>
         </nav>
         <div class="box-bg"></div>
     </details>
 
-    <button id="switch" onClick="changeStyle('toggle')"></button>
+    <!-- <button id="switch" onClick="changeStyle('toggle')"></button> -->
+     <details id="options">
+        <summary id="options-top">Options</summary>
+        <menu>
+            <li>
+                <button id="switch" onClick="changeStyle('toggle')">theme</button>
+            </li>
+            <li>
+                <button id="switch" onClick="changeStyle('toggle')">animations</button>
+            </li>
+            <li>
+                <div>
+                    <label for="font-select">font</label>
+                    <select name="fonts" id="font-select">
+                        <option value="">choose a font</option>
+                        <option value="Nunito">Nunito</option>
+                        <option value="Hyperlegible">Hyperlegible</option>
+                        <option value="OpenDyslexic">OpenDyslexic</option>
+                    </select>
+                </div>
+            </li>
+            <li class="skip"><a href="#options-top">[top]</a></li>
+        </menu>
+     </details>
 
 </div>
 		<main>
