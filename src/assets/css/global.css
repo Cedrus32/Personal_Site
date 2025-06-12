@@ -54,7 +54,7 @@ article,
 		flex-flow: column;
 	}
 
-	#switch {
+	#options {
 		margin-top: auto;
 	}
 
@@ -115,7 +115,7 @@ article,
 		display: none;
 	}
 
-	details {
+	#mobile-nav {
 		grid-area: nav;
 		margin-left: auto;
 		z-index: 1000;
@@ -158,7 +158,7 @@ article,
 		border: var(--border-size) dashed;
 	}
 
-	#switch {
+	#options {
 		grid-area: toggles;
 	}
 
