@@ -133,7 +133,6 @@ article,
 		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
 		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
 		overflow: auto;
-		flex-wrap: wrap;
 	}
 
 	.box-bg {
@@ -198,15 +197,27 @@ a:hover {
 	grid-area: menu;
 }
 
-nav {
+nav,
+menu {
 	display: flex;
 	flex: 0 0 auto;
+}
+
+nav {
 	gap: var(--layout-gap);
 }
 
 .global-nav {
 	flex-flow: column;
 	align-items: end;
+}
+
+menu {
+	display: flex;
+	flex: 0 0 auto;
+	flex-flow: column;
+	align-items: start;
+	padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
 }
 
 nav li,
@@ -233,7 +244,9 @@ summary:hover {
 }
 
 .global-nav li:not(.skip),
-.global-nav li.skip:has(a:focus) {
+.global-nav li.skip:has(a:focus),
+menu li:not(.skip),
+menu li.skip:has(a:focus) {
 	padding-top: var(--layout-gap);
 }
 
