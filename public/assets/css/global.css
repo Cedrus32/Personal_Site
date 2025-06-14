@@ -38,7 +38,7 @@ article,
 @media only screen and (min-width: 1000px) {
 	body {
 		padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
-		grid-template-columns: auto 1fr; /* column width */
+		grid-template-columns: 16ch 1fr; /* column width */
 		grid-template-rows: 1fr; /* row height */
 		grid-template-areas: "menu content";
 	}
@@ -54,14 +54,12 @@ article,
 		flex-flow: column;
 	}
 
-	@media (scripting: none) {
-		.global-menu {
-			width: 10ch;
-		}
-	}
-
 	#options {
 		margin-top: auto;
+	}
+
+	.selector {
+		width: calc(16ch - calc(var(--layout-gap) * 4) - calc(0.25em * 2) + calc(var(--border-size) * 4));
 	}
 
 	.content {
@@ -230,7 +228,8 @@ menu li {
 }
 
 #switch,
-summary {
+summary,
+.selector {
 	/* summary (small-screen only) included here for mirrored styling */
 	padding: 0.25em;
 	border: var(--border-size) solid;
@@ -238,9 +237,15 @@ summary {
 }
 
 #switch:hover,
-summary:hover {
+summary:hover,
+.selector:hover {
 	/* summary (small-screen only) included here for mirrored styling */
 	text-decoration: underline solid 2px;
+}
+
+.selector {
+	display: flex;
+	flex-flow: column;
 }
 
 .global-nav li:not(.skip),
@@ -264,7 +269,7 @@ menu li.skip:has(a:focus) {
 }
 
 @media (scripting: none) {
-	#switch {
+	#options {
 		display: none;
 	}
 }
