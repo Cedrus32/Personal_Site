@@ -8,20 +8,20 @@
     </nav>
 
     <details id="mobile-nav">
-        <summary id="nav-top">Navigation</summary>
+        <summary id="nav-close">Navigation</summary>
         <nav class="global-nav">
             {% for item in site.data.navigation.global %}
                 {% assign root = {{item.name | downcase}} %}
                 <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
             {% endfor %}
-            <li class="skip"><a href="#nav-top">[top]</a></li>
+            <li class="skip"><a href="#nav-close">[close]</a></li>
         </nav>
         <div class="box-bg"></div>
     </details>
 
     <!-- <button id="switch" onClick="changeStyle('toggle')"></button> -->
      <details id="options">
-        <summary id="options-top">Options</summary>
+        <summary id="options-close">Options</summary>
         <menu>
             <li>
                 <button id="switch" onClick="changeStyle('toggle')">theme</button>
@@ -33,14 +33,13 @@
                 <div class="selector">
                     <label for="font-select">site font</label>
                     <select name="fonts" id="font-select">
-                        <option value="">choose</option>
                         <option value="Nunito">Nunito</option>
                         <option value="Hyperlegible">Hyperlegible</option>
                         <option value="OpenDyslexic">OpenDyslexic</option>
                     </select>
                 </div>
             </li>
-            <li class="skip"><a href="#options-top">[top]</a></li>
+            <li class="skip"><a href="#options-close">[close]</a></li>
         </menu>
      </details>
 

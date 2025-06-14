@@ -55,7 +55,32 @@ article,
 	}
 
 	#options {
+		position: relative;
 		margin-top: auto;
+	}
+
+	#options[open] {
+		height: calc((var(--line-height) * 7) + calc(var(--layout-gap) * 5) + calc(0.25em * 2) + calc(var(--border-size) * 8));
+	}
+
+	#options[open] summary::before {
+		content: "▲ ";
+	}
+
+	menu {
+		position: absolute;
+		top: 0;
+		padding: 0px var(--layout-gap) 0px var(--layout-gap);
+	}
+
+	menu:has(a:not(:focus)) {
+		padding-top: calc(var(--line-height) + var(--layout-gap));
+	}
+
+	#options summary {
+		position: absolute;
+		bottom: 0;
+		width: calc(16ch - calc(var(--layout-gap) * 2));
 	}
 
 	.selector {
@@ -143,8 +168,16 @@ article,
 		border: var(--border-size) dashed;
 	}
 
+	details[open] summary::before {
+		content: "▼ ";
+	}
+
 	#options {
 		grid-area: toggles;
+	}
+
+	menu {
+		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
 	}
 
 	.content {
@@ -215,7 +248,6 @@ menu {
 	flex: 0 0 auto;
 	flex-flow: column;
 	align-items: start;
-	padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
 }
 
 nav li,
@@ -225,6 +257,16 @@ menu li {
 
 .current::before {
 	content: "✦ ";
+}
+
+details ::-webkit-details-marker,
+details ::marker {
+	display: none;
+	content: "";
+}
+
+details summary::before {
+	content: "► ";
 }
 
 #switch,
