@@ -38,7 +38,7 @@ article,
 @media only screen and (min-width: 1000px) {
 	body {
 		padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
-		grid-template-columns: 16ch 1fr; /* column width */
+		grid-template-columns: 14ch 1fr; /* column width */
 		grid-template-rows: 1fr; /* row height */
 		grid-template-areas: "menu content";
 	}
@@ -63,28 +63,28 @@ article,
 		height: calc((var(--line-height) * 7) + calc(var(--layout-gap) * 5) + calc(0.25em * 2) + calc(var(--border-size) * 8));
 	}
 
-	#options[open] summary::before {
-		content: "▲ ";
-	}
-
 	menu {
 		position: absolute;
 		top: 0;
-		padding: 0px var(--layout-gap) 0px var(--layout-gap);
+		padding: 0px;
 	}
 
 	menu:has(a:not(:focus)) {
 		padding-top: calc(var(--line-height) + var(--layout-gap));
 	}
 
+	.switch {
+		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
+	}
+
 	#options summary {
 		position: absolute;
 		bottom: 0;
-		width: calc(16ch - calc(var(--layout-gap) * 2));
+		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
 	}
 
-	.selector {
-		width: calc(16ch - calc(var(--layout-gap) * 4) - calc(0.25em * 2) + calc(var(--border-size) * 4));
+	#options[open] summary::before {
+		content: "▲ ";
 	}
 
 	.content {
@@ -134,9 +134,7 @@ article,
 		display: grid;
 		grid-template-columns: auto 1fr; /* column width */
 		grid-template-rows: auto 1fr; /* row height */
-		grid-template-areas: "toggles nav" ". nav";
-		gap: 0px;
-		z-index: 1000;
+		grid-template-areas: "options nav" ". nav";
 		width: calc(100dvw - calc(var(--layout-gap) * 2));
 	}
 
@@ -147,13 +145,16 @@ article,
 	#mobile-nav {
 		grid-area: nav;
 		margin-left: auto;
+	}
+
+	#mobile-nav[open],
+	#options[open] {
 		z-index: 1000;
-		height: calc(2em + calc(var(--border-size) * 2));
 	}
 
 	.global-nav {
 		gap: 0px;
-		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
+		padding: 0px calc(var(--border-size) * 3);
 		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
 		overflow: auto;
 	}
@@ -173,11 +174,21 @@ article,
 	}
 
 	#options {
-		grid-area: toggles;
+		grid-area: options;
+	}
+
+	#options summary {
+		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2) + calc(var(--border-size) * 3));
+	}
+
+	.switch {
+		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
 	}
 
 	menu {
-		padding: 0px var(--layout-gap) var(--layout-gap) var(--layout-gap);
+		padding: 0px calc(var(--border-size) * 3);
+		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
+		overflow: auto;
 	}
 
 	.content {
@@ -238,16 +249,14 @@ nav {
 	gap: var(--layout-gap);
 }
 
+menu {
+	flex-flow: column;
+	align-items: start;
+}
+
 .global-nav {
 	flex-flow: column;
 	align-items: end;
-}
-
-menu {
-	display: flex;
-	flex: 0 0 auto;
-	flex-flow: column;
-	align-items: start;
 }
 
 nav li,
@@ -269,7 +278,12 @@ details summary::before {
 	content: "► ";
 }
 
-#switch,
+.switch {
+	display: flex;
+	flex-flow: column;
+}
+
+.switch,
 summary,
 .selector {
 	/* summary (small-screen only) included here for mirrored styling */
@@ -278,16 +292,10 @@ summary,
 	border-radius: 0.15em;
 }
 
-#switch:hover,
-summary:hover,
-.selector:hover {
+.switch:hover,
+summary:hover {
 	/* summary (small-screen only) included here for mirrored styling */
 	text-decoration: underline solid 2px;
-}
-
-.selector {
-	display: flex;
-	flex-flow: column;
 }
 
 .global-nav li:not(.skip),

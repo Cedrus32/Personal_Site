@@ -57,7 +57,7 @@ a:hover:not(:has(.webrings)),
 	color: var(--yellow);
 }
 
-#switch {
+.switch {
 	background-color: transparent;
 	color: var(--light-blue);
 	border-color: var(--light-blue);
