@@ -1,24 +1,14 @@
 function applyInitStyle(style) {
-	if (style === "toggle") {
-		// toggle style
-		style = localStorage.getItem("style");
-		if (style === "light") {
+	// check local storage
+	style = localStorage.getItem("style");
+	if (style == null) {
+		// check system preference
+		if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
 			style = "dark";
-		} else if (style === "dark") {
+		} else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
 			style = "light";
-		}
-	} else if (style == null) {
-		// check local storage
-		style = localStorage.getItem("style");
-		if (style == null) {
-			// check system preference
-			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-				style = "dark";
-			} else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
-				style = "light";
-			} else {
-				style = "light";
-			}
+		} else {
+			style = "light";
 		}
 	}
 
