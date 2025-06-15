@@ -1,8 +1,6 @@
-function applyInitStyle(style) {
-	// check local storage
-	style = localStorage.getItem("style");
+function applyInitStyle() {
+	let style = localStorage.getItem("style");
 	if (style == null) {
-		// check system preference
 		if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
 			style = "dark";
 		} else if (window.matchMedia("(prefers-color-scheme: light)").matches) {

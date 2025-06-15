@@ -1,12 +1,9 @@
-function changeStyle(style) {
-	if (style === "toggle") {
-		// toggle style
-		style = localStorage.getItem("style");
-		if (style === "light") {
-			style = "dark";
-		} else if (style === "dark") {
-			style = "light";
-		}
+function changeStyle() {
+	let style = localStorage.getItem("style");
+	if (style === "light") {
+		style = "dark";
+	} else if (style === "dark") {
+		style = "light";
 	}
 
 	document.querySelector("#theme").setAttribute("href", "/assets/css/" + style + ".css");
