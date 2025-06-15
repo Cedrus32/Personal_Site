@@ -29,5 +29,3 @@ function changeStyle(style) {
 	}
 	localStorage.setItem("style", style);
 }
-
-changeStyle();
