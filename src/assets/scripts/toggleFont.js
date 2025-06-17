@@ -1,4 +1,4 @@
 function toggleFont(font) {
-	console.log(font);
 	document.querySelector("body").style.fontFamily = font.value;
+	localStorage.setItem("font", font.value);
 }

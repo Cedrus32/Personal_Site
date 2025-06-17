@@ -5,7 +5,7 @@ function applyInitFont() {
 	}
 
 	document.querySelector("body").style.fontFamily = font;
-	// localStorage.setItem("font", font);
+	localStorage.setItem("font", font);
 }
 
 applyInitFont();
