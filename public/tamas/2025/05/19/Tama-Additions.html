@@ -7,8 +7,8 @@
 		<link rel="stylesheet" media="(scripting: none) and (prefers-color-scheme: light)" href="/assets/css/light.css" />
 		<link rel="stylesheet" href="" id="theme" />
 		<script src="/assets/scripts/applyInitStyle.js"></script>
-		<link rel="stylesheet" href="/assets/css/global.css" />
 		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/global.css" />
 	</head>
 	<body>
 		<div class="global-menu">
@@ -62,20 +62,19 @@
         <div class="box-bg"></div>
     </details>
 
-    <!-- <button id="switch" onClick="changeStyle('toggle')"></button> -->
      <details id="options">
-        <summary id="options-close">Options</summary>
+        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
         <menu>
             <li>
-                <button class="switch" onClick="changeStyle()">theme</button>
+                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
             </li>
             <li>
-                <button class="switch" onClick="changeStyle()">animations: off</button>
+                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
             </li>
             <li>
                 <div class="switch">
                     <label for="font-select">site font</label>
-                    <select name="fonts" id="font-select">
+                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
                         <option value="Nunito">Nunito</option>
                         <option value="Hyperlegible">Hyperlegible</option>
                         <option value="OpenDyslexic">OpenDyslexic</option>
@@ -108,6 +107,11 @@
 		</main>
 		<img src="" class="bg-image" alt="background_image" />
 
-		<script src="/assets/scripts/changeStyle.js"></script>
+		<script src="/assets/scripts/applyInitFont.js"></script>
+		<script src="/assets/scripts/applyInitAnimate.js"></script>
+		<script src="/assets/scripts/applyInitText.js"></script>
+		<script src="/assets/scripts/toggleStyle.js"></script>
+		<script src="/assets/scripts/toggleAnimate.js"></script>
+		<script src="/assets/scripts/toggleFont.js"></script>
 	</body>
 </html>

@@ -20,7 +20,7 @@
 body {
 	display: grid;
 	gap: var(--layout-gap);
-	font-family: Atkinson, Arial, Helvetica, sans-serif;
+	font-family: Hyperlegible, Arial, Helvetica, sans-serif;
 }
 
 .global-menu,
@@ -454,36 +454,99 @@ article figure {
 }
 
 /* FONTS */
-
 /* nunito-regular - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Atkinson";
+	font-family: "Nunito";
 	font-style: normal;
 	font-weight: 400;
-	src: url("/assets/fonts/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/nunito-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* nunito-italic - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Atkinson";
+	font-family: "Nunito";
 	font-style: italic;
 	font-weight: 400;
-	src: url("/assets/fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/nunito-v31-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* nunito-700 - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Atkinson";
-	font-style: bold;
+	font-family: "Nunito";
+	font-style: normal;
 	font-weight: 700;
-	src: url("/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/nunito-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* nunito-700italic - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Atkinson";
+	font-family: "Nunito";
+	font-style: italic;
+	font-weight: 700;
+	src: url("/assets/fonts/nunito-v31-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Atkinson-regular */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Hyperlegible";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/assets/fonts/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Atkinson-italic */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Hyperlegible";
+	font-style: italic;
+	font-weight: 400;
+	src: url("/assets/fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Atkinson-700 */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Hyperlegible";
+	font-style: bold;
+	font-weight: 700;
+	src: url("/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Atkinson-700italic */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Hyperlegible";
 	font-style: italic;
 	font-weight: 700;
 	src: url("/assets/fonts/AtkinsonHyperlegibleNext-BoldItalic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* OpenDyslexic-regular */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "OpenDyslexic";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/assets/fonts/OpenDyslexic-Regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* OpenDyslexic-italic */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "OpenDyslexic";
+	font-style: italic;
+	font-weight: 400;
+	src: url("/assets/fonts/OpenDyslexic-Italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* OpenDyslexic-700 */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "OpenDyslexic";
+	font-style: bold;
+	font-weight: 700;
+	src: url("/assets/fonts/OpenDyslexic-Bold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* OpenDyslexic-700italic */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "OpenDyslexic";
+	font-style: italic;
+	font-weight: 700;
+	src: url("/assets/fonts/OpenDyslexic-Bold-Italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

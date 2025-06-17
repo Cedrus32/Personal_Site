@@ -19,20 +19,19 @@
         <div class="box-bg"></div>
     </details>
 
-    <!-- <button id="switch" onClick="changeStyle('toggle')"></button> -->
      <details id="options">
-        <summary id="options-close">Options</summary>
+        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
         <menu>
             <li>
-                <button class="switch" onClick="changeStyle()">theme</button>
+                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
             </li>
             <li>
-                <button class="switch" onClick="changeStyle()">animations: off</button>
+                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
             </li>
             <li>
                 <div class="switch">
                     <label for="font-select">site font</label>
-                    <select name="fonts" id="font-select">
+                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
                         <option value="Nunito">Nunito</option>
                         <option value="Hyperlegible">Hyperlegible</option>
                         <option value="OpenDyslexic">OpenDyslexic</option>

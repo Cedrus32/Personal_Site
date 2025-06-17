@@ -7,8 +7,8 @@
 		<link rel="stylesheet" media="(scripting: none) and (prefers-color-scheme: light)" href="/assets/css/light.css" />
 		<link rel="stylesheet" href="" id="theme" />
 		<script src="/assets/scripts/applyInitStyle.js"></script>
-		<link rel="stylesheet" href="/assets/css/global.css" />
 		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/global.css" />
 	</head>
 	<body>
 		<div class="global-menu">
@@ -62,20 +62,19 @@
         <div class="box-bg"></div>
     </details>
 
-    <!-- <button id="switch" onClick="changeStyle('toggle')"></button> -->
      <details id="options">
-        <summary id="options-close">Options</summary>
+        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
         <menu>
             <li>
-                <button class="switch" onClick="changeStyle()">theme</button>
+                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
             </li>
             <li>
-                <button class="switch" onClick="changeStyle()">animations: off</button>
+                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
             </li>
             <li>
                 <div class="switch">
                     <label for="font-select">site font</label>
-                    <select name="fonts" id="font-select">
+                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
                         <option value="Nunito">Nunito</option>
                         <option value="Hyperlegible">Hyperlegible</option>
                         <option value="OpenDyslexic">OpenDyslexic</option>
@@ -97,43 +96,33 @@
 	<h2>Buttons</h2>
 	<p>Buttons link back to original creater or relevant site when possible.</p>
 	<div class="img-group">
-		   
+		 
 		<a rel="external" href="https://www.mabsland.com/Adoption.html">
-			<img src="/assets/images/buttons/Censor_PGc.gif" alt="Censor_PGc" />
+			<img src="/assets/images/buttons/Censor_PGc.png"  alt="Web Rating - PG" />
 		</a>
-		    
-		<img src="/assets/images/buttons/cybergirls.png" alt="cybergirls" />
-		    
-		<img src="/assets/images/buttons/dontfeedai.png" alt="dontfeedai" />
-		    
+		   <img src="/assets/images/buttons/cybergirls.gif"  class="freeze"  alt="Cyber Girls Rule" />    <img src="/assets/images/buttons/dontfeedai.gif"  class="freeze"  alt="Don't Feed AI" />   
 		<a rel="external" href="https://archive.org">
-			<img src="/assets/images/buttons/e-ia.png" alt="e-ia" />
+			<img src="/assets/images/buttons/e-ia.png"  alt="Internet Archive" />
 		</a>
-		    
-		<img src="/assets/images/buttons/emulate.gif" alt="emulate" />
-		    
-		<img src="/assets/images/buttons/lgbt.png" alt="lgbt" />
-		    
+		   <img src="/assets/images/buttons/emulate.png"  alt="Emulate Now!" />    <img src="/assets/images/buttons/lgbt.png"  alt="LGBT" />   
 		<a rel="external" href="https://neocities.org/">
-			<img src="/assets/images/buttons/neocitiesblue.gif" alt="neocitiesblue" />
+			<img src="/assets/images/buttons/neocitiesblue.png"  alt="Neocities" />
 		</a>
-		    
-		<img src="/assets/images/buttons/right2repair.png" alt="right2repair" />
-		    
+		   <img src="/assets/images/buttons/right2repair.png"  alt="Right to Repair" />   
 		<a rel="external" href="https://yesterweb.org/no-to-web3/">
-			<img src="/assets/images/buttons/roly-saynotoweb3.png" alt="roly-saynotoweb3" />
+			<img src="/assets/images/buttons/web3.gif"  class="freeze"  alt="No Web3" />
 		</a>
-		    
+		  
 		<a rel="external" href="https://mkorostoff.github.io/incarceration-in-real-numbers/">
-			<img src="/assets/images/buttons/incarceration.png" alt="incarceration" />
+			<img src="/assets/images/buttons/incarceration.png"  alt="Incarceration In Real Numbers" />
 		</a>
-		    
+		  
 		<a rel="external" href="https://jack-dawlia.neocities.org/page/graphics">
-			<img src="/assets/images/buttons/want-to-believe.gif" alt="want-to-believe" />
+			<img src="/assets/images/buttons/want-to-believe.gif"  class="freeze"  alt="I Want to Believe" />
 		</a>
-		    
+		  
 		<a rel="external" href="https://scp-wiki.wikidot.com/fantem-s-poi-file">
-			<img src="/assets/images/buttons/underconstruction.png" alt="underconstruction" />
+			<img src="/assets/images/buttons/underconstruction.png"  alt="Under Construction" />
 		</a>
 		 
 	</div>
@@ -142,6 +131,11 @@
 		</main>
 		<img src="" class="bg-image" alt="background_image" />
 
-		<script src="/assets/scripts/changeStyle.js"></script>
+		<script src="/assets/scripts/applyInitFont.js"></script>
+		<script src="/assets/scripts/applyInitAnimate.js"></script>
+		<script src="/assets/scripts/applyInitText.js"></script>
+		<script src="/assets/scripts/toggleStyle.js"></script>
+		<script src="/assets/scripts/toggleAnimate.js"></script>
+		<script src="/assets/scripts/toggleFont.js"></script>
 	</body>
 </html>

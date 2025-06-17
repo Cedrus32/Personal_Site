@@ -11,12 +11,11 @@ parent: home
 	<h2>Buttons</h2>
 	<p>Buttons link back to original creater or relevant site when possible.</p>
 	<div class="img-group">
-		{% for button in site.data.buttons %} {% assign img_comps = button.image | split: "." %} {% assign img_src = button.image | prepend: "/assets/images/buttons/" %} {% if button.url %}
+		{% for button in site.data.buttons %} {% if button.url %}
 		<a rel="external" href="{{ button.url }}">
-			<img src="{{ img_src }}" alt="{{ img_comps[0] }}" />
+			<img src="{{ button.image | prepend: '/assets/images/buttons/' | append: button.ext }}" {% if button.ext == '.gif' %} class="freeze" {% endif %} alt="{{ button.name }}" />
 		</a>
-		{% else %}
-		<img src="{{ img_src }}" alt="{{ img_comps[0] }}" />
-		{% endif %} {% endfor %}
+		{% else %} <img src="{{ button.image | prepend: '/assets/images/buttons/' | append: button.ext }}" {% if button.ext == '.gif' %} class="freeze" {% endif %} alt="{{ button.name }}" /> {% endif
+		%} {% endfor %}
 	</div>
 </section>

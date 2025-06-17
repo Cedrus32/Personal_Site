@@ -1,42 +1,54 @@
 - name: Web Rating - PG
   url: https://www.mabsland.com/Adoption.html
-  image: Censor_PGc.gif
+  image: Censor_PGc
+  ext: .png
 
 - name: Cyber Girls Rule
-  image: cybergirls.png
+  image: cybergirls
+  ext: .gif
 
-- name: Don't feed Archive
-  image: dontfeedai.png
+- name: Don't Feed AI
+  image: dontfeedai
+  ext: .gif
 
 - name: Internet Archive
   url: https://archive.org
-  image: e-ia.png
+  image: e-ia
+  ext: .png
 
 - name: Emulate Now!
-  image: emulate.gif
+  image: emulate
+  ext: .png
 
 - name: LGBT
-  image: lgbt.png
+  image: lgbt
+  ext: .png
 
 - name: Neocities
   url: https://neocities.org/
-  image: neocitiesblue.gif
+  image: neocitiesblue
+  ext: .png
 
 - name: Right to Repair
-  image: right2repair.png
+  image: right2repair
+  ext: .png
 
 - name: No Web3
   url: https://yesterweb.org/no-to-web3/
-  image: roly-saynotoweb3.png
+  image: web3
+  ext: .gif
 
 - name: Incarceration In Real Numbers
   url: https://mkorostoff.github.io/incarceration-in-real-numbers/
-  image: incarceration.png
+  image: incarceration
+  ext: .png
 
 - name: I Want to Believe
   url: https://jack-dawlia.neocities.org/page/graphics
-  image: want-to-believe.gif
+  image: want-to-believe
+  ext: .gif
 
 - name: Under Construction
   url: https://scp-wiki.wikidot.com/fantem-s-poi-file
-  image: underconstruction.png
+  image: underconstruction
+  ext: .png

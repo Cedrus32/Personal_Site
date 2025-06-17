@@ -1,4 +1,4 @@
-function changeStyle() {
+function toggleStyle() {
 	let style = localStorage.getItem("style");
 	if (style === "light") {
 		style = "dark";
@@ -7,9 +7,7 @@ function changeStyle() {
 	}
 
 	document.querySelector("#theme").setAttribute("href", "/assets/css/" + style + ".css");
-	// let switchButton = document.querySelector("#switch");
-	// if (switchButton) {
-	// 	switchButton.textContent = "theme: " + style;
-	// }
 	localStorage.setItem("style", style);
+	let styleSwitch = document.querySelector("#style-switch");
+	styleSwitch.textContent = "theme: " + style;
 }
