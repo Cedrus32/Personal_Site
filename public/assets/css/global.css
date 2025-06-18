@@ -305,6 +305,24 @@ menu li.skip:has(a:focus) {
 	padding-top: var(--layout-gap);
 }
 
+#skip a {
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	top: -1000px;
+	overflow: hidden;
+	transition: top 0.5s ease;
+	background: var(--background);
+	color: var(--link);
+	z-index: 1000;
+	padding: 5px;
+}
+
+#skip a:focus {
+	top: 0;
+	transition: top 0.5s ease;
+}
+
 .skip a {
 	position: absolute;
 	width: 0px;
@@ -316,6 +334,10 @@ menu li.skip:has(a:focus) {
 	position: static;
 	width: auto;
 	height: auto;
+}
+
+.bottom-link {
+	display: block;
 }
 
 @media (scripting: none) {
