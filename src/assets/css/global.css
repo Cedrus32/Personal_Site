@@ -409,6 +409,15 @@ ul.img-group {
 	list-style: none;
 }
 
+.img-group a {
+	display: flex;
+	gap: var(--layout-gap);
+}
+
+.img-group a img {
+	align-self: center;
+}
+
 .webring ul {
 	padding: 0;
 	margin: 0;

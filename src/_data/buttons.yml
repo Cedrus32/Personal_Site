@@ -1,54 +1,56 @@
-- name: Web Rating - PG
-  url: https://www.mabsland.com/Adoption.html
-  image: Censor_PGc
-  ext: .png
+root: /assets/images/buttons/
+items:
+    - name: Web Rating - PG
+      url: https://www.mabsland.com/Adoption.html
+      img: Censor_PGc
+      ext: .png
 
-- name: Cyber Girls Rule
-  image: cybergirls
-  ext: .gif
+    - name: Cyber Girls Rule
+      img: cybergirls
+      ext: .gif
 
-- name: Don't Feed AI
-  image: dontfeedai
-  ext: .gif
+    - name: Don't Feed AI
+      img: dontfeedai
+      ext: .gif
 
-- name: Internet Archive
-  url: https://archive.org
-  image: e-ia
-  ext: .png
+    - name: Internet Archive
+      url: https://archive.org
+      img: e-ia
+      ext: .png
 
-- name: Emulate Now!
-  image: emulate
-  ext: .png
+    - name: Emulate Now!
+      img: emulate
+      ext: .png
 
-- name: LGBT
-  image: lgbt
-  ext: .png
+    - name: LGBT
+      img: lgbt
+      ext: .png
 
-- name: Neocities
-  url: https://neocities.org/
-  image: neocitiesblue
-  ext: .png
+    - name: Neocities
+      url: https://neocities.org/
+      img: neocitiesblue
+      ext: .png
 
-- name: Right to Repair
-  image: right2repair
-  ext: .png
+    - name: Right to Repair
+      img: right2repair
+      ext: .png
 
-- name: No Web3
-  url: https://yesterweb.org/no-to-web3/
-  image: web3
-  ext: .gif
+    - name: No Web3
+      url: https://yesterweb.org/no-to-web3/
+      img: web3
+      ext: .gif
 
-- name: Incarceration In Real Numbers
-  url: https://mkorostoff.github.io/incarceration-in-real-numbers/
-  image: incarceration
-  ext: .png
+    - name: Incarceration In Real Numbers
+      url: https://mkorostoff.github.io/incarceration-in-real-numbers/
+      img: incarceration
+      ext: .png
 
-- name: I Want to Believe
-  url: https://jack-dawlia.neocities.org/page/graphics
-  image: want-to-believe
-  ext: .gif
+    - name: I Want to Believe
+      url: https://jack-dawlia.neocities.org/page/graphics
+      img: want-to-believe
+      ext: .gif
 
-- name: Under Construction
-  url: https://scp-wiki.wikidot.com/fantem-s-poi-file
-  image: underconstruction
-  ext: .png
+    - name: Under Construction
+      url: https://scp-wiki.wikidot.com/fantem-s-poi-file
+      img: underconstruction
+      ext: .png

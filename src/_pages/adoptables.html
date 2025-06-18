@@ -12,9 +12,8 @@ permalink: /pixels/adoptables
 
 {% for set in site.data.adoptables.sets %}
 <h3>{{set.name}}</h3>
-<div class="img-group small">
-	{% for item in set.items %} {% assign url = site.data.adoptables.root | append: set.base | append: item | append: set.ext %}
-	<img src="{{url}}" alt="{{url}}" />
-	{% endfor %}
+<div class="img-group">
+	{% for item in set.items %} <img src="{{site.data.adoptables.root | append: set.base | append: item | append: set.ext }}" {% if set.ext == '.gif' %} class="freeze" {% endif %} alt="{{item}}" /> {%
+	endfor %}
 </div>
 {% endfor %}

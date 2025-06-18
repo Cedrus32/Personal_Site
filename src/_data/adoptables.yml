@@ -2,35 +2,35 @@ root: /assets/images/pixels/adoptables/
 sets:
     - name: Maneki Nekos
       base: maneki_nekos/
-      ext: .gif
+      ext: .png
       items: [maneki1, maneki2, maneki3]
 
     - name: Monsters
       base: monsters/
-      ext: .gif
+      ext: .png
       items: [count, frank, mummy]
 
     - name: Planet Pops
       base: planet_pops/
-      ext: .gif
+      ext: .png
       items: [earthpop, marspop, saturnpop, sunpop]
 
     - name: Smart Robos
       base: smart_robos/
-      ext: .gif
+      ext: .png
       items: [smartrobo1, smartrobo2]
 
     - name: Truffles
       base: truffles/
-      ext: .gif
+      ext: .png
       items: [truff1, truff2, truff3, truff4]
 
     - name: Cloud Emotes
       base: cloud_emotes/
-      ext: .gif
+      ext: .png
       items: [emote1s1, emote2s1, emote3s1, emote4s1, emote5s1, emote6s1, emote7s1, emote8s1]
 
     - name: Pumpkin Emotes
       base: pumpkin_emotes/
-      ext: .gif
+      ext: .png
       items: [emote1s2, emote2s2, emote3s2, emote4s2, emote5s2, emote6s2, emote7s2, emote8s2]

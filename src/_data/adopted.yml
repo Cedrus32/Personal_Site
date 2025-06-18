@@ -6,31 +6,31 @@ sets:
 
     - name: artwork
       url: https://artwork.neocities.org
-      items: [0bunniesartwork.gif]
+      items: [tokidoki2.png, 0bunniesartwork.gif, matryoshka03.gif, matryoshka02.gif, matryoshka01.gif]
 
     - name: pomelo
       url: https://pomelo.lol/pixel/home
-      items: [lycheekiwijelly.png]
+      items: [lycheekiwijelly.png, taki.png, sri.png, tab.png]
 
     - name: pastellhell
       url: https://pastelhello.com/
-      items: [greysk.gif]
+      items: [greysk.gif, sri2.png, unicornfloat.png]
 
     - name: Whimsical
-      url: http://whimsical.heartette.net/index
-      items: [fruitdrink1b.gif]
+      url: http://whimsical.heartette.net/
+      items: [fruitdrink1b.gif, shark1.gif, ghost5.gif, bubbletea4e.gif]
 
     - name: Appledust
       url: https://www.lejlart.com/apple.html
-      items: [skellygreen.gif]
+      items: [skellygreen.gif, meltycornpixel.gif, boobatea_slime.gif, lacroixdaisy.gif, gummybear_lychee.gif]
 
     - name: Rose Dryad
       url: https://rosedryad.com/
-      items: [SailorMoon.png]
+      items: [SailorMoon.png, BearPlush4.png]
 
     - name: Floral-Tears
       url: https://floral-tears.neocities.org
-      items: [PothosVineTop.png]
+      items: [PothosVineTop.png, strawberrymilkshake.png, unicornsmall.png]
 
     - name: Neonriser
       url: https://neonriser.neocities.org

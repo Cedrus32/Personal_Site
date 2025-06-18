@@ -21,9 +21,11 @@ parent: links
 	<span>These are sites I find helpful, interesting, cute, or otherwise enjoyable.</span>
 	<h3>Personals</h3>
 	<ul class="img-group">
-		{% assign root = site.data.links.personal.root %} {% for link in site.data.links.personal.items %}
+		{% for link in site.data.links.personal.items %}
 		<li>
-			<a rel="external" href="{{link.url}}"> <img src="{{link.img | prepend: root | append: link.ext}}" alt="{{link.img}}" /></a>
+			<a rel="external" href="{{link.url}}">
+				<img src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+			>
 		</li>
 		{% endfor %}
 	</ul>
@@ -31,7 +33,9 @@ parent: links
 	<ul class="img-group">
 		{% assign root = site.data.links.non-personal.root %} {% for link in site.data.links.non-personal.items %}
 		<li>
-			<a rel="external" href="{{link.url}}"> <img src="{{link.img | prepend: root | append: link.ext}}" alt="{{link.img}}" /></a>
+			<a rel="external" href="{{link.url}}">
+				<img src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+			>
 		</li>
 		{% endfor %}
 	</ul>
