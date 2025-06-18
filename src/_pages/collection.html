@@ -20,10 +20,10 @@ permalink: /tamas/collection
 	{% else %}
 	<h5>{{gen.name}}</h5>
 	<ul class="shell-group">
-		{% for shell in gen.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
+		{% for shell in gen.shells %}
 		<li>
 			<figure>
-				<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+				<img src="{{ site.data.collection.root | append: shell[1] | append: site.data.collection.ext }}" alt="{{ shell[0] | append: site.data.collection.ext }}" class="tama_imgs" />
 				<figcaption>{{shell[0]}}</figcaption>
 			</figure>
 		</li>
@@ -31,15 +31,16 @@ permalink: /tamas/collection
 	</ul>
 	{% endif %} {% endfor %} {% else %}
 	<ul class="shell-group">
-		{% for shell in series.shells %} {% assign url = site.data.collection.root | append: shell[1] | append: site.data.collection.ext %}
+		{% for shell in series.shells %}
 		<li>
 			<figure>
-				<img src="{{url}}" alt="{{shell[0]}}" class="tama_imgs" />
+				<img src="{{ site.data.collection.root | append: shell[1] | append: site.data.collection.ext }}" alt="{{ shell[0] | append: site.data.collection.ext }}" class="tama_imgs" />
 				<figcaption>{{shell[0]}}</figcaption>
 			</figure>
 		</li>
 		{% endfor %}
 	</ul>
 	{% endif %} {% endif %} {% endfor %}
+	<a href="#top">Back to top</a>
 </section>
 {% endfor %}
