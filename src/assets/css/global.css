@@ -38,7 +38,7 @@ article,
 @media only screen and (min-width: 1000px) {
 	body {
 		padding: var(--tb-margin) var(--lr-big-margin) var(--tb-margin) var(--lr-small-margin);
-		grid-template-columns: 14ch 1fr; /* column width */
+		grid-template-columns: 17ch 1fr; /* column width */
 		grid-template-rows: 1fr; /* row height */
 		grid-template-areas: "menu content";
 	}
@@ -74,13 +74,13 @@ article,
 	}
 
 	.switch {
-		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
+		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
 	}
 
 	#options summary {
 		position: absolute;
 		bottom: 0;
-		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
+		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
 	}
 
 	#options[open] summary::before {
@@ -182,11 +182,11 @@ article,
 	}
 
 	#options summary {
-		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2) + calc(var(--border-size) * 3));
+		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2) + calc(var(--border-size) * 3));
 	}
 
 	.switch {
-		width: calc(14ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
+		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2));
 	}
 
 	menu {
@@ -292,8 +292,7 @@ details summary::before {
 }
 
 .switch,
-summary,
-.selector {
+summary {
 	/* summary (small-screen only) included here for mirrored styling */
 	padding: 0.25em;
 	border: var(--border-size) solid;
@@ -304,6 +303,10 @@ summary,
 summary:hover {
 	/* summary (small-screen only) included here for mirrored styling */
 	text-decoration: underline solid 2px;
+}
+
+select {
+	height: var(--line-height);
 }
 
 .global-nav li:not(.skip),
