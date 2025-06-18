@@ -115,6 +115,10 @@ article,
 		z-index: -2;
 		margin: 0dvh var(--lr-small-margin) var(--tb-margin) 0dvw;
 	}
+
+	#skip {
+		left: calc(var(--border-size) + 2px);
+	}
 }
 
 /* SMALL SCREENS */
@@ -217,6 +221,10 @@ article,
 	.bg-image {
 		display: none;
 	}
+
+	#skip {
+		justify-self: center;
+	}
 }
 
 /* BOTH SCREENS - GLOBAL */
@@ -305,21 +313,16 @@ menu li.skip:has(a:focus) {
 	padding-top: var(--layout-gap);
 }
 
-#skip a {
+#skip {
 	position: absolute;
 	display: inline-block;
-	left: 0px;
 	top: -1000px;
-	overflow: hidden;
 	transition: top 0.5s ease;
-	background: var(--background);
-	color: var(--link);
 	z-index: 1000;
-	padding: 5px;
 }
 
-#skip a:focus {
-	top: 0;
+#skip:focus {
+	top: calc(var(--border-size) + 2px);
 	transition: top 0.5s ease;
 }
 

@@ -25,6 +25,10 @@ main {
 	background-color: var(--box-bg);
 }
 
+#skip {
+	background-color: var(--dark-blue);
+}
+
 .box-bg {
 	background-color: var(--open-bg);
 }
@@ -44,7 +48,8 @@ article,
 	border-color: var(--med-blue);
 }
 
-a {
+a,
+#skip a {
 	color: var(--green);
 }
 

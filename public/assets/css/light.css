@@ -21,7 +21,8 @@ body {
 }
 
 .global-menu,
-main {
+main,
+#skip {
 	background-color: var(--box-bg);
 }
 
@@ -44,7 +45,8 @@ article,
 	border-color: var(--med-blue);
 }
 
-a {
+a,
+#skip a {
 	color: var(--green);
 }
 
