@@ -10,11 +10,13 @@ permalink: /pixels/adopted
 <h2>Adopted</h2>
 <p>A collection of pixels from other creators.</p>
 
-<div class="img-group">
+<ul class="img-group">
 	{% for set in site.data.adopted.sets %}
-	<a rel="external" href="{{ set.url }}">
-		{% for item in set.items %} {% assign img = item | split: '.' %} <img src="{{ site.data.adopted.root | append: item }}" {% if img[1] == 'gif' %} class="freeze" {% endif %} alt="{{img[0] |
-		append: '.' | append: img[1]}}" /> {% endfor %}
-	</a>
+	<li>
+		<a rel="external" href="{{ set.url }}">
+			{% for item in set.items %} {% assign img = item | split: '.' %} <img src="{{ site.data.adopted.root | append: item }}" {% if img[1] == 'gif' %} class="freeze" {% endif %} alt="{{img[0] |
+			append: '.' | append: img[1]}}" /> {% endfor %}
+		</a>
+	</li>
 	{% endfor %}
-</div>
+</ul>

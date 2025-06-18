@@ -10,12 +10,15 @@ parent: home
 <section class="link-group">
 	<h2>Buttons</h2>
 	<p>Buttons link back to original creater or relevant site when possible.</p>
-	<div class="img-group">
-		{% for item in site.data.buttons.items %} {% if item.url %}
-		<a rel="external" href="{{ item.url }}">
-			<img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" />
-		</a>
-		{% else %} <img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" /> {% endif %} {% endfor
-		%}
-	</div>
+	<ul class="img-group">
+		{% for item in site.data.buttons.items %}
+		<li>
+			{% if item.url %}
+			<a rel="external" href="{{ item.url }}">
+				<img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" />
+			</a>
+			{% else %} <img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" /> {% endif %}
+		</li>
+		{% endfor %}
+	</ul>
 </section>
