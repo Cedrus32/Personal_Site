@@ -291,13 +291,13 @@ menu li {
 	content: "✦ ";
 }
 
-details#options summary::marker,
-details#mobile-nav summary::marker {
+#options > summary::marker,
+#mobile-nav > summary::marker {
 	content: "";
 }
 
-details#options summary::-webkit-details-marker,
-details#mobile-nav summary::-webkit-details-marker {
+#options > summary::-webkit-details-marker,
+#mobile-nav > summary::-webkit-details-marker {
 	display: none;
 }
 
@@ -324,6 +324,8 @@ dialog button {
 
 select {
 	height: var(--line-height);
+	width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 4) + calc(var(--border-size) * 2));
+	border-radius: 0.15em;
 }
 
 .global-nav li:not(.skip),
