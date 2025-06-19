@@ -298,7 +298,7 @@ menu li {
 
 #options > summary::-webkit-details-marker,
 #mobile-nav > summary::-webkit-details-marker {
-	display: none;
+	display: none !important;
 }
 
 details summary::before {
