@@ -1,6 +1,6 @@
 <h1 id="top" class="static-page">{{site.data.navigation[page.parent].header}}</h1>
 
-<nav>
+<nav class="page-nav">
 	{% for link in site.data.navigation.[page.parent].links %}
         {% assign childRef = {{link.name | downcase}} %}
         {% if page.parent == 'about' %}

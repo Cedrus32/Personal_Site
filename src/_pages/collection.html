@@ -8,18 +8,30 @@ permalink: /tamas/collection
 
 {% include page_nav.html %}
 
-<h2>Collection</h2>
+<div><h2>Collection</h2><a id="collection-skip" href="#start">[skip to collection]</a></div>
+<nav class="collection-nav">
+	{% for era in site.data.collection.eras %}
+	<ul>
+		<h3>{{era.name}}</h3>
+		<div>
+			{% for series in era.series %} {% if series.name != 'divider' %}
+				<li><a href="#{{ series.name | split: ' ' | join }}">{{series.name}}</a></li>
+			{% endif %} {% endfor %}
+		</div>
+	</ul>
+	{% endfor %}
+</nav>
 {% for era in site.data.collection.eras %}
-<section class="era-group">
+<section {% if era.name =='Original Era' %} id="start" {% endif %} class="era-group">
 	<h3>{{era.name}}</h3>
 	{% for series in era.series %} {% if series.name == "divider" %}
 	<div class="divider dark"></div>
 	{% else %}
-	<h4>{{series.name}}</h4>
+	<h4 tabindex="0" id="{{ series.name | split: ' ' | join }}">{{series.name}}</h4>
 	{% if series.generations %} {% for gen in series.generations %} {% if gen.name == "divider" %}
 	<div class="divider light"></div>
 	{% else %}
-	<h5>{{gen.name}}</h5>
+	<h5 tabindex="0">{{gen.name}}</h5>
 	<ul class="shell-group">
 		{% for shell in gen.shells %}
 		<li>
@@ -30,7 +42,9 @@ permalink: /tamas/collection
 		</li>
 		{% endfor %}
 	</ul>
-	{% endif %} {% endfor %} {% else %}
+	{% endif %} {% endfor %}
+	<a href="#top">Back to top</a>
+	{% else %}
 	<ul class="shell-group">
 		{% for shell in series.shells %}
 		<li>
@@ -41,7 +55,7 @@ permalink: /tamas/collection
 		</li>
 		{% endfor %}
 	</ul>
-	{% endif %} {% endif %} {% endfor %}
 	<a href="#top">Back to top</a>
+	{% endif %} {% endif %} {% endfor %}
 </section>
 {% endfor %}

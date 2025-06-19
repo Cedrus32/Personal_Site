@@ -22,7 +22,7 @@ body {
 
 .global-menu,
 main,
-#skip {
+#global-skip {
 	background-color: var(--box-bg);
 }
 
@@ -46,7 +46,7 @@ article,
 }
 
 a,
-#skip a {
+#global-skip {
 	color: var(--green);
 }
 

@@ -86,7 +86,6 @@ article,
 	}
 
 	.switch {
-		/* width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2)); */
 		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 4));
 	}
 
@@ -94,7 +93,6 @@ article,
 		position: absolute;
 		bottom: 2px;
 		left: 0px;
-		/* width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2)); */
 		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 6));
 	}
 
@@ -132,7 +130,7 @@ article,
 		margin: 0dvh var(--lr-small-margin) var(--tb-margin) 0dvw;
 	}
 
-	#skip {
+	#global-skip {
 		left: calc(var(--border-size) + 2px);
 	}
 }
@@ -239,7 +237,7 @@ article,
 		display: none;
 	}
 
-	#skip {
+	#global-skip {
 		justify-self: center;
 	}
 }
@@ -334,17 +332,15 @@ menu li.skip:has(a:focus) {
 	padding-top: var(--layout-gap);
 }
 
-#skip {
+#global-skip {
 	position: absolute;
 	display: inline-block;
 	top: -1000px;
-	transition: top 0.5s ease;
 	z-index: 1000;
 }
 
-#skip:focus {
+#global-skip:focus {
 	top: calc(var(--border-size) + 2px);
-	transition: top 0.5s ease;
 }
 
 .skip a {
@@ -487,6 +483,40 @@ article figure {
 }
 
 /* tama collection */
+
+nav ul {
+	padding: 0px;
+}
+
+div:has(#collection-skip) {
+	display: flex;
+	gap: var(--layout-gap);
+}
+
+#collection-skip {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	align-self: center;
+}
+
+#collection-skip:focus {
+	width: auto;
+	height: auto;
+}
+
+.collection-nav {
+	display: flex;
+	flex-flow: column;
+	gap: var(--layout-gap);
+}
+
+.collection-nav ul div {
+	display: flex;
+	gap: var(--layout-gap);
+	flex-wrap: wrap;
+}
 
 .era-group > h3,
 .era-group > h4,
