@@ -291,11 +291,13 @@ menu li {
 	content: "✦ ";
 }
 
-details ::marker {
+details#options summary::marker,
+details#mobile-nav summary::marker {
 	content: "";
 }
 
-details ::-webkit-details-marker {
+details#options summary::-webkit-details-marker,
+details#mobile-nav summary::-webkit-details-marker {
 	display: none;
 }
 
