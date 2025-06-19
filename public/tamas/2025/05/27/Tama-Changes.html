@@ -36,6 +36,30 @@
         
     </nav>
 
+     <details id="options">
+        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
+        <menu>
+            <li>
+                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
+            </li>
+            <li>
+                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
+            </li>
+            <li>
+                <div class="switch">
+                    <label for="font-select">site font</label>
+                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
+                        <option name="Nunito" value="Nunito">Nunito</option>
+                        <option name="Hyperlegible" value="Hyperlegible">Hyperlegible</option>
+                        <option name="OpenDyslexic" value="OpenDyslexic">OpenDyslexic</option>
+                    </select>
+                </div>
+            </li>
+            <li class="skip"><a href="#options-close">[close]</a></li>
+        </menu>
+        <div class="box-bg"></div>
+     </details>
+
     <details id="mobile-nav">
         <summary id="nav-close">Navigation</summary>
         <nav class="global-nav">
@@ -63,34 +87,10 @@
         <div class="box-bg"></div>
     </details>
 
-     <details id="options">
-        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
-        <menu>
-            <li>
-                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
-            </li>
-            <li>
-                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
-            </li>
-            <li>
-                <div class="switch">
-                    <label for="font-select">site font</label>
-                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
-                        <option name="Nunito" value="Nunito">Nunito</option>
-                        <option name="Hyperlegible" value="Hyperlegible">Hyperlegible</option>
-                        <option name="OpenDyslexic" value="OpenDyslexic">OpenDyslexic</option>
-                    </select>
-                </div>
-            </li>
-            <li class="skip"><a href="#options-close">[close]</a></li>
-        </menu>
-        <div class="box-bg"></div>
-     </details>
-
 </div>
 		<main id="content" class="content"> <p>Yesterday was Memorial Day, and I spent it with family. During a lull in the activities, I checked on my tamas to find v3 Japan had turned into flying egg. =( I will put away that shell and focus on v1 Green Squares until summer break. That’ll give me a few weeks to get a few generations deep into the growth chart. During summer break, I’ll put aside v1 Green Shells to participate in some local group hatches and possibly explore some Japanese releases.</p>
  </main>
-		<img src="" class="bg-image" alt="background_image" />
+		<img src="" class="bg-image" alt="" />
 
 		<script src="/assets/scripts/applyInitFont.js"></script>
 		<script src="/assets/scripts/applyInitAnimate.js"></script>

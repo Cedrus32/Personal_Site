@@ -25,13 +25,13 @@ permalink: /tamas/runs
 					<figcaption>{{run.shell}}</figcaption>
 				</figure>
 				{% if run.chart != 'na' %}
-				<button id="{{chart.run}}" onClick="openDialog(this)">growth chart</button>
+				<button id="{{chart.run}}" onClick="openDialog(this)">growth chart ↗</button>
 				<dialog id="{{run.chart}}-dialog">
 					<figure class="dialog">
 						<img src={{site.data.runs.chart_root | append: run.chart | append: site.data.runs.chart_ext}} />
 						<figcaption>{{run.name}} {{run.shell}} Growth Chart</figcaption>
 					</figure>
-					<button onClick="closeDialog(this)">[close]</button>
+					<button onClick="closeDialog(this)">[close growth chart]</button>
 				</dialog>
 				{% else %} (no growth chart) {% endif %}
 			</li>

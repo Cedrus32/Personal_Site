@@ -7,18 +7,6 @@
         {% endfor %}
     </nav>
 
-    <details id="mobile-nav">
-        <summary id="nav-close">Navigation</summary>
-        <nav class="global-nav">
-            {% for item in site.data.navigation.global %}
-                {% assign root = {{item.name | downcase}} %}
-                <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
-            {% endfor %}
-            <li class="skip"><a href="#nav-close">[close]</a></li>
-        </nav>
-        <div class="box-bg"></div>
-    </details>
-
      <details id="options">
         <summary id="options-close" onClick="applyInitText(this)">Options</summary>
         <menu>
@@ -42,5 +30,17 @@
         </menu>
         <div class="box-bg"></div>
      </details>
+
+    <details id="mobile-nav">
+        <summary id="nav-close">Navigation</summary>
+        <nav class="global-nav">
+            {% for item in site.data.navigation.global %}
+                {% assign root = {{item.name | downcase}} %}
+                <li><a href="{{ item.url }}" {% if page.parent == root %} class="current" {% endif %}> {{ item.name }} </a></li>
+            {% endfor %}
+            <li class="skip"><a href="#nav-close">[close]</a></li>
+        </nav>
+        <div class="box-bg"></div>
+    </details>
 
 </div>

@@ -80,6 +80,8 @@ article,
 		position: absolute;
 		top: 0;
 		padding: 0px;
+		flex-flow: column-reverse;
+		/* align-items: start; */
 	}
 
 	menu:has(a:not(:focus)) {
@@ -209,6 +211,8 @@ article,
 		padding: 0px calc(var(--border-size) * 3);
 		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
 		overflow: auto;
+		flex-flow: column;
+		align-items: start;
 	}
 
 	.content {
@@ -271,11 +275,6 @@ menu {
 
 nav {
 	gap: var(--layout-gap);
-}
-
-menu {
-	flex-flow: column;
-	align-items: start;
 }
 
 .global-nav {

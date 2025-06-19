@@ -36,6 +36,30 @@
         
     </nav>
 
+     <details id="options">
+        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
+        <menu>
+            <li>
+                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
+            </li>
+            <li>
+                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
+            </li>
+            <li>
+                <div class="switch">
+                    <label for="font-select">site font</label>
+                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
+                        <option name="Nunito" value="Nunito">Nunito</option>
+                        <option name="Hyperlegible" value="Hyperlegible">Hyperlegible</option>
+                        <option name="OpenDyslexic" value="OpenDyslexic">OpenDyslexic</option>
+                    </select>
+                </div>
+            </li>
+            <li class="skip"><a href="#options-close">[close]</a></li>
+        </menu>
+        <div class="box-bg"></div>
+     </details>
+
     <details id="mobile-nav">
         <summary id="nav-close">Navigation</summary>
         <nav class="global-nav">
@@ -63,30 +87,6 @@
         <div class="box-bg"></div>
     </details>
 
-     <details id="options">
-        <summary id="options-close" onClick="applyInitText(this)">Options</summary>
-        <menu>
-            <li>
-                <button id="style-switch" class="switch" onClick="toggleStyle()"></button>
-            </li>
-            <li>
-                <button id="animate-switch" class="switch" onClick="toggleAnimate()"></button>
-            </li>
-            <li>
-                <div class="switch">
-                    <label for="font-select">site font</label>
-                    <select name="fonts" id="font-select" onChange="toggleFont(this)">
-                        <option name="Nunito" value="Nunito">Nunito</option>
-                        <option name="Hyperlegible" value="Hyperlegible">Hyperlegible</option>
-                        <option name="OpenDyslexic" value="OpenDyslexic">OpenDyslexic</option>
-                    </select>
-                </div>
-            </li>
-            <li class="skip"><a href="#options-close">[close]</a></li>
-        </menu>
-        <div class="box-bg"></div>
-     </details>
-
 </div>
 		<main id="content" class="content"> <p>Several new additions arrived in the mail today!</p>
 
@@ -104,7 +104,7 @@
 <figcaption>Blue Guts Entama &amp; Pink iD l</figcaption>
 </figure>
  </main>
-		<img src="" class="bg-image" alt="background_image" />
+		<img src="" class="bg-image" alt="" />
 
 		<script src="/assets/scripts/applyInitFont.js"></script>
 		<script src="/assets/scripts/applyInitAnimate.js"></script>
