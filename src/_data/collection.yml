@@ -57,12 +57,22 @@ eras:
           - name: divider
 
           - name: Entama
-            shells: [[Blue Guts, blue_guts], [Guts Summer, guts_summer]]
+            shells: [[Blue Guts, blue_guts], [Guts Summer, guts_summer], [Guts Swimming, guts_swimming]]
 
           - name: divider
 
           - name: V4
             shells: [[Black Lightning, black_lightning]]
+
+          - name: divider
+
+          - name: Uratama
+            shells: [[Ura Circus, ura_circus]]
+
+          - name: divider
+
+          - name: V4.5
+            shells: [[Girls Rock, girls_rock], [Puzzle Pieces, puzzle_pieces], [Tribal Tattoo, tribal_tattoo]]
 
           - name: divider
 

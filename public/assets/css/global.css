@@ -585,7 +585,6 @@ dialog[open] {
 
 .dialog > * {
 	align-self: center;
-	background-color: red;
 }
 
 .shell-group figure .dialog img {
