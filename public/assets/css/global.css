@@ -291,10 +291,12 @@ menu li {
 	content: "✦ ";
 }
 
-details ::-webkit-details-marker,
 details ::marker {
-	display: none;
 	content: "";
+}
+
+details ::-webkit-details-marker {
+	display: none;
 }
 
 details summary::before {
