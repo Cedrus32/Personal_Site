@@ -5,6 +5,8 @@ global:
       url: /blog
     - name: Tamas
       url: /tamas/collection
+    - name: Games
+      url: /games
     - name: Pixels
       url: /pixels/adoptables
     - name: About

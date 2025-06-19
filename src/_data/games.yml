@@ -1,0 +1,39 @@
+root: /assets/images/games/
+ext: .png
+
+playing:
+    - name: Bombrush Cyber Funk
+      console: Switch
+      img: brcf
+    - name: Luigi's Mansion - Dark Moon
+      console: New 3DS XL
+      img: luigi_dm
+    - name: Pokemon Picross
+      console: New 3DS XL
+      img: pokemon_picross
+    - name: Sanrio Picross
+      console: New 3DS XL
+      img: sanrio_picross
+    - name: Stardew Valley
+      console: Switch
+      img: sdv
+
+complete:
+    - name: Famicom Detective Club
+      console: Switch
+      img: fdc_missing_heir
+    - name: Gris
+      console: Switch
+      img: gris
+    - name: Hoa
+      console: Switch
+      img: hoa
+    - name: Little Kitty Big City
+      console: Switch
+      img: kitty_city
+    - name: Oxenfree
+      console: Switch
+      img: oxenfree
+    - name: Phoenix Wright - Ace Attorney Trilogy
+      console: New 3DS XL
+      img: pw_trilogy

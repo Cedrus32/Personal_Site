@@ -1,0 +1,39 @@
+---
+title: Cedrus's Site - Games
+parent: games
+to_top: true
+---
+
+<h1 class="static-page">Games</h1>
+
+<p>I prefer to play games on handheld consoles. I own a modded New 3DS XL and an un-modded Switch.</p>
+
+<div class="era-group">
+	<h2>Playing</h2>
+	<ul class="shell-group">
+		{% for game in site.data.games.playing %}
+		<li>
+			<figure>
+				<img src="{{ site.data.games.root | append: game.img | append: site.data.games.ext }}" alt="{{ game.img | append: site.data.games.ect }}" />
+				<figcaption>{{game.name}}</figcaption>
+				<div>Console: {{game.console}}</div>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<div class="era-group">
+	<h2>Complete</h2>
+	<ul class="shell-group">
+		{% for game in site.data.games.complete %}
+		<li>
+			<figure>
+				<img src="{{ site.data.games.root | append: game.img | append: site.data.games.ext }}" alt="{{ game.img | append: site.data.games.ect }}" />
+				<figcaption>{{game.name}}</figcaption>
+				<div>Console: {{game.console}}</div>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
