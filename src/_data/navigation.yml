@@ -7,6 +7,8 @@ global:
       url: /tamas/collection
     - name: Games
       url: /games
+    - name: Knits
+      url: /Knits
     - name: Pixels
       url: /pixels/adoptables
     - name: About
