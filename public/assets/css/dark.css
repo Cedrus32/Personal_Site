@@ -62,7 +62,8 @@ a:hover:not(:has(.webrings)),
 	color: var(--yellow);
 }
 
-.switch {
+.switch,
+.shell-group button:not(dialog button) {
 	background-color: transparent;
 	color: var(--light-blue);
 	border-color: var(--light-blue);

@@ -303,13 +303,9 @@ details summary::before {
 	font-family: "Courier New", Courier, monospace !important;
 }
 
-.switch {
-	display: flex;
-	flex-flow: column;
-}
-
 .switch,
-summary {
+summary,
+.shell-group button {
 	/* summary (small-screen only) included here for mirrored styling */
 	padding: 0.25em;
 	border: var(--border-size) solid;
@@ -317,7 +313,8 @@ summary {
 }
 
 .switch:hover,
-summary:hover {
+summary:hover,
+dialog button {
 	/* summary (small-screen only) included here for mirrored styling */
 	text-decoration: underline solid 2px;
 }
@@ -359,6 +356,7 @@ menu li.skip:has(a:focus) {
 
 .bottom-link {
 	display: block;
+	margin-top: 1em;
 }
 
 @media (scripting: none) {
@@ -570,6 +568,34 @@ div:has(#collection-skip) {
 
 .runs > li {
 	border: var(--border-size) solid;
+}
+
+dialog {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+}
+
+dialog[open] {
+	display: flex;
+	flex-flow: column;
+	gap: var(--layout-gap);
+}
+
+.dialog > * {
+	align-self: center;
+	background-color: red;
+}
+
+.shell-group figure .dialog img {
+	width: auto;
+	height: auto;
+	max-height: 800px;
+}
+
+dialog::backdrop {
+	background-color: rgb(0, 0, 0, 0.75);
 }
 
 /* FONTS */
