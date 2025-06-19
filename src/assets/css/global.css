@@ -27,7 +27,8 @@ body {
 .content,
 .link-group,
 article,
-.era-group {
+.era-group,
+.runs > li {
 	padding: var(--layout-gap);
 }
 
@@ -411,7 +412,8 @@ main {
 
 .link-group,
 article,
-.era-group {
+.era-group,
+.runs > li {
 	border-radius: 0.5em;
 }
 
@@ -536,6 +538,38 @@ div:has(#collection-skip) {
 	border-width: 1px;
 	border-style: dotted;
 	margin: 1em 0;
+}
+
+/* tama runs */
+
+.runs {
+	display: flex;
+	flex-flow: column;
+	gap: var(--layout-gap);
+}
+
+.runs ul {
+	display: flex;
+	gap: var(--layout-gap);
+	flex-wrap: wrap;
+}
+
+.runs .shell-group {
+	flex-flow: column;
+	gap: 0px;
+}
+
+.runs,
+.runs ul {
+	padding: 0px;
+}
+
+.runs li {
+	list-style: none;
+}
+
+.runs > li {
+	border: var(--border-size) solid;
 }
 
 /* FONTS */

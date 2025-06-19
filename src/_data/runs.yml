@@ -1,15 +1,34 @@
 root: /assets/images/tama_collection/
 ext: .jpeg
+chart_root: /assets/images/charts/
+chart_ext: .png
 
-sets:
-    - name: Main
-      status: live
-      details: [[Connection v1 Green Squares, green_squares]]
+groups:
+    - name: Mains
+      runs:
+          - name: Connection v1
+            status: paused
+            shell: Green Squares
+            img: green_squares
+            chart: v1
 
-    - name: Summer 2025
-      status: upcoming
-      details: [[Entama Guts Summer, guts_summer], [Entama Guts Swimming, guts_swimming]]
+    - name: Seasonals
+      runs:
+          - name: Summer Break
+            status: live
+            shell: Entama Guts Summer
+            img: guts_summer
+            chart: summer
+          - name: Local Group Hatch - June (blue/water)
+            status: live
+            shell: Entama Guts Swimming
+            img: guts_swimming
+            chart: na
+          - name: Football Season - SKOL!
+            status: upcoming
+            shell: Akai Viking
+            img: viking
+            chart: govikes
 
-    - name: Football Season
-      status: upcoming
-      details: [[Akai Viking, viking]]
+    - name: Completed
+      runs:

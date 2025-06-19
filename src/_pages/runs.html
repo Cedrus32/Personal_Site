@@ -2,26 +2,41 @@
 title: Cedrus's Site - Tama Runs
 parent: tamas
 child: runs
-to_top: true
+to_top: false
 permalink: /tamas/runs
 ---
 
 {% include page_nav.html %}
 
 <h2>Runs</h2>
+<p> Goal: Complete growth charts for all non-gene mixing releases. </p>
 <ul class="runs">
-	{% for set in site.data.runs.sets %}
+	{% for group in site.data.runs.groups %}
 	<li>
-		<h3>{{set.name}}</h3>
-		<h4>Status: {{set.status}}</h4>
-		<div class="shell-group">
-			{% for item in set.details %}
-			<figure>
-				<img src="{{site.data.runs.root | append: item[1] | append: site.data.runs.ext}}" alt="{{item[1]}}" />
-				<figcaption>{{item[0]}}</figcaption>
-			</figure>
+		<h3 tabindex="0">{{group.name}}</h3>
+		{% if group.runs %}
+		<ul>
+			{% for run in group.runs %}
+			<li class="shell-group">
+				<h4>{{run.name}}</h4>
+				<h5>{{run.status}}</h5>
+				<figure>
+					<img src="{{site.data.runs.root | append: run.img | append: site.data.runs.ext}}" alt="{{run.img | append: site.data.runs.ext}}" />
+					<figcaption>{{run.shell}}</figcaption>
+					{% if run.chart != 'na' %}
+					<a href={{site.data.runs.chart_root | append: run.chart | append: site.data.runs.chart_ext}}>growth chart</a>
+					{% else %}
+					(no growth chart)
+					{% endif %}
+				</figure>
+			</li>
 			{% endfor %}
-		</div>
+		</ul>
+		{% else %}
+		<span>Nothing yet. =(</span>
+		<br />
+		{% endif %}
+		<a href="#top">Back to top</a>
 	</li>
 	{% endfor %}
 </ul>
