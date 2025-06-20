@@ -99,6 +99,19 @@ article,
 		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 6));
 	}
 
+	#options summary::marker {
+		content: "";
+	}
+
+	#options summary::-webkit-details-marker {
+		display: none;
+	}
+
+	#options summary::before {
+		content: "▶ ";
+		font-family: "Courier New", Courier, monospace !important;
+	}
+
 	#options[open] summary::before {
 		content: "▲ ";
 		font-family: "Courier New", Courier, monospace !important;
@@ -188,11 +201,6 @@ article,
 		height: calc(100dvh - calc(var(--layout-gap) * 2));
 		width: calc(100dvw - calc(var(--layout-gap) * 2));
 		border: var(--border-size) dashed;
-	}
-
-	details[open] summary::before {
-		content: "▼ ";
-		font-family: "Courier New", Courier, monospace !important;
 	}
 
 	#options {
@@ -289,21 +297,6 @@ menu li {
 
 .current::before {
 	content: "✦ ";
-}
-
-#options > summary::marker,
-#mobile-nav > summary::marker {
-	content: "";
-}
-
-#options > summary::-webkit-details-marker,
-#mobile-nav > summary::-webkit-details-marker {
-	display: none !important;
-}
-
-details summary::before {
-	content: "▶ ";
-	font-family: "Courier New", Courier, monospace !important;
 }
 
 .switch,
