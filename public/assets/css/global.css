@@ -208,7 +208,7 @@ article,
 	}
 
 	#options summary {
-		width: calc(17ch - calc(var(--layout-gap) * 2) - calc(0.25em * 2) + calc(var(--border-size) * 2) + calc(var(--border-size) * 3));
+		width: auto;
 	}
 
 	.switch {
