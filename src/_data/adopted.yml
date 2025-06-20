@@ -35,3 +35,31 @@ sets:
     - name: Neonriser
       url: https://neonriser.neocities.org
       items: [chatt.png]
+
+    - name: Cinni
+      url: https://cinni.net
+      items: [naranya.png, tama-v3-ar.png, tama-v3-as.png, tama-v3-cb.png]
+
+    - name: Thumbelina
+      url: https://tthumbelina.neocities.org
+      items: [bear.png]
+
+    - name: Elfwink
+      url: https://pixels.elfwink.net/
+      items: [commbadge_tng.png, frog1.gif, frog2.gif, frog3.gif, 50-maneki-neko1.png]
+
+    - name: blanket fort
+      url: https://blanketfort.neocities.org/
+      items: [puppy.gif, mail_bear.gif, sockcow.gif]
+
+    - name: Omochya House
+      url: http://misa.phoophie.com
+      items: [food01.png, food02.png, food03.png]
+
+    - name: bitmapdreams
+      url: https://www.lastsecret.net/bitmapdreams/
+      items: [harbortaffy_gem_diamond.png, harbortaffy_gem_emerald.png, harbortaffy_gem_ruby.png, dinershift_curlyfries.png, dinershift_serverhat.png]
+
+    - name: SweetCharm
+      url: https://sweetcharm.net
+      items: [ALIENjumpingGREENadopt.gif, StarFrogandStaradopt.png, mushyduderun1.gif, mushyduderun2.gif, tallshroomyt.gif]

@@ -53,6 +53,11 @@ personal:
           img: digipiedraBtn
           ext: .png
 
+        - name: Doll Archive
+          url: https://dollarchive.neocities.org
+          img: dollarchive
+          ext: .gif
+
         - name: dustbunnybedroom
           url: https://dustbunnybedroom.neocities.org
           img: dstbnnybdrm-button
@@ -117,6 +122,11 @@ personal:
           url: https://starry-knight.neocities.org/
           img: button-starrys-grove
           ext: .png
+
+        - name: SweetCharm
+          url: https://sweetcharm.net
+          img: sweetcharm
+          ext: .gif
 
         - name: Virtual Observer
           url: https://virtualobserver.moe
