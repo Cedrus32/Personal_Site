@@ -2,7 +2,7 @@ root: /assets/images/games/
 ext: .png
 
 playing:
-    - name: Bombrush Cyber Funk
+    - name: Bomb Rush Cyberfunk
       console: Switch
       img: brcf
     - name: Luigi's Mansion - Dark Moon

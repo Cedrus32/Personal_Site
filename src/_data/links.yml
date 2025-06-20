@@ -8,6 +8,11 @@ personal:
           img: CqWV3QPpEA-88
           ext: .png
 
+        - name: 14.4ml
+          url: https://14-4ml.neocities.org/
+          img: 144ml
+          ext: .gif
+
         - name: Autistic As Fxxk
           url: https://www.autisticasfxxk.com
           img: autisticasfxxk
@@ -38,6 +43,11 @@ personal:
           img: craftinatorics_button
           ext: .png
 
+        - name: Des' Digital Journal
+          url: https://doqmeat.com
+          img: doqmeat
+          ext: .png
+
         - name: Digipiedra
           url: https://digipiedra.neocities.org
           img: digipiedraBtn
@@ -51,6 +61,11 @@ personal:
         - name: The Frugal Gamer
           url: https://www.thefrugalgamer.net/
           img: frugalgamer_button1
+          ext: .png
+
+        - name: Garblegarden
+          url: https://garblegarden.neocities.org
+          img: garblegarden
           ext: .png
 
         - name: Kiosrel
@@ -78,6 +93,11 @@ personal:
           img: miela_button
           ext: .gif
 
+        - name: Nenrikido
+          url: https://nenrikido.neocities.org
+          img: nenrikido_button
+          ext: .gif
+
         - name: Nora's Digital Underground
           url: https://norea3a.neocities.org
           img: norasDigitalUndergroundButton
@@ -103,6 +123,11 @@ personal:
           img: virtualobserver
           ext: .png
 
+        - name: Wayward Lamb
+          url: https://waywardlamb.neocities.org/
+          img: waywardlamb5
+          ext: .png
+
 non-personal:
     root: /assets/images/links/other_sites/
     items:
@@ -113,6 +138,18 @@ non-personal:
         - name: A11y Cat
           url: https://www.a11ycat.net
           img: a11ycat
+          ext: .png
+        - name: After the Beep
+          url: https://afterthebeep.tel/
+          img: afterthebeep
+          ext: .png
+        - name: Frutiger Aero Archive
+          url: https://frutigeraeroarchive.org
+          img: frutigeraeroarchive_button
+          ext: .png
+        - name: Motherfucking Website
+          url: https://motherfuckingwebsite.com
+          img: mfwebsite
           ext: .png
         - name: The Reading Project
           url: https://readingproject.au
