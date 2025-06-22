@@ -176,14 +176,19 @@ article,
 		display: none;
 	}
 
-	#mobile-nav[open],
-	#options[open] {
+	#options,
+	#mobile-nav {
+		position: relative;
+		z-index: auto;
+	}
+
+	#options[open],
+	#mobile-nav[open] {
 		z-index: 1000;
 	}
 
 	#options {
 		grid-area: options;
-		position: relative;
 	}
 
 	#options summary {
@@ -191,7 +196,6 @@ article,
 	}
 
 	menu {
-		position: absolute;
 		padding: 0px calc(var(--border-size) * 3);
 		max-height: calc(100dvh - calc(var(--layout-gap) * 4) - 2em - calc(var(--border-size) * 4));
 		overflow: auto;
@@ -202,7 +206,6 @@ article,
 	#mobile-nav {
 		grid-area: nav;
 		margin-left: auto;
-		position: relative;
 	}
 
 	.global-nav {
