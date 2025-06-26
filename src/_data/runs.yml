@@ -4,10 +4,10 @@ chart_root: /assets/images/charts/
 chart_ext: .png
 
 groups:
-    - name: Mains
+    - name: Releases
       runs:
           - name: Connection v1
-            status: paused
+            status: live
             shell: Green Squares
             img: green_squares
             chart: v1
@@ -19,10 +19,9 @@ groups:
             shell: Entama Guts Summer
             img: guts_summer
             chart: summer
-          - name: Local Group Hatch - June (blue/water)
-            status: live
-            shell: Entama Guts Swimming
-            img: guts_swimming
+          - name: Local Group Hatch - July (stars/sparkles)
+            status: upcoming
+            img: rock_glitter
             chart: na
           - name: Football Season - SKOL!
             status: upcoming
