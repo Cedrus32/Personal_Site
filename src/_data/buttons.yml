@@ -26,11 +26,6 @@ items:
       img: lgbt
       ext: .png
 
-    - name: Neocities
-      url: https://neocities.org/
-      img: neocitiesblue
-      ext: .png
-
     - name: Right to Repair
       img: right2repair
       ext: .png
