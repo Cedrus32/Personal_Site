@@ -14,5 +14,5 @@ jobs:
               uses: indiefellas/deploy2nekoweb@v4
               with:
                   nekoweb-api-key: ${{ secrets.NEKOWEB_API_TOKEN }}
-                  nekoweb-folder: "/"
-                  directory: "public"
+                  nekoweb-folder: /
+                  directory: public
