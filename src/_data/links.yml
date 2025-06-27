@@ -162,6 +162,10 @@ non-personal:
           url: https://frutigeraeroarchive.org
           img: frutigeraeroarchive_button
           ext: .png
+        - name: Internet Archive
+          url: https://archive.org
+          img: e-ia
+          ext: .png
         - name: Motherfucking Website
           url: https://motherfuckingwebsite.com
           img: mfwebsite

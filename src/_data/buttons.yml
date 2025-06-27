@@ -13,11 +13,6 @@ items:
       img: dontfeedai
       ext: .gif
 
-    - name: Internet Archive
-      url: https://archive.org
-      img: e-ia
-      ext: .png
-
     - name: Emulate Now!
       img: emulate
       ext: .png
