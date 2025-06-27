@@ -3,12 +3,12 @@
 :root {
 	--light-blue: #e5f4ff;
 	--med-blue: #91bad8;
-	--dark-blue: #27729b;
+	--dark-blue: #266f97;
 	--green: #007a14;
 	--yellow: #796c06;
-	--lissa: #bd00bd;
-	--box-bg: #fcffff;
-	--open-bg: rgb(252, 255, 255, 0.9);
+	--lissa: #b800b8;
+	--box-bg: #f2faff;
+	--open-bg: rgb(242, 250, 255, 0.9);
 }
 
 body {
