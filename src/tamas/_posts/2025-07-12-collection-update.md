@@ -1,5 +1,5 @@
 ---
-date: 2025-06-26
+date: 2025-07-12
 ---
 
 Whew! I've been saving this update until all my shipments arrived. I've added several <a href="/tamas/collection#P1">P1</a>, <a href="/tamas/collection#P2">P2</a>, and Spinoffs (<a href="/tamas/collection#Mothra">Mothra</a>, <a href="/tamas/collection#Garden">Garden</a>) to my collection. I've also added a <a href="/tamas/collection#V4">V4</a>, <a href="/tamas/collection#V5">V5</a>, <a href="/tamas/collection#V6">V6</a>, and <a href="/tamas/collection#Friends">Friends</a>.
