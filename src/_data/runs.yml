@@ -6,28 +6,29 @@ chart_ext: .png
 groups:
     - name: Releases
       runs:
-          - name: Connection v1
+          - name: Connection V1
             status: live
             shell: Green Squares
             img: green_squares
             chart: v1
+          - name: Connection V2
+            status: live
+            shell: Clear Pink
+            img: clear_pink
+            chart: v2
 
     - name: Seasonals
       runs:
-          - name: Summer Break
-            status: live
-            shell: Entama Guts Summer
-            img: guts_summer
-            chart: summer
           - name: Local Group Hatch - July (stars/sparkles)
-            status: upcoming
+            status: live
+            shell: Rock Glitter
             img: rock_glitter
             chart: na
           - name: Football Season - SKOL!
             status: upcoming
             shell: Akai Viking
             img: viking
-            chart: govikes
+            chart: na
 
     - name: Completed
       runs:
