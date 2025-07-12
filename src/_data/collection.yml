@@ -4,8 +4,28 @@ ext: .jpeg
 eras:
     - name: Original Era
       series:
+          - name: P1
+            shells: [[Purple & Pink, p1e_purplepink], [Teal & Violet, p1e_tealviolet], [Aqua, p1j_aqua]]
+
+          - name: divider
+
+          - name: P2
+            shells: [[White & Gray, p2e_whitegray], [Blue, p2jw1_blue], [Spaceship, p2jw2_spaceship]]
+
+          - name: divider
+
           - name: Angel
             shells: [[White (Japanese), angel_white]]
+
+          - name: divider
+
+          - name: Mothra
+            shells: [[Green Stripes, mothra_green_stripes]]
+
+          - name: divider
+
+          - name: Garden
+            shells: [[White, garden_white]]
 
           - name: divider
 
@@ -47,12 +67,12 @@ eras:
           - name: divider
 
           - name: Akai
-            shells: [[Pirate, pirate], [Viking, viking]]
+            shells: [[Pink Grapes, pink_grapes], [Pirate, pirate], [Viking, viking]]
 
           - name: divider
 
           - name: V3
-            shells: [[Japan, japan], [Waves, waves]]
+            shells: [[Arctic Camo, arctic_camo], [Japan, japan], [Pink Bows, pink_bows], [Red Stars, red_stars], [Starry Sky, starry_sky], [Waves, waves]]
 
           - name: divider
 
@@ -62,7 +82,7 @@ eras:
           - name: divider
 
           - name: V4
-            shells: [[Black Lightning, black_lightning]]
+            shells: [[Binary, binary], [Black Lightning, black_lightning]]
 
           - name: divider
 
@@ -76,6 +96,16 @@ eras:
 
           - name: divider
 
+          - name: V5
+            shells: [[Love, love]]
+
+          - name: divider
+
+          - name: V6
+            shells: [[Glam Rock, glam_rock]]
+
+          - name: divider
+
           - name: Connection Remakes (RV3)
             shells: [[Ice Cream, ice_cream], [Bubbles, bubbles], [Melon Soda, melon_soda]]
 
@@ -83,6 +113,11 @@ eras:
       series:
           - name: iD L
             shells: [[Pink, idl_pink]]
+
+          - name: divider
+
+          - name: Friends
+            shells: [[Polka Dot, friends_polkadot]]
 
           - name: divider
 
