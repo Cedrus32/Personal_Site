@@ -16,9 +16,10 @@ to_top: false
 		<li>
 			{% if item.url %}
 			<a rel="external" href="{{ item.url }}">
-				<img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" />
+				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" />
 			</a>
-			{% else %} <img src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" /> {% endif %}
+			{% else %} <img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.name }}" /> {%
+			endif %}
 		</li>
 		{% endfor %}
 	</ul>

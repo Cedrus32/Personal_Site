@@ -28,7 +28,7 @@ to_top: true
 		{% for link in site.data.links.personal.items %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
 			>
 		</li>
 		{% endfor %}
@@ -38,7 +38,7 @@ to_top: true
 		{% assign root = site.data.links.non-personal.root %} {% for link in site.data.links.non-personal.items %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
 			>
 		</li>
 		{% endfor %}
@@ -59,13 +59,13 @@ to_top: true
 			</nav>
 		</li>
 		<li>
-			<a rel="external" href="https://pinkvampyr.leprd.space/accessiblenet/index.php"><img src="/assets/images/links/webrings/accessible.png" alt="accessible.png" /></a>
+			<a rel="external" href="https://pinkvampyr.leprd.space/accessiblenet/index.php"><img loading="lazy" src="/assets/images/links/webrings/accessible.png" alt="accessible.png" /></a>
 		</li>
 		<li>
-			<a href="https://kalechips.net/responsive/index"><img src="/assets/images/links/webrings/responsiveweb.png" /></a>
+			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/responsiveweb.png" /></a>
 		</li>
 		<li>
-			<a href="https://kalechips.net/responsive/index"><img src="/assets/images/links/webrings/focusfirst.png" /></a>
+			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/focusfirst.png" /></a>
 		</li>
 	</ul>
 </section>
