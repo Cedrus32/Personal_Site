@@ -7,7 +7,7 @@ Uff da! The temps reached 94F with a feels-like temp well over 100F. That is HOT
 In other news, Guts Summer Gen 1 aged into a teen -- Young Mimitchi!
 
 <figure>
-    <img src="/assets/images/posts/tamas/20250621_guts_summer_gen1_teen.jpeg" alt="guts_summer_gen1_teen">
+    <img loading="lazy" src="/assets/images/posts/tamas/20250621_guts_summer_gen1_teen.jpeg" alt="guts_summer_gen1_teen">
     <figcaption>Guts Summer Gen 1 Young Mimitchi</figcaption>
 </figure>
 
