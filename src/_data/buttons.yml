@@ -4,43 +4,53 @@ items:
       url: https://www.mabsland.com/Adoption.html
       img: Censor_PGc
       ext: .png
+      alt: "Web Rating: PG"
 
     - name: Cyber Girls Rule
       img: cybergirls
       ext: .gif
+      alt: "Cyber Girls Rule"
 
     - name: Don't Feed AI
       img: dontfeedai
       ext: .gif
+      alt: "Don't Feed AI"
 
     - name: Emulate Now!
       img: emulate
       ext: .png
+      alt: "Emulate Now!"
 
     - name: LGBT
       img: lgbt
       ext: .png
+      alt: "LGBT rainbow flags"
 
     - name: Right to Repair
       img: right2repair
       ext: .png
+      alt: "I support the right to repair."
 
     - name: No Web3
       url: https://yesterweb.org/no-to-web3/
       img: web3
       ext: .gif
+      alt: "Keep the web free. Say no to WEB 3."
 
     - name: Incarceration In Real Numbers
       url: https://mkorostoff.github.io/incarceration-in-real-numbers/
       img: incarceration
       ext: .png
+      alt: "Stop Mass Incarceration"
 
     - name: I Want to Believe
       url: https://jack-dawlia.neocities.org/page/graphics
       img: want-to-believe
       ext: .gif
+      alt: "I want to believe."
 
     - name: Under Construction
       url: https://scp-wiki.wikidot.com/fantem-s-poi-file
       img: underconstruction
       ext: .png
+      alt: "Under Construction"

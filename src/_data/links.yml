@@ -7,141 +7,169 @@ personal:
           url: https://karma.computer
           img: CqWV3QPpEA-88
           ext: .png
+          alt: "10kph homepage"
 
         - name: 14.4ml
           url: https://14-4ml.neocities.org/
           img: 144ml
           ext: .gif
+          alt: "14.4ml homepage"
 
         - name: Autistic As Fxxk
           url: https://www.autisticasfxxk.com
           img: autisticasfxxk
           ext: .gif
+          alt: "Autistic As Fuck homepage"
 
         - name: Beep Bird
           url: https://www.beepbird.net/
           img: greenowl
           ext: .png
+          alt: "Beep Bird homepage"
 
         - name: cervidaze
           url: https://cervidaze.me
           img: cervidaze_button
           ext: .png
+          alt: "Cervidaze homepage"
 
         - name: Cloverbell
           url: https://cloverbell.neocities.org/
           img: cloverbell
           ext: .gif
+          alt: "Cloverbell homepage"
 
         - name: Colrana
           url: https://colrana.neocities.org/
           img: col_button
           ext: .gif
+          alt: "Colrana homepage"
 
         - name: Craftinatorics
           url: https://craftinatorics.com/credits/
           img: craftinatorics_button
           ext: .png
+          alt: "Craftinatorics homepage"
 
         - name: Des' Digital Journal
           url: https://doqmeat.com
           img: doqmeat
           ext: .png
+          alt: "Des' Digital Jornal homepage"
 
         - name: Digipiedra
           url: https://digipiedra.neocities.org
           img: digipiedraBtn
           ext: .png
+          alt: "Digipiedra homepage"
 
         - name: Doll Archive
           url: https://dollarchive.neocities.org
           img: dollarchive
           ext: .gif
+          alt: "Doll Archive homepage"
 
         - name: dustbunnybedroom
           url: https://dustbunnybedroom.neocities.org
           img: dstbnnybdrm-button
           ext: .gif
+          alt: "Dust Bunny Bedroom homepage"
 
         - name: The Frugal Gamer
           url: https://www.thefrugalgamer.net/
           img: frugalgamer_button1
           ext: .png
+          alt: "The Frugal Gamer homepage"
 
         - name: Garblegarden
           url: https://garblegarden.neocities.org
           img: garblegarden
           ext: .png
+          alt: "Garblegarden homepage"
 
         - name: joejoefashosho
           url: https://joejoefashosho.neocities.org
           img: joejoe
           ext: .gif
+          alt: "Joejoefashosho homepage"
 
         - name: Kiosrel
           url: https://kiosrel.com/
           img: Kioweb-button
           ext: .gif
+          alt: "Kiosrel homepage"
 
         - name: lazybones
           url: https://lazybones.neocities.org
           img: lazybgif
           ext: .gif
+          alt: "Lazybones homepage"
 
         - name: Maya.land
           url: https://maya.land
           img: mayaland
           ext: .png
+          alt: "Maya Land homepage"
 
         - name: Midnight Reading - Renkon's Personal Blog
           url: https://renkotsuban.com/index.html
           img: hcOScjp0ia-88
           ext: .png
+          alt: "Midnight Reading Renkon's Personal Blog"
 
         - name: miela583
           url: https://miela583.neocities.org
           img: miela_button
           ext: .gif
+          alt: "Miela583 homepage"
 
         - name: Nenrikido
           url: https://nenrikido.neocities.org
           img: nenrikido_button
           ext: .gif
+          alt: "Nenrikido homepage"
 
         - name: Nora's Digital Underground
           url: https://norea3a.neocities.org
           img: norasDigitalUndergroundButton
           ext: .png
+          alt: "Nora's Digital Underground homepage"
 
         - name: Oopsie Doodle
           url: https://oopsiedoodle.com
           img: OopsieDoodleButton
           ext: .png
+          alt: "Oopsie Doodle homepage"
 
         - name: Sankt Blamensir
           url: https://blamensir.neocities.org/
           img: sanktblamensir
           ext: .png
+          alt: "Sankt Blamensir homepage"
 
         - name: Starry's Grove
           url: https://starry-knight.neocities.org/
           img: button-starrys-grove
           ext: .png
+          alt: "Starry's Grove homepage"
 
         - name: SweetCharm
           url: https://sweetcharm.net
           img: sweetcharm
           ext: .gif
+          alt: "Sweet Charm homepage"
 
         - name: Virtual Observer
           url: https://virtualobserver.moe
           img: virtualobserver
           ext: .png
+          alt: "Virtual Observer homepage"
 
         - name: Wayward Lamb
           url: https://waywardlamb.neocities.org/
           img: waywardlamb5
           ext: .png
+          alt: "Wayward Lamb homepage"
 
 non-personal:
     root: /assets/images/links/other_sites/
@@ -150,31 +178,39 @@ non-personal:
           url: https://32bit.cafe
           img: 32bitty-loren
           ext: .png
+          alt: "32-Bit Cafe homepage"
         - name: A11y Cat
           url: https://www.a11ycat.net
           img: a11ycat
           ext: .png
+          alt: "Alley Cat homepage"
         - name: After the Beep
           url: https://afterthebeep.tel/
           img: afterthebeep
           ext: .png
+          alt: "After The Beep homepage"
         - name: Frutiger Aero Archive
           url: https://frutigeraeroarchive.org
           img: frutigeraeroarchive_button
           ext: .png
+          alt: "Frutiger Aero Archive"
         - name: Internet Archive
           url: https://archive.org
           img: e-ia
           ext: .png
+          alt: "Internet Archive"
         - name: Motherfucking Website
           url: https://motherfuckingwebsite.com
           img: mfwebsite
           ext: .png
+          alt: "Motherfucking Website"
         - name: The Reading Project
           url: https://readingproject.au
           img: ReadingProjectButton2
           ext: .png
+          alt: "The Reading Project Archive"
         - name: Surfscape
           url: https://surfscape.neocities.org
           img: surfscape_v2
           ext: .png
+          alt: "Surfscape homepage"

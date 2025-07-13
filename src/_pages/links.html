@@ -8,7 +8,7 @@ to_top: true
 <p>
 	Link back to me! Please don't hotlink. Host the image yourself. =)
 	<br />
-	<img class="personal-button" src="/assets/images/links/cedrus.png" alt="cedrus" />
+	<img class="personal-button" src="/assets/images/links/cedrus.png" alt="Rectangular cow print button. 'Cedrus' label in green letters." />
 </p>
 
 <section class="link-group">
@@ -28,7 +28,7 @@ to_top: true
 		{% for link in site.data.links.personal.items %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.alt}}" /></a
 			>
 		</li>
 		{% endfor %}
@@ -38,7 +38,7 @@ to_top: true
 		{% assign root = site.data.links.non-personal.root %} {% for link in site.data.links.non-personal.items %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.img}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.alt}}" /></a
 			>
 		</li>
 		{% endfor %}
@@ -59,13 +59,15 @@ to_top: true
 			</nav>
 		</li>
 		<li>
-			<a rel="external" href="https://pinkvampyr.leprd.space/accessiblenet/index.php"><img loading="lazy" src="/assets/images/links/webrings/accessible.png" alt="accessible.png" /></a>
+			<a rel="external" href="https://pinkvampyr.leprd.space/accessiblenet/index.php"
+				><img loading="lazy" src="/assets/images/links/webrings/accessible.png" alt="Accessible Webring Homepage"
+			/></a>
 		</li>
 		<li>
-			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/responsiveweb.png" /></a>
+			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/responsiveweb.png" alt="Responsive Webring Homepage" /></a>
 		</li>
 		<li>
-			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/focusfirst.png" /></a>
+			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/focusfirst.png" alt="Focus First Webring Homepage" /></a>
 		</li>
 	</ul>
 </section>
