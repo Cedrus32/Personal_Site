@@ -15,7 +15,9 @@ permalink: /pixels/adoptables
 <h3 tabindex="0">{{set.name}}</h3>
 <ul class="img-group">
 	{% for item in set.items %}
-	<li> <img loading="lazy" src="{{site.data.adoptables.root | append: set.base | append: item | append: set.ext }}" {% if set.ext == '.gif' %} class="freeze" {% endif %} alt="{{item}}" /> </li>
+	<li>
+		<img loading="lazy" src="{{site.data.adoptables.root | append: set.base | append: item[0] | append: set.ext }}" {% if set.ext == '.gif' %} class="freeze" {% endif %} alt="{{item[1]}}" />
+	</li>
 	{% endfor %}
 </ul>
 {% endfor %}

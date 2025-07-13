@@ -3,34 +3,66 @@ sets:
     - name: Maneki Nekos
       base: maneki_nekos/
       ext: .png
-      items: [maneki1, maneki2, maneki3]
+      items: [[maneki1, "White cat with red color raising left paw."], [maneki2, "Brown cat with red color raising right paw."], [maneki3, "Yellow cat with red color raising both paws."]]
 
     - name: Monsters
       base: monsters/
       ext: .png
-      items: [count, frank, mummy]
+      items: [[count, "Purple, square headed vampire with black cloak."], [frank, "Green, square-headed Frankenstein monster with drab clothes."], [mummy, "Square-headed mummy."]]
 
     - name: Planet Pops
       base: planet_pops/
       ext: .png
-      items: [earthpop, marspop, saturnpop, sunpop]
+      items:
+          [
+              [earthpop, "Earth wrapped as a lollipop."],
+              [marspop, "Mars wrapped as a lollipop. Green alien head floating above."],
+              [saturnpop, "Saturn wrapped as a lollipop."],
+              [sunpop, "Sun wrapped as a lollipiop. Wearing sunglasses."],
+          ]
 
     - name: Smart Robos
       base: smart_robos/
       ext: .png
-      items: [smartrobo1, smartrobo2]
+      items: [[smartrobo1, "Gray boxy robot holding a yellow pencil."], [smartrobo2, "Gray boxy robot holding a blue paintbrush."]]
 
     - name: Truffles
       base: truffles/
       ext: .png
-      items: [truff1, truff2, truff3, truff4]
+      items:
+          [
+              [truff1, "Milk chocolate truffle with strawberry drizzle. Black eyes and blush."],
+              [truff2, "White chocolate truffle with chocolate drizzle. Black eyes and blush."],
+              [truff3, "Milk chocolate truffle with mint sprinkles. Black eyes and blush."],
+              [truff4, "Dark chocolate truffle with white chocolate sprinkles. Black eyes and blush."],
+          ]
 
     - name: Cloud Emotes
       base: cloud_emotes/
       ext: .png
-      items: [emote1s1, emote2s1, emote3s1, emote4s1, emote5s1, emote6s1, emote7s1, emote8s1]
+      items:
+          [
+              [emote1s1, "Tiny cloud with smile."],
+              [emote2s1, "Tiny cloud with closed eyes."],
+              [emote3s1, "Tiny cloud with excited face."],
+              [emote4s1, "Tiny cloud with tears."],
+              [emote5s1, "Tiny cloud with angry face."],
+              [emote6s1, "Tiny cloud with embarrassed face."],
+              [emote7s1, "Tiny cloud with an 'x' mouth."],
+              [emote8s1, "Tiny cloud with surprised face."],
+          ]
 
     - name: Pumpkin Emotes
       base: pumpkin_emotes/
       ext: .png
-      items: [emote1s2, emote2s2, emote3s2, emote4s2, emote5s2, emote6s2, emote7s2, emote8s2]
+      items:
+          [
+              [emote1s2, "Tiny pumpkin with smile."],
+              [emote2s2, "Tiny pumpkin with closed eyes."],
+              [emote3s2, "Tiny pumpkin with excited face."],
+              [emote4s2, "Tiny pumpkin with tears."],
+              [emote5s2, "Tiny pumpkin with angry face."],
+              [emote6s2, "Tiny pumpkin with embarrassed face."],
+              [emote7s2, "Tiny pumpkin with an 'x' mouth."],
+              [emote8s2, "Tiny pumpkin with surprised face."],
+          ]
