@@ -10,11 +10,13 @@ groups:
             status: live
             shell: Green Squares
             img: green_squares
+            alt: "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background."
             chart: v1
           - name: Connection V2
             status: live
             shell: Clear Pink
             img: clear_pink
+            alt: "Transparent pink shell and screen border. Light pink buttons."
             chart: v2
 
     - name: Seasonals
@@ -23,11 +25,13 @@ groups:
             status: live
             shell: Rock Glitter
             img: rock_glitter
+            alt: "Black glitter shell. Red screen border and buttons. Red and white stripes/stars/checks/dots surrounding screen. White 'Tamagotchi' label."
             chart: na
           - name: Football Season - SKOL!
             status: upcoming
             shell: Akai Viking
             img: viking
+            alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."
             chart: na
 
     - name: Completed

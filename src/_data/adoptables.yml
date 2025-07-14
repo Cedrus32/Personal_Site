@@ -3,7 +3,7 @@ sets:
     - name: Maneki Nekos
       base: maneki_nekos/
       ext: .png
-      items: [[maneki1, "White cat with red color raising left paw."], [maneki2, "Brown cat with red color raising right paw."], [maneki3, "Yellow cat with red color raising both paws."]]
+      items: [[maneki1, "White cat with red collar raising left paw."], [maneki2, "Brown cat with red collar raising right paw."], [maneki3, "Yellow cat with red collar raising both paws."]]
 
     - name: Monsters
       base: monsters/
