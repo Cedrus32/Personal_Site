@@ -98,3 +98,11 @@ sets:
               [mushyduderun2.gif, "Small white mushroom stem bouncing its red cap on its head."],
               [tallshroomyt.gif, "Tall red capped mushroom with white stem."],
           ]
+
+    - name: Pixalina
+      url: https://pixalina.neocities.org/
+      items: [[h9X5Lot.gif, "Round yellow chick with wide eyes dancing."]]
+
+    - name: Peachnuts
+      url: https://peachnuts.neocities.org
+      items: [[sunglasses.png, "Black Chanel sunglasses."], [flameboot.png, "Cowboy boot with flame design."]]
