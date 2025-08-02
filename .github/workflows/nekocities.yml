@@ -13,5 +13,5 @@ jobs:
               with:
                   nekoweb-api-key: ${{ secrets.NEKOWEB_API_TOKEN }}
                   # nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
-                  nekoweb-folder: "/"
+                  nekoweb-folder: "/cedrus.nekoweb.org/"
                   directory: "public"
