@@ -19,9 +19,13 @@ playing:
       img: sanrio_picross
       alt: "Sanrio Characters Picross. Pastel Sanrio characters on a pastel background."
     - name: Stardew Valley
-      console: Switch
+      console: Switch (vanilla), PC (modded)
       img: sdv
       alt: "Stardew Valley. Pixel art farmer riding a horse near a farm building, crops, and trees."
+    - name: Minecraft
+      console: PC (modded)
+      img: mc
+      alt: "Minecraft. Stylized blocky grass cube from the game."
 
 complete:
     - name: Famicom Detective Club
