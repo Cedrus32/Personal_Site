@@ -19,7 +19,6 @@ permalink: /tamas/runs
 			{% for run in group.runs %}
 			<li class="shell-group">
 				<h4>{{run.name}}</h4>
-				<h5>{{run.status}}</h5>
 				<figure>
 					<img loading="lazy" src="{{site.data.runs.root | append: run.img | append: site.data.runs.ext}}" alt="{{run.alt}}" />
 					<figcaption>{{run.shell}}</figcaption>

@@ -36,6 +36,7 @@ eras:
                         angel_white,
                         "Shiny white shell. White screen border and buttons. Gold wings on either side of screen. 'tamagotch' label and angelic characters surrounding screen.",
                     ],
+                    [Pink (English), angel_pink_e, "Shiny pink shell. White screen border and buttons. Silver winfs on either side of screen. 'Tamagotchi Angel' label and stars surrounding screen."],
                 ]
 
           - name: divider
@@ -105,6 +106,11 @@ eras:
                               Angel Sky,
                               angel_sky,
                               "Light blue transparent shell. Light blue screen border and buttons. White wings on either side of shell. Gold 'Tamagotchi' label, pixelated stars and swirls surrounding screen.",
+                          ],
+                          [
+                              Angel Party,
+                              angel_party,
+                              "Blue, yellow, and pink multicolored shell. Purple screen border. Pink buttons. White wings on either side of shell. Pink 'Tamagotchi' label and stars surrounding screen.",
                           ],
                       ]
 
@@ -259,12 +265,25 @@ eras:
           - name: divider
 
           - name: Friends
-            shells: [[Polka Dot, friends_polkadot, "Pink shell. Black faceplate with white polkadots motif. White buttons. Pink bow above screen. 'Tamagotchi Friends' label."]]
+            shells:
+                [
+                    [Polka Dot, friends_polkadot, "Pink shell. Black faceplate with white polkadots motif. White buttons. Pink bow above screen. 'Tamagotchi Friends' label."],
+                    [
+                        Friends Dream Town,
+                        friends_plaid,
+                        "Purple shell. Purple plaid faceplate. Pink heart decal above screen with 'Tamagotchi Friends' label. 'Tamagotchi Dream Town' in gold script below screen.",
+                    ],
+                ]
 
           - name: divider
 
           - name: 4U
-            shells: [[Blue (Comic Book Faceplate), 4u_blue, "Blue shell. White buttons. Faceplate featuring comic book-style art and tamagotchi characters. Red 'TMGC' label in comicbook font."]]
+            shells:
+                [
+                    [Blue, 4u_blue, "Blue shell. White buttoms. Silver faceplate."],
+                    [Blue (American Comic), 4u_comic, "Blue shell. White buttons. Faceplate featuring comic book-style art and tamagotchi characters. Red 'TMGC' label in comicbook font."],
+                    [Pink (TMGC Friends), 4u_friends, "Pink shell. White buttoms. Faceplate featuring popular tamagotchi characters. Pastel 'TMGC' label in blocky font."],
+                ]
 
           - name: divider
 
@@ -280,3 +299,15 @@ eras:
                     [Monster Carnival, uni_monster, "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label."],
                     [Custom, uni_custom, "Red transparent shell. Black buttons. Purple faceplate with light purple butterfly and cloud motif surrounding shell. White 'Tamagotchi Uni' label."],
                 ]
+
+    - name: Other Vpets
+      series:
+          - name: GigaPets (Vintage)
+            shells:
+                [
+                    [Digital Doggie, gp_doggie, "Purple translucent shell. Green buttons. 'GigaPets' and 'Digital Doggie' labels, and dog illustrations surrounding screen."],
+                    [Komputer Koala, gp_koala, "Pink translucent shell. Orange buttons. 'GigaPets' and 'Komputer Koala' labels, and koala illustrations surrounding screen."],
+                    [Salem the Cat, gp_salem, "Black shell. Pink buttons. 'GigaPets', 'Sabrina the Teenage Witch', and 'Salem the Cat' labels, and stars/cat illustrations surrounding screen."],
+                ]
+          - name: GigaPets (Remakes)
+            shells: [[Cryptids, gp_cryptid, "Orange translucent shell. Green buttons. 'GigaPets' label above screen. Fall leaf illustrations surrounding screen."]]

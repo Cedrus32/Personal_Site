@@ -6,29 +6,25 @@ chart_ext: .png
 groups:
     - name: Releases
       runs:
-          - name: Connection V1
-            status: live
-            shell: Green Squares
-            img: green_squares
-            alt: "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background."
-            chart: v1
-          - name: Connection V2
-            status: live
-            shell: Clear Pink
-            img: clear_pink
-            alt: "Transparent pink shell and screen border. Light pink buttons."
-            chart: v2
+          - name: Connection v4.5
+            shell: Tribal Tattoo
+            img: tribal_tattoo
+            alt: "Light green shell. Dark green screen border. Brown buttons and antenna star. Light green/black swirls surrounding screen. 'Tamagotchi Connection' on brown background."
+            chart: v45
 
     - name: Seasonals
       runs:
-          - name: Local Group Hatch - July (stars/sparkles)
-            status: live
-            shell: Rock Glitter
-            img: rock_glitter
-            alt: "Black glitter shell. Red screen border and buttons. Red and white stripes/stars/checks/dots surrounding screen. White 'Tamagotchi' label."
+          - name: State Fair
+            shell: Ura Circus
+            img: ura_circus
+            alt: "White shell. Yellow screen border. Light purple buttons. Pink antenna star. Red stripes, orange/pink flags, balls, and characters surrounding screen. Red stripes on bottom."
+            chart: na
+          - name: State Fair
+            shell: v3 Red Stars
+            img: red_stars
+            alt: "Red shell. Purple screen border. White buttons. Yellow sunburst, blue stars surrounding screen. 'Tamagotchi Connection' label on green background."
             chart: na
           - name: Football Season - SKOL!
-            status: upcoming
             shell: Akai Viking
             img: viking
             alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."
@@ -36,3 +32,15 @@ groups:
 
     - name: Completed
       runs:
+
+hiatus:
+    - name: Connection V1
+      shell: Green Squares
+      img: green_squares
+      alt: "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background."
+      chart: v1
+    - name: Connection V2
+      shell: Clear Pink
+      img: clear_pink
+      alt: "Transparent pink shell and screen border. Light pink buttons."
+      chart: v2
