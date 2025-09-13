@@ -6,28 +6,23 @@ chart_ext: .png
 groups:
     - name: Releases
       runs:
-          - name: Connection v4.5
-            shell: Tribal Tattoo
-            img: tribal_tattoo
-            alt: "Light green shell. Dark green screen border. Brown buttons and antenna star. Light green/black swirls surrounding screen. 'Tamagotchi Connection' on brown background."
-            chart: v45
+          - name: Paradise
+            shell: Purple Sky
+            img: paradise_purple
+            alt: "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label."
+            chart: na
 
     - name: Seasonals
       runs:
-          - name: State Fair
-            shell: Ura Circus
-            img: ura_circus
-            alt: "White shell. Yellow screen border. Light purple buttons. Pink antenna star. Red stripes, orange/pink flags, balls, and characters surrounding screen. Red stripes on bottom."
-            chart: na
-          - name: State Fair
-            shell: v3 Red Stars
-            img: red_stars
-            alt: "Red shell. Purple screen border. White buttons. Yellow sunburst, blue stars surrounding screen. 'Tamagotchi Connection' label on green background."
-            chart: na
           - name: Football Season - SKOL!
             shell: Akai Viking
             img: viking
             alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."
+            chart: na
+          - name: Local Club September Hatch - Fall Season
+            shell: Akai Pink Grapes
+            img: pink_grapes
+            alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen."
             chart: na
 
     - name: Completed

@@ -133,6 +133,8 @@ eras:
             shells:
                 [
                     [Clear Pink, clear_pink, "Transparent pink shell and screen border. Light pink buttons."],
+                    [True Friends - Flames (Black), flames_black, "Black shell. Yellow screen border, buttons. Red flame motif surrounding shell."],
+                    [True Friends - Flames (Gold), flames_gold, "Gold shell. Black screen border, buttons. Red flame motif surrounding shell."],
                     [
                         Island,
                         island,
@@ -161,6 +163,12 @@ eras:
             shells:
                 [
                     [Arctic Camo, arctic_camo, "Light blue shell. White screen border and buttons. Blue/black camo print surrounding screen. 'Tamagotchi' label on blue background."],
+                    [
+                        Graffiti,
+                        graffiti,
+                        "Gray shell. Black screen border. Light blue buttons. Skull, peace signs, 'PEACE', 'YO', 'COOL', 'SWEET' in graffiti style surrounding screen. 'Tamagotchi Connection' label.",
+                    ],
+                    [Ice Cream, v3_ice_cream, "Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label."],
                     [
                         Japan,
                         japan,
@@ -250,11 +258,23 @@ eras:
                 [
                     [
                         Ice Cream,
-                        ice_cream,
+                        rv3_ice_cream,
                         "Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label on dark purple background.",
                     ],
                     [Bubbles, bubbles, "Light blue shell. Blue screen border. Teal buttons. Teal/white/blue bubble motif surrounding screen. 'Tamagotchi Connection' label on blue background."],
                     [Melon Soda, melon_soda, "Glittery teal shell and screen border. White buttons and antenna cap. White glass and bubbles motif surrounding screen. 'Tamagotchi Connection' label."],
+                    [True Friends - Aura (Heart), heart_aura, "Red screen border. White buttons. Concentric heart motif surrounding screen. 'Tamagotchi Connection' label."],
+                    [True Friends - Aura (Star), star_aura, "Dark blue screen border. White buttons. Concentric star motif surrounding screen. 'Tamagotchi Connection' label."],
+                    [
+                        True Friends - Graffiti (Blue),
+                        blue_graffiti,
+                        "Light blue shell. Black screen border, buttons. Multicolor zig-zag, lightning graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
+                    ],
+                    [
+                        True Friends - Graffiti (Pink),
+                        pink_graffiti,
+                        "Light pink shell. Black screen border. White buttons. Multicolor heart graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
+                    ],
                 ]
 
     - name: Modern Era
@@ -299,6 +319,11 @@ eras:
                     [Monster Carnival, uni_monster, "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label."],
                     [Custom, uni_custom, "Red transparent shell. Black buttons. Purple faceplate with light purple butterfly and cloud motif surrounding shell. White 'Tamagotchi Uni' label."],
                 ]
+
+          - name: divider
+
+          - name: Paradise
+            shells: [[Purple Sky, paradise_purple, "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label."]]
 
     - name: Other Vpets
       series:
