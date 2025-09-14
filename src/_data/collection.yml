@@ -334,5 +334,7 @@ eras:
                     [Komputer Koala, gp_koala, "Pink translucent shell. Orange buttons. 'GigaPets' and 'Komputer Koala' labels, and koala illustrations surrounding screen."],
                     [Salem the Cat, gp_salem, "Black shell. Pink buttons. 'GigaPets', 'Sabrina the Teenage Witch', and 'Salem the Cat' labels, and stars/cat illustrations surrounding screen."],
                 ]
+          - name: divider
+
           - name: GigaPets (Remakes)
             shells: [[Cryptids, gp_cryptid, "Orange translucent shell. Green buttons. 'GigaPets' label above screen. Fall leaf illustrations surrounding screen."]]
