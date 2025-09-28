@@ -15,14 +15,14 @@ list:
                   date: null
                 - name: ShiroHeartchi
                   alt: "White heart shape character."
-                  complete: false
-                  date: null
+                  complete: true
+                  date: 09/28/2025
           - name: toddler
             chars:
                 - name: Cherrytchi
                   alt: "Cherry-shaped character."
-                  complete: false
-                  date: null
+                  complete: true
+                  date: 09/28/2025
                 - name: Kuribotchi
                   alt: "Acorn-shaped character."
                   complete: false
