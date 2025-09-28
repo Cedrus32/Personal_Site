@@ -1,0 +1,109 @@
+root: /assets/images/charts/
+ext: .webp
+
+list:
+    - name: akai
+      dir: akai/
+      title: Tamagotchi Akai Growth Chart
+      credit: https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus_Akai/Character_list
+      stages:
+          - name: baby
+            chars:
+                - name: Heartchi
+                  alt: "Red upside down heart shape character."
+                  complete: true
+                  date: null
+                - name: ShiroHeartchi
+                  alt: "White heart shape character."
+                  complete: true
+                  date: 01-01-01
+          - name: toddler
+            chars:
+                - name: Cherrytchi
+                  alt: "Cherry-shaped character."
+                  complete: true
+                  date: null
+                - name: Kuribotchi
+                  alt: "Acorn-shaped character."
+                  complete: true
+                  date: null
+          - name: Teens
+            chars:
+                - name: Ringotchi
+                  alt:
+                  complete: true
+                  date: null
+                - name: Ichigotchi
+                  alt:
+                  complete: true
+                  date: null
+                - name: Tomatchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Young Mametchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Darumatchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Young Oyajitchi
+                  alt:
+                  complete: false
+                  date: null
+          - name: adults
+            chars:
+                - name: Ribotchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Memetchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Debatchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Gozarutchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Mametchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Kuchipatchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Tengutchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Kurokotchi
+                  alt:
+                  complete: false
+                  date: null
+          - name: senior
+            chars:
+                - name: Oyajitchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Otokitchi
+                  alt:
+                  complete: false
+                  date: null
+          - name: special
+            chars:
+                - name: Paparatchi
+                  alt:
+                  complete: false
+                  date: null
+                - name: Wooltchi
+                  alt:
+                  complete: false
+                  date: null

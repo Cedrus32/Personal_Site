@@ -5,13 +5,16 @@
 	--med-blue: #91bad8;
 	--dark-blue: #1d5480;
 	--green: #baf2d1;
+	--darkgreen: #006611;
 	--yellow: #ffe45c;
 	--lissa: #ffdbff;
+	--darklissa: #9e009e;
 	--box-bg: #236190;
 	--open-bg: rgb(35, 97, 144, 0.9);
 }
 
-body {
+body,
+dialog {
 	background-color: var(--dark-blue);
 	color: var(--light-blue);
 }
@@ -21,12 +24,10 @@ body {
 }
 
 .global-menu,
-main {
+main,
+#global-skip,
+.growth-chart {
 	background-color: var(--box-bg);
-}
-
-#global-skip {
-	background-color: var(--dark-blue);
 }
 
 .box-bg {
@@ -40,7 +41,8 @@ main,
 .webrings,
 article,
 .era-group,
-.dark {
+.dark,
+.chart-row {
 	border-color: var(--light-blue);
 }
 
@@ -53,20 +55,28 @@ a,
 	color: var(--green);
 }
 
-*:focus {
-	outline-color: var(--light-blue);
-}
-
 a:hover:not(:has(.webrings)),
 .current {
 	color: var(--yellow);
 }
 
+*:focus {
+	outline-color: var(--light-blue);
+}
+
 .switch,
-.shell-group button:not(dialog button) {
+.shell-group button:not(dialog button),
+dialog button {
 	background-color: transparent;
 	color: var(--light-blue);
 	border-color: var(--light-blue);
+}
+
+.incomplete {
+	background-color: var(--darklissa);
+}
+.complete {
+	background-color: var(--darkgreen);
 }
 
 .lissa a,

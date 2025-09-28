@@ -10,7 +10,7 @@ groups:
             shell: Purple Sky
             img: paradise_purple
             alt: "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label."
-            chart: na
+            chart: null
 
     - name: Seasonals
       runs:
@@ -18,12 +18,12 @@ groups:
             shell: Akai Viking
             img: viking
             alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."
-            chart: na
+            chart: akai
           - name: Local Club September Hatch - Fall Season
             shell: Akai Pink Grapes
             img: pink_grapes
             alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen."
-            chart: na
+            chart: akai
 
     - name: Completed
       runs:

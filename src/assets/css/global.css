@@ -126,11 +126,7 @@ article,
 		max-width: calc(var(--img-size) * 2.5);
 	}
 
-	.shell-group > figure img {
-		height: var(--img-size);
-		width: auto;
-	}
-
+	.shell-group > figure img,
 	.shell-group > li img {
 		height: var(--img-size);
 		width: auto;
@@ -426,10 +422,7 @@ article,
 	border-radius: 0.5em;
 }
 
-.link-group {
-	border: var(--border-size) solid;
-}
-
+.link-group,
 article,
 .era-group {
 	border: var(--border-size) solid;
@@ -598,14 +591,38 @@ dialog[open] {
 	align-self: center;
 }
 
-.shell-group figure .dialog img {
-	width: auto;
-	height: auto;
-	max-height: 800px;
-}
-
 dialog::backdrop {
 	background-color: rgb(0, 0, 0, 0.75);
+}
+
+/* growth charts */
+
+.growth-chart {
+	border-collapse: collapse;
+}
+.growth-chart,
+.growth-chart th,
+.growth-chart td,
+.growth-chart figure {
+	padding: var(--layout-gap);
+}
+
+.chart-row {
+	border: var(--border-size) solid;
+}
+
+.chart-row td {
+	display: flex;
+	flex-wrap: wrap;
+	height: max-content;
+}
+.chart-row figure {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	height: 100%;
+	width: auto;
 }
 
 /* FONTS */
