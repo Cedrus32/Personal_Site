@@ -11,31 +11,31 @@ list:
             chars:
                 - name: Heartchi
                   alt: "Red upside down heart shape character."
-                  complete: true
+                  complete: false
                   date: null
                 - name: ShiroHeartchi
                   alt: "White heart shape character."
-                  complete: true
-                  date: 01-01-01
+                  complete: false
+                  date: null
           - name: toddler
             chars:
                 - name: Cherrytchi
                   alt: "Cherry-shaped character."
-                  complete: true
+                  complete: false
                   date: null
                 - name: Kuribotchi
                   alt: "Acorn-shaped character."
-                  complete: true
+                  complete: false
                   date: null
           - name: Teens
             chars:
                 - name: Ringotchi
                   alt:
-                  complete: true
+                  complete: false
                   date: null
                 - name: Ichigotchi
                   alt:
-                  complete: true
+                  complete: false
                   date: null
                 - name: Tomatchi
                   alt:
