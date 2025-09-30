@@ -10,100 +10,100 @@ list:
           - name: baby
             chars:
                 - name: Heartchi
-                  alt: "Red upside down heart shape character."
+                  alt: Red upside down heart shape character.
                   complete: false
                   date: null
                 - name: ShiroHeartchi
-                  alt: "White heart shape character."
+                  alt: White heart shape character.
                   complete: true
                   date: 09/28/2025
           - name: toddler
             chars:
                 - name: Cherrytchi
-                  alt: "Cherry-shaped character."
+                  alt: Cherry-shaped character.
                   complete: true
                   date: 09/28/2025
                 - name: Kuribotchi
-                  alt: "Acorn-shaped character."
+                  alt: Acorn-shaped character.
                   complete: false
                   date: null
           - name: Teens
             chars:
                 - name: Ringotchi
-                  alt:
+                  alt: Apple-shaped character.
                   complete: false
                   date: null
                 - name: Ichigotchi
-                  alt:
+                  alt: Strawberry-shaped character.
                   complete: false
                   date: null
                 - name: Tomatchi
-                  alt:
-                  complete: false
-                  date: null
+                  alt: Tomato-shaped character.
+                  complete: true
+                  date: 09/29/2025
                 - name: Young Mametchi
-                  alt:
+                  alt: Character with large head, blue hat, and short ears on top of their head.
                   complete: false
                   date: null
                 - name: Darumatchi
-                  alt:
+                  alt: Daruma doll-shaped character.
                   complete: false
                   date: null
                 - name: Young Oyajitchi
-                  alt:
+                  alt: Round character balding hairline.
                   complete: false
                   date: null
           - name: adults
             chars:
                 - name: Ribotchi
-                  alt:
+                  alt: Character with large head and pink polka-dot bow.
                   complete: false
                   date: null
                 - name: Memetchi
-                  alt:
+                  alt: Character with very large head and one hair in a swirl atop their head.
                   complete: false
                   date: null
                 - name: Debatchi
-                  alt:
+                  alt: Chick-shaped character with buck teeth and a tuft of hair atop their head.
                   complete: false
                   date: null
                 - name: Gozarutchi
-                  alt:
+                  alt: Ninja-like character.
                   complete: false
                   date: null
                 - name: Mametchi
-                  alt:
+                  alt: Character with large head, blue hat, and short ears on top of their head.
                   complete: false
                   date: null
                 - name: Kuchipatchi
-                  alt:
+                  alt: Green platapus-like character without a tail.
                   complete: false
                   date: null
                 - name: Tengutchi
-                  alt:
+                  alt: Tengu-like character.
                   complete: false
                   date: null
                 - name: Kurokotchi
-                  alt:
+                  alt: Character with large rectangular head.
                   complete: false
                   date: null
           - name: senior
             chars:
                 - name: Oyajitchi
-                  alt:
+                  alt: Round character balding hairline and mustache. Resembles an old man.
                   complete: false
                   date: null
                 - name: Otokitchi
-                  alt:
+                  alt: Round character with gray hair in a top bun and wrinkles. Resembles an old woman.
                   complete: false
                   date: null
           - name: special
             chars:
                 - name: Paparatchi
-                  alt:
+                  alt: Gaunt character with hair in a ponytail, wearing glasses, and holding a camera.
                   complete: false
                   date: null
                 - name: Wooltchi
-                  alt:
+                  alt: Sheep-like character.
                   complete: false
                   date: null
