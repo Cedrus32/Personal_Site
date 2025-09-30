@@ -19,11 +19,16 @@ groups:
             img: viking
             alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."
             chart: akai
-          - name: Local Club September Hatch - Fall Season
-            shell: Akai Pink Grapes
-            img: pink_grapes
-            alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen."
+          - name: Local Club October Hatch - Halloween
+            shell: Akai Pirate
+            img: pirate
+            alt: "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat."
             chart: akai
+          - name: Local Club October Hatch - Halloween
+            shell: Monster Carnival Uni
+            img: uni_monster
+            alt: "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label."
+            chart: null
 
     - name: Completed
       runs:
@@ -39,3 +44,8 @@ hiatus:
       img: clear_pink
       alt: "Transparent pink shell and screen border. Light pink buttons."
       chart: v2
+    - name: Akai
+      shell: Akai Pink Grapes
+      img: pink_grapes
+      alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen."
+      chart: akai
