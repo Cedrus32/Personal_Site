@@ -61,8 +61,8 @@ list:
                   date: null
                 - name: Memetchi
                   alt: Character with very large head and one hair in a swirl atop their head.
-                  complete: false
-                  date: null
+                  complete: true
+                  date: 10/01/2025
                 - name: Debatchi
                   alt: Chick-shaped character with buck teeth and a tuft of hair atop their head.
                   complete: false
