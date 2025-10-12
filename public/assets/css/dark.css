@@ -7,7 +7,6 @@
 	--green: #baf2d1;
 	--darkgreen: #006611;
 	--yellow: #ffe45c;
-	--lissa: #ffdbff;
 	--darklissa: #9e009e;
 	--box-bg: #236190;
 	--open-bg: rgb(35, 97, 144, 0.9);
@@ -77,12 +76,4 @@ dialog button {
 }
 .complete {
 	background-color: var(--darkgreen);
-}
-
-.lissa a,
-.lissa a:hover {
-	color: var(--lissa) !important;
-	text-decoration: none;
-	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
-	text-align: center;
 }

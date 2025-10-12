@@ -82,7 +82,5 @@ dialog button {
 .lissa a,
 .lissa a:hover {
 	color: var(--lissa) !important;
-	text-decoration: none;
 	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
-	text-align: center;
 }

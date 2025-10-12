@@ -32,6 +32,18 @@ article,
 	padding: var(--layout-gap);
 }
 
+@media (scripting: none) {
+	.js {
+		display: none;
+	}
+}
+
+@media (scripting: enabled) {
+	.nojs {
+		display: none;
+	}
+}
+
 /* LARGE SCREENS */
 /* LARGE SCREENS */
 /* LARGE SCREENS */
@@ -464,13 +476,6 @@ ul.img-group {
 	align-self: center;
 }
 
-.webring ul {
-	padding: 0;
-	margin: 0;
-	display: flex;
-	gap: 0.25em;
-}
-
 .static-page ~ * {
 	margin-top: 1em;
 }
@@ -623,6 +628,61 @@ dialog::backdrop {
 	justify-content: flex-end;
 	height: 100%;
 	width: auto;
+}
+
+/* webrings */
+
+.webring {
+	padding: 0.5em;
+}
+
+.webring ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 1em;
+}
+
+.webring li.nav a {
+	width: max-content;
+}
+
+.webring li:not(.nav) a {
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	gap: 0px;
+	flex-wrap: wrap;
+}
+
+.webring img {
+	height: 1em;
+	width: auto;
+}
+
+.lissa {
+	background-color: #ffdf6b;
+}
+.lissa a,
+.lissa a:hover {
+	color: #ad00ad;
+}
+
+.noai {
+	background-color: white;
+}
+.noai a,
+.noai a:hover {
+	color: black;
+}
+
+.tama {
+	background-color: #232323;
+}
+
+.tama a,
+.tama a:hover {
+	color: #e993ad;
 }
 
 /* FONTS */
