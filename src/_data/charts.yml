@@ -31,8 +31,8 @@ list:
             chars:
                 - name: Ringotchi
                   alt: Apple-shaped character.
-                  complete: false
-                  date: null
+                  complete: true
+                  date: 10/12/2025
                 - name: Ichigotchi
                   alt: Strawberry-shaped character.
                   complete: false
