@@ -3,66 +3,74 @@ sets:
     - name: Maneki Nekos
       base: maneki_nekos/
       ext: .png
-      items: [[maneki1, "White cat with red collar raising left paw."], [maneki2, "Brown cat with red collar raising right paw."], [maneki3, "Yellow cat with red collar raising both paws."]]
-
+      items:
+          [
+              { img: maneki1, alt: White cat with red collar raising left paw." },
+              { img: maneki2, alt: "Brown cat with red collar raising right paw." },
+              { img: maneki3, alt: "Yellow cat with red collar raising both paws." },
+          ]
     - name: Monsters
       base: monsters/
       ext: .png
-      items: [[count, "Purple, square headed vampire with black cloak."], [frank, "Green, square-headed Frankenstein monster with drab clothes."], [mummy, "Square-headed mummy."]]
-
+      items:
+          [
+              { img: count, alt: "Purple, square headed vampire with black cloak." },
+              { img: frank, alt: "Green, square-headed Frankenstein monster with drab clothes." },
+              { img: mummy, alt: "Square-headed mummy." },
+          ]
     - name: Planet Pops
       base: planet_pops/
       ext: .png
       items:
           [
-              [earthpop, "Earth wrapped as a lollipop."],
-              [marspop, "Mars wrapped as a lollipop. Green alien head floating above."],
-              [saturnpop, "Saturn wrapped as a lollipop."],
-              [sunpop, "Sun wrapped as a lollipiop. Wearing sunglasses."],
+              { img: earthpop, alt: "Earth wrapped as a lollipop." },
+              { img: marspop, alt: "Mars wrapped as a lollipop. Green alien head floating above." },
+              { img: saturnpop, alt: "Saturn wrapped as a lollipop." },
+              { img: sunpop, alt: "Sun wrapped as a lollipiop. Wearing sunglasses." },
           ]
-
     - name: Smart Robos
       base: smart_robos/
       ext: .png
-      items: [[smartrobo1, "Gray boxy robot holding a yellow pencil."], [smartrobo2, "Gray boxy robot holding a blue paintbrush."]]
-
+      items:
+          [
+              { img: smartrobo1, alt: "Gray boxy robot holding a yellow pencil." },
+              { img: smartrobo2, alt: "Gray boxy robot holding a blue paintbrush." },
+          ]
     - name: Truffles
       base: truffles/
       ext: .png
       items:
           [
-              [truff1, "Milk chocolate truffle with strawberry drizzle. Black eyes and blush."],
-              [truff2, "White chocolate truffle with chocolate drizzle. Black eyes and blush."],
-              [truff3, "Milk chocolate truffle with mint sprinkles. Black eyes and blush."],
-              [truff4, "Dark chocolate truffle with white chocolate sprinkles. Black eyes and blush."],
+              { img: truff1, alt: "Milk chocolate truffle with strawberry drizzle. Black eyes and blush." },
+              { img: truff2, alt: "White chocolate truffle with chocolate drizzle. Black eyes and blush." },
+              { img: truff3, alt: "Milk chocolate truffle with mint sprinkles. Black eyes and blush." },
+              { img: truff4, alt: "Dark chocolate truffle with white chocolate sprinkles. Black eyes and blush." },
           ]
-
     - name: Cloud Emotes
       base: cloud_emotes/
       ext: .png
       items:
           [
-              [emote1s1, "Tiny cloud with smile."],
-              [emote2s1, "Tiny cloud with closed eyes."],
-              [emote3s1, "Tiny cloud with excited face."],
-              [emote4s1, "Tiny cloud with tears."],
-              [emote5s1, "Tiny cloud with angry face."],
-              [emote6s1, "Tiny cloud with embarrassed face."],
-              [emote7s1, "Tiny cloud with an 'x' mouth."],
-              [emote8s1, "Tiny cloud with surprised face."],
+              { img: emote1s1, alt: "Tiny cloud with smile." },
+              { img: emote2s1, alt: "Tiny cloud with closed eyes." },
+              { img: emote3s1, alt: "Tiny cloud with excited face." },
+              { img: emote4s1, alt: Tiny cloud with tears." },
+              { img: emote5s1, alt: "Tiny cloud with angry face." },
+              { img: emote6s1, alt: "Tiny cloud with embarrassed face." },
+              { img: emote7s1, alt: "Tiny cloud with an 'x' mouth." },
+              { img: emote8s1, alt: "Tiny cloud with surprised face." },
           ]
-
     - name: Pumpkin Emotes
       base: pumpkin_emotes/
       ext: .png
       items:
           [
-              [emote1s2, "Tiny pumpkin with smile."],
-              [emote2s2, "Tiny pumpkin with closed eyes."],
-              [emote3s2, "Tiny pumpkin with excited face."],
-              [emote4s2, "Tiny pumpkin with tears."],
-              [emote5s2, "Tiny pumpkin with angry face."],
-              [emote6s2, "Tiny pumpkin with embarrassed face."],
-              [emote7s2, "Tiny pumpkin with an 'x' mouth."],
-              [emote8s2, "Tiny pumpkin with surprised face."],
+              { img: emote1s2, alt: "Tiny pumpkin with smile." },
+              { img: emote2s2, alt: "Tiny pumpkin with closed eyes." },
+              { img: emote3s2, alt: "Tiny pumpkin with excited face." },
+              { img: emote4s2, alt: "Tiny pumpkin with tears." },
+              { img: emote5s2, alt: "Tiny pumpkin with angry face." },
+              { img: emote6s2, alt: "Tiny pumpkin with embarrassed face." },
+              { img: emote7s2, alt: "Tiny pumpkin with an 'x' mouth." },
+              { img: emote8s2, alt: "Tiny pumpkin with surprised face." },
           ]

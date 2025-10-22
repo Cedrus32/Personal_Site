@@ -1,58 +1,66 @@
 root: /assets/images/games/
 ext: .png
-
 playing:
-    - name: Bomb Rush Cyberfunk
-      console: Switch
-      img: brcf
-      alt: "Bomb Rush Cyber Funk. City landscape with a low angled view of the player character."
-    - name: Luigi's Mansion - Dark Moon
-      console: New 3DS XL
-      img: luigi_dm
-      alt: "Luigi's Mansion Dark Room. Luigi running from ghosts inside a room full of paintings."
-    - name: Pokemon Picross
-      console: New 3DS XL
-      img: pokemon_picross
-      alt: "Pokemon Picross. Pokemon characters working together to solve a picross puzzle."
-    - name: Sanrio Picross
-      console: New 3DS XL
-      img: sanrio_picross
-      alt: "Sanrio Characters Picross. Pastel Sanrio characters on a pastel background."
-    - name: Stardew Valley
-      console: PC (modded)
-      img: sdv
-      alt: "Stardew Valley. Pixel art farmer riding a horse near a farm building, crops, and trees."
-    - name: Minecraft
-      console: PC (modded)
-      img: mc
-      alt: "Minecraft. Stylized blocky grass cube from the game."
-    - name: Old School Runescape
-      console: PC
-      img: osrs
-      alt: "Runescape. Two stones and a red banner over a dirt background."
-
+    [
+        {
+            name: Bomb Rush Cyberfunk,
+            console: Switch,
+            img: brcf,
+            alt: "Bomb Rush Cyber Funk. City landscape with a low angled view of the player character.",
+        },
+        {
+            name: Luigi's Mansion - Dark Moon,
+            console: New 3DS XL,
+            img: luigi_dm,
+            alt: "Luigi's Mansion Dark Room. Luigi running from ghosts inside a room full of paintings.",
+        },
+        {
+            name: Pokemon Picross,
+            console: New 3DS XL,
+            img: pokemon_picross,
+            alt: "Pokemon Picross. Pokemon characters working together to solve a picross puzzle.",
+        },
+        {
+            name: Sanrio Picross,
+            console: New 3DS XL,
+            img: sanrio_picross,
+            alt: "Sanrio Characters Picross. Pastel Sanrio characters on a pastel background.",
+        },
+        {
+            name: Stardew Valley,
+            console: PC (modded),
+            img: sdv,
+            alt: "Stardew Valley. Pixel art farmer riding a horse near a farm building, crops, and trees.",
+        },
+        { name: Minecraft, console: PC (modded), img: mc, alt: "Minecraft. Stylized blocky grass cube from the game." },
+        { name: Old School Runescape, console: PC, img: osrs, alt: "Runescape. Two stones and a red banner over a dirt background." },
+    ]
 complete:
-    - name: Famicom Detective Club
-      console: Switch
-      img: fdc_missing_heir
-      alt: "Famicom Detective Club The Missing Heir. Two young people in front of a red-tinted background of a large house and forest."
-    - name: Gris
-      console: Switch
-      img: gris
-      alt: "Gris. Front-view of a girl's face. Eyes closed, looking down, not smiling."
-    - name: Hoa
-      console: Switch
-      img: hoa
-      alt: "Hoa. Stone arm and hand extending from a forest, holding a character in red hood and cloak."
-    - name: Little Kitty Big City
-      console: Switch
-      img: kitty_city
-      alt: "Little Kitty Big City. Cityscape background from the low perspective of a cat. Black cat sitting on the game title letters."
-    - name: Oxenfree
-      console: Switch
-      img: oxenfree
-      alt: "Oxenfree. Girl floating inside a glowing triangle. Shadowy figures with glowing eyes lurking behind the triangle. Silhouette of an island below."
-    - name: Phoenix Wright - Ace Attorney Trilogy
-      console: New 3DS XL
-      img: pw_trilogy
-      alt: "Phoenix Wright Ace Attorney Trilogy. Collage of game cast. Main character pointing forcefully."
+    [
+        {
+            name: Famicom Detective Club,
+            console: Switch,
+            img: fdc_missing_heir,
+            alt: "Famicom Detective Club The Missing Heir. Two young people in front of a red-tinted background of a large house and forest.",
+        },
+        { name: Gris, console: Switch, img: gris, alt: "Gris. Front-view of a girl's face. Eyes closed, looking down, not smiling." },
+        { name: Hoa, console: Switch, img: hoa, alt: "Hoa. Stone arm and hand extending from a forest, holding a character in red hood and cloak." },
+        {
+            name: Little Kitty Big City,
+            console: Switch,
+            img: kitty_city,
+            alt: "Little Kitty Big City. Cityscape background from the low perspective of a cat. Black cat sitting on the game title letters.",
+        },
+        {
+            name: Oxenfree,
+            console: Switch,
+            img: oxenfree,
+            alt: "Oxenfree. Girl floating inside a glowing triangle. Shadowy figures with glowing eyes lurking behind the triangle. Silhouette of an island below.",
+        },
+        {
+            name: Phoenix Wright - Ace Attorney Trilogy,
+            console: New 3DS XL,
+            img: pw_trilogy,
+            alt: "Phoenix Wright Ace Attorney Trilogy. Collage of game cast. Main character pointing forcefully.",
+        },
+    ]

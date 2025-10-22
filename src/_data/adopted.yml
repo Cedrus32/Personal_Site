@@ -2,107 +2,128 @@ root: /assets/images/pixels/adopted/
 sets:
     - name: jeith
       url: https://jeith.com
-      items: [[spot-the-dog-barking.gif, "Yellow dog wagging its tale."]]
-
+      items: [{ img: spot-the-dog-barking, ext: .gif, alt: "Yellow dog wagging its tale." }]
     - name: artwork
       url: https://artwork.neocities.org
       items:
           [
-              [tokidoki2.png, "Tan bunny with hippy headband."],
-              [0bunniesartwork.gif, "Two bunnies wearing red/green decorated cloaks."],
-              [matryoshka03.gif, "Large pink/blue/purple nesting doll."],
-              [matryoshka02.gif, "Medium pink/blue/purple nesting doll."],
-              [matryoshka01.gif, "Small pink/blue/purple nesting doll."],
+              { img: tokidoki2, ext: .png, alt: "Tan bunny with hippy headband." },
+              { img: 0bunniesartwork, ext: .gif, alt: "Two bunnies wearing red/green decorated cloaks." },
+              { img: matryoshka03, ext: .gif, alt: "Large pink/blue/purple nesting doll." },
+              { img: matryoshka02, ext: .gif, alt: "Medium pink/blue/purple nesting doll." },
+              { img: matryoshka01, ext: .gif, alt: "Small pink/blue/purple nesting doll." },
           ]
-
     - name: pomelo
       url: https://pomelo.lol/pixel/home
-      items: [[lycheekiwijelly.png, "Pink bubble tea with green bobas."], [taki.png, "Takis fuego bag."], [sri.png, "Sriracha bottle."], [tab.png, "Tabasco bottle."]]
-
+      items:
+          [
+              { img: lycheekiwijelly, ext: .png, alt: "Pink bubble tea with green bobas." },
+              { img: taki, ext: .png, alt: "Takis fuego bag." },
+              { img: sri, ext: .png, alt: "Sriracha bottle." },
+              { img: tab, ext: .png, alt: "Tabasco bottle." },
+          ]
     - name: pastellhell
       url: https://pastelhello.com/
-      items: [[greysk.gif, "Gray sidekick phone."], [sri2.png, "Sriracha bottle."], [unicornfloat.png, "Unicorn pool floaty."]]
-
+      items:
+          [
+              { img: greysk, ext: .gif, alt: "Gray sidekick phone." },
+              { img: sri2, ext: .png, alt: "Sriracha bottle." },
+              { img: unicornfloat, ext: .png, alt: "Unicorn pool floaty." },
+          ]
     - name: Whimsical
       url: http://whimsical.heartette.net/
-      items: [[fruitdrink1b.gif, "Summer drink in a watermelon."], [shark1.gif, "Great white shark."], [ghost5.gif, "Panting ghost."], [bubbletea4e.gif, "Purple bubble tea with brown bobas."]]
-
+      items:
+          [
+              { img: fruitdrink1b, ext: .gif, alt: "Summer drink in a watermelon." },
+              { img: shark1, ext: .gif, alt: "Great white shark." },
+              { img: ghost5, ext: .gif, alt: "Panting ghost." },
+              { img: bubbletea4e, ext: .gif, alt: "Purple bubble tea with brown bobas." },
+          ]
     - name: Appledust
       url: https://www.lejlart.com/apple.html
       items:
           [
-              [skellygreen.gif, "Light blue skull with ghosts poofing out of the eye sockets."],
-              [meltycornpixel.gif, "Melting purple unicorn."],
-              [boobatea_slime.gif, "Green bubble tea with eyeball bobas."],
-              [lacroixdaisy.gif, "Daisies growing out of a La Croix can."],
-              [gummybear_lychee.gif, "Pink gummy bear."],
+              { img: skellygreen, ext: .gif, alt: "Light blue skull with ghosts poofing out of the eye sockets." },
+              { img: meltycornpixel, ext: .gif, alt: "Melting purple unicorn." },
+              { img: boobatea_slime, ext: .gif, alt: "Green bubble tea with eyeball bobas." },
+              { img: lacroixdaisy, ext: .gif, alt: "Daisies growing out of a La Croix can." },
+              { img: gummybear_lychee, ext: .gif, alt: "Pink gummy bear." },
           ]
-
     - name: Rose Dryad
       url: https://rosedryad.com/
-      items: [[SailorMoon.png, "Sailor Moon."], [BearPlush4.png, "Light blue standing teddy bear."]]
-
+      items: [{ img: SailorMoon, ext: .png, alt: "Sailor Moon." }, { img: BearPlush4, ext: .png, alt: "Light blue standing teddy bear." }]
     - name: Floral-Tears
       url: https://floral-tears.neocities.org
-      items: [[PothosVineTop.png, "House plant in a terracotta pot."], [strawberrymilkshake.png, "Strawberry milkshake."], [unicornsmall.png, "Unicorn bug thing with a red nose."]]
-
+      items:
+          [
+              { img: PothosVineTop, ext: .png, alt: "House plant in a terracotta pot." },
+              { img: strawberrymilkshake, ext: .png, alt: "Strawberry milkshake." },
+              { img: unicornsmall, ext: .png, alt: "Unicorn bug thing with a red nose." },
+          ]
     - name: Neonriser
       url: https://neonriser.neocities.org
-      items: [[chatt.png, "Blue green cat."]]
-
+      items: [{ img: chatt, ext: .png, alt: "Blue green cat." }]
     - name: Cinni
       url: https://cinni.net
-      items: [[naranya.png, "Brown and white cat with leaf on its head."], [tama-v3-ar.png, "Pink tamagotchi."], [tama-v3-as.png, "Yellow tamagotchi."], [tama-v3-cb.png, "Blue tamagotchi."]]
-
+      items:
+          [
+              { img: naranya, ext: .png, alt: "Brown and white cat with leaf on its head." },
+              { img: tama-v3-ar, ext: .png, alt: "Pink tamagotchi." },
+              { img: tama-v3-as, ext: .png, alt: "Yellow tamagotchi." },
+              { img: tama-v3-cb, ext: .png, alt: "Blue tamagotchi." },
+          ]
     - name: Thumbelina
       url: https://tthumbelina.neocities.org
-      items: [[bear.png, "Pink sitting teddy bear."]]
-
+      items: [{ img: bear, ext: .png, alt: "Pink sitting teddy bear." }]
     - name: Elfwink
       url: https://pixels.elfwink.net/
       items:
           [
-              [commbadge_tng.png, "Starfleet badge."],
-              [frog1.gif, "Green frog with leaf overhead."],
-              [frog2.gif, "Blue frog with flowers overhead."],
-              [frog3.gif, "Purple frog with fruit overhead."],
-              [50-maneki-neko1.png, "White lucky cat raising left paw."],
+              { img: commbadge_tng, ext: .png, alt: "Starfleet badge." },
+              { img: frog1, ext: .gif, alt: "Green frog with leaf overhead." },
+              { img: frog2, ext: .gif, alt: "Blue frog with flowers overhead." },
+              { img: frog3, ext: .gif, alt: "Purple frog with fruit overhead." },
+              { img: 50-maneki-neko1, ext: .png, alt: "White lucky cat raising left paw." },
           ]
-
     - name: blanket fort
       url: https://blanketfort.neocities.org/
-      items: [[puppy.gif, "Brown dog."], [mail_bear.gif, "Brown bear dressed as mailman."], [sockcow.gif, "White and black spotted sock with horns. Pink toes for a snout."]]
-
+      items:
+          [
+              { img: puppy, ext: .gif, alt: "Brown dog." },
+              { img: mail_bear, ext: .gif, alt: "Brown bear dressed as mailman." },
+              { img: sockcow, ext: .gif, alt: "White and black spotted sock with horns. Pink toes for a snout." },
+          ]
     - name: Omochya House
       url: http://misa.phoophie.com
-      items: [[food01.png, "Double patty hamburger with smiley face."], [food02.png, "Hot dog with smiley face."], [food03.png, "French fries with smiley face."]]
-
+      items:
+          [
+              { img: food01, ext: .png, alt: "Double patty hamburger with smiley face." },
+              { img: food02, ext: .png, alt: "Hot dog with smiley face." },
+              { img: food03, ext: .png, alt: "French fries with smiley face." },
+          ]
     - name: bitmapdreams
       url: https://www.lastsecret.net/bitmapdreams/
       items:
           [
-              [harbortaffy_gem_diamond.png, "Diamond."],
-              [harbortaffy_gem_emerald.png, "Emerald."],
-              [harbortaffy_gem_ruby.png, "Ruby."],
-              [dinershift_curlyfries.png, "Curly fries in red mesh basket."],
-              [dinershift_serverhat.png, "White diner cook's hat."],
+              { img: harbortaffy_gem_diamond, ext: .png, alt: "Diamond." },
+              { img: harbortaffy_gem_emerald, ext: .png, alt: "Emerald." },
+              { img: harbortaffy_gem_ruby, ext: .png, alt: "Ruby." },
+              { img: dinershift_curlyfries, ext: .png, alt: "Curly fries in red mesh basket." },
+              { img: dinershift_serverhat, ext: .png, alt: "White diner cook's hat." },
           ]
-
     - name: SweetCharm
       url: https://sweetcharm.net
       items:
           [
-              [ALIENjumpingGREENadopt.gif, "Alien with long legs jumping. Wearing yellow dress and boots."],
-              [StarFrogandStaradopt.png, "Smiling frog with bendy legs. Sitting next to a star."],
-              [mushyduderun1.gif, "White mushroom stem running while holding its red and white cap."],
-              [mushyduderun2.gif, "Small white mushroom stem bouncing its red cap on its head."],
-              [tallshroomyt.gif, "Tall red capped mushroom with white stem."],
+              { img: ALIENjumpingGREENadopt, ext: .gif, alt: "Alien with long legs jumping. Wearing yellow dress and boots." },
+              { img: StarFrogandStaradopt, ext: .png, alt: "Smiling frog with bendy legs. Sitting next to a star." },
+              { img: mushyduderun1, ext: .gif, alt: "White mushroom stem running while holding its red and white cap." },
+              { img: mushyduderun2, ext: .gif, alt: "Small white mushroom stem bouncing its red cap on its head." },
+              { img: tallshroomyt, ext: .gif, alt: "Tall red capped mushroom with white stem." },
           ]
-
     - name: Pixalina
       url: https://pixalina.neocities.org/
-      items: [[h9X5Lot.gif, "Round yellow chick with wide eyes dancing."]]
-
+      items: [{ img: h9X5Lot, ext: .gif, alt: "Round yellow chick with wide eyes dancing." }]
     - name: Peachnuts
       url: https://peachnuts.neocities.org
-      items: [[sunglasses.png, "Black Chanel sunglasses."], [flameboot.png, "Cowboy boot with flame design."]]
+      items: [{ img: sunglasses, ext: .png, alt: "Black Chanel sunglasses." }, { img: flameboot, ext: .png, alt: "Cowboy boot with flame design." }]

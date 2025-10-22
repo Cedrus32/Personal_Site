@@ -1,43 +1,21 @@
 global:
-    - name: Home
-      url: /
-    - name: Blog
-      url: /blog
-    - name: Tamas
-      url: /tamas/collection
-    - name: Games
-      url: /games
-    - name: Knits
-      url: /knits
-    - name: Pixels
-      url: /pixels/adoptables
-    - name: About
-      url: /about/person
-    - name: Links
-      url: /links
-
+    [
+        { name: Home, url: / },
+        { name: Blog, url: /blog },
+        { name: Tamas, url: /tamas/collection },
+        { name: Games, url: /games },
+        { name: Knits, url: /knits },
+        { name: Pixels, url: /pixels/adoptables },
+        { name: About, url: /about/person },
+        { name: Links, url: /links },
+    ]
 tamas:
     header: Tamas
-    links:
-        - name: Collection
-          url: /tamas/collection
-        - name: Runs
-          url: /tamas/runs
-
+    links: [{ name: Collection, url: /tamas/collection }, { name: Runs, url: /tamas/runs }]
 pixels:
     header: Pixels
-    links:
-        - name: Adoptables
-          url: /pixels/adoptables
-        - name: Adopted
-          url: /pixels/adopted
-        - name: Clubs
-          url: /pixels/clubs
+    links: [{ name: Adoptables, url: /pixels/adoptables }, { name: Adopted, url: /pixels/adopted }, { name: Clubs, url: /pixels/clubs }]
 
 about:
     header: About
-    links:
-        - name: Person
-          url: /about/person
-        - name: Site
-          url: /about/site
+    links: [{ name: Person, url: /about/person }, { name: Site, url: /about/site }]

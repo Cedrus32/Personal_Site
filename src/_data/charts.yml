@@ -1,109 +1,79 @@
 root: /assets/images/charts/
 ext: .webp
-
 list:
     - name: akai
       dir: akai/
       title: Tamagotchi Akai Growth Chart
       credit: https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus_Akai/Character_list
       stages:
-          - name: baby
+          - name: baby,
             chars:
-                - name: Heartchi
-                  alt: Red upside down heart shape character.
-                  complete: false
-                  date: null
-                - name: ShiroHeartchi
-                  alt: White heart shape character.
-                  complete: true
-                  date: 09/28/2025
-          - name: toddler
+                [
+                    { name: Heartchi, alt: "Red upside down heart shape character.", complete: false, date: null },
+                    { name: ShiroHeartchi, alt: "White heart shape character.", complete: true, date: 09/28/2025 },
+                ]
+          - name: toddler,
             chars:
-                - name: Cherrytchi
-                  alt: Cherry-shaped character.
-                  complete: true
-                  date: 09/28/2025
-                - name: Kuribotchi
-                  alt: Acorn-shaped character.
-                  complete: false
-                  date: null
-          - name: Teens
+                [
+                    { name: Cherrytchi, alt: "Cherry-shaped character.", complete: true, date: 09/28/2025 },
+                    { name: Kuribotchi, alt: "Acorn-shaped character.", complete: false, date: null },
+                ]
+          - name: teens,
             chars:
-                - name: Ringotchi
-                  alt: Apple-shaped character.
-                  complete: true
-                  date: 10/12/2025
-                - name: Ichigotchi
-                  alt: Strawberry-shaped character.
-                  complete: false
-                  date: null
-                - name: Tomatchi
-                  alt: Tomato-shaped character.
-                  complete: true
-                  date: 09/29/2025
-                - name: Young Mametchi
-                  alt: Character with large head, blue hat, and short ears on top of their head.
-                  complete: false
-                  date: null
-                - name: Darumatchi
-                  alt: Daruma doll-shaped character.
-                  complete: false
-                  date: null
-                - name: Young Oyajitchi
-                  alt: Round character balding hairline.
-                  complete: false
-                  date: null
+                [
+                    { name: Ringotchi, alt: "Apple-shaped character.", complete: true, date: 10/12/2025 },
+                    { name: Ichigotchi, alt: "Strawberry-shaped character.", complete: false, date: null },
+                    { name: Tomatchi, alt: "Tomato-shaped character.", complete: true, date: 09/29/2025 },
+                    {
+                        name: Young Mametchi,
+                        alt: "Character with large head, blue hat, and short ears on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Darumatchi, alt: "Daruma doll-shaped character.", complete: false, date: null },
+                    { name: Young Oyajitchi, alt: "Round character balding hairline.", complete: false, date: null },
+                ]
           - name: adults
             chars:
-                - name: Ribotchi
-                  alt: Character with large head and pink polka-dot bow.
-                  complete: false
-                  date: null
-                - name: Memetchi
-                  alt: Character with very large head and one hair in a swirl atop their head.
-                  complete: true
-                  date: 10/01/2025
-                - name: Debatchi
-                  alt: Chick-shaped character with buck teeth and a tuft of hair atop their head.
-                  complete: false
-                  date: null
-                - name: Gozarutchi
-                  alt: Ninja-like character.
-                  complete: false
-                  date: null
-                - name: Mametchi
-                  alt: Character with large head, blue hat, and short ears on top of their head.
-                  complete: false
-                  date: null
-                - name: Kuchipatchi
-                  alt: Green platapus-like character without a tail.
-                  complete: false
-                  date: null
-                - name: Tengutchi
-                  alt: Tengu-like character.
-                  complete: false
-                  date: null
-                - name: Kurokotchi
-                  alt: Character with large rectangular head.
-                  complete: false
-                  date: null
-          - name: senior
+                [
+                    { name: Ribotchi, alt: "Character with large head and pink polka-dot bow.", complete: false, date: null },
+                    {
+                        name: Memetchi,
+                        alt: "Character with very large head and one hair in a swirl atop their head.",
+                        complete: true,
+                        date: 10/01/2025,
+                    },
+                    {
+                        name: Debatchi,
+                        alt: "Chick-shaped character with buck teeth and a tuft of hair atop their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Gozarutchi, alt: "Ninja-like character.", complete: false, date: null },
+                    { name: Mametchi, alt: "Character with large head, blue hat, and short ears on top of their head.", complete: false, date: null },
+                    { name: Kuchipatchi, alt: "Green platapus-like character without a tail.", complete: false, date: null },
+                    { name: Tengutchi, alt: "Tengu-like character.", complete: false, date: null },
+                    { name: Kurokotchi, alt: "Character with large rectangular head.", complete: false, date: null },
+                ]
+          - name: seniors
             chars:
-                - name: Oyajitchi
-                  alt: Round character balding hairline and mustache. Resembles an old man.
-                  complete: false
-                  date: null
-                - name: Otokitchi
-                  alt: Round character with gray hair in a top bun and wrinkles. Resembles an old woman.
-                  complete: false
-                  date: null
+                [
+                    { name: Oyajitchi, alt: "Round character balding hairline and mustache. Resembles an old man.", complete: false, date: null },
+                    {
+                        name: Otokitchi,
+                        alt: "Round character with gray hair in a top bun and wrinkles. Resembles an old woman.",
+                        complete: false,
+                        date: null,
+                    },
+                ]
           - name: special
             chars:
-                - name: Paparatchi
-                  alt: Gaunt character with hair in a ponytail, wearing glasses, and holding a camera.
-                  complete: false
-                  date: null
-                - name: Wooltchi
-                  alt: Sheep-like character.
-                  complete: false
-                  date: null
+                [
+                    {
+                        name: Paparatchi,
+                        alt: "Gaunt character with hair in a ponytail, wearing glasses, and holding a camera.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Wooltchi, alt: "Sheep-like character.", complete: false, date: null },
+                ]

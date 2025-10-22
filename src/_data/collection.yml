@@ -1,340 +1,486 @@
 root: /assets/images/collection/
 ext: .jpeg
-
 eras:
     - name: Original Era
       series:
           - name: P1
             shells:
                 [
-                    [Purple & Pink, p1e_purplepink, "Dark purple shell. Hot pink screen border and buttons."],
-                    [Teal & Violet, p1e_tealviolet, "Dark blue green shell. Dark blue screen border. Hot pink buttons."],
-                    [Aqua, p1j_aqua, "Light blue green shell. Yellow screen border and buttons, 'tamagotch' banner, and characters above screen."],
+                    { name: Purple & pink, img: p1e_purplepink, alt: "Dark purple shell. Hot pink screen border and buttons." },
+                    { name: Teal & Violet, img: p1e_tealviolet, alt: "Dark blue green shell. Dark blue screen border. Hot pink buttons." },
+                    {
+                        name: Aqua,
+                        img: p1j_aqua,
+                        alt: "Light blue green shell. Yellow screen border and buttons, 'tamagotch' banner, and characters above screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: P2
             shells:
                 [
-                    [White & Gray, p2e_whitegray, "White shell. Gray screen border, buttons, and 'Tamagotchi' label above screen."],
-                    [
-                        Blue,
-                        p2jw1_blue,
-                        "Dark blue green shell. Yellow screen border and buttons. Yellow 'tamagotchi' label in Japanese writing and white characters on yellow backgrounds surrounding screen.",
-                    ],
-                    [Spaceship, p2jw2_spaceship, "Dark blue shell. Black screen border. Yellow buttons. Character in UFO spaceship labelled 'tamagotch', surrounded by yellow and silver stars."],
+                    { name: White & Gray, img: p2e_whitegray, alt: "White shell. Gray screen border, buttons, and 'Tamagotchi' label above screen." },
+                    {
+                        name: Blue,
+                        img: p2jw1_blue,
+                        alt: "Dark blue green shell. Yellow screen border and buttons. Yellow 'tamagotchi' label in Japanese writing and white characters on yellow backgrounds surrounding screen.",
+                    },
+                    {
+                        name: Spaceship,
+                        img: p2jw2_spaceship,
+                        alt: "Dark blue shell. Black screen border. Yellow buttons. Character in UFO spaceship labelled 'tamagotch'",
+                        surrounded by yellow and silver stars.,
+                    },
                 ]
-
           - name: divider
-
           - name: Angel
             shells:
                 [
-                    [
-                        White (Japanese),
-                        angel_white,
-                        "Shiny white shell. White screen border and buttons. Gold wings on either side of screen. 'tamagotch' label and angelic characters surrounding screen.",
-                    ],
-                    [Pink (English), angel_pink_e, "Shiny pink shell. White screen border and buttons. Silver winfs on either side of screen. 'Tamagotchi Angel' label and stars surrounding screen."],
+                    {
+                        name: White (Japanese),
+                        img: angel_white,
+                        alt: "Shiny white shell. White screen border and buttons. Gold wings on either side of screen. 'tamagotch' label and angelic characters surrounding screen.",
+                    },
+                    {
+                        name: Pink (English),
+                        img: angel_pink_e,
+                        alt: "Shiny pink shell. White screen border and buttons. Silver winfs on either side of screen. 'Tamagotchi Angel' label and stars surrounding screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: Mothra
             shells:
                 [
-                    [
-                        Green Stripes,
-                        mothra_green_stripes,
-                        "Off-white shell and screen border. Light blue buttons. Light blue green horizontal stripes. Red 'Mothra no Tamagotchi' labels in English and Japanese writings surrounding screen.",
-                    ],
+                    {
+                        name: Green Stripes,
+                        img: mothra_green_stripes,
+                        alt: "Off-white shell and screen border. Light blue buttons. Light blue green horizontal stripes. Red 'Mothra no Tamagotchi' labels in English and Japanese writings surrounding screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: Garden
-            shells: [[White, garden_white, "White shell. Yellow screen border and buttons. Brown 'Morino Tamagotch' label and leaf/bug characters surrounding screen."]]
-
+            shells:
+                [
+                    {
+                        name: White,
+                        img: garden_white,
+                        alt: "White shell. Yellow screen border and buttons. Brown 'Morino Tamagotch' label and leaf/bug characters surrounding screen.",
+                    },
+                ]
           - name: divider
-
           - name: Mesutchi & Osutchi
             shells:
                 [
-                    [Green, osumesu_green, "White shell. Bright green screen border, buttons, top, 'tamagotch' label with characters, and stars surrounding screen."],
-                    [Orange, osumesu_orange, "White shell. Bright orange screen border, buttons, top, 'tamagotch' label with characters, and hearts surrounding screen."],
+                    {
+                        name: Green,
+                        img: osumesu_green,
+                        alt: "White shell. Bright green screen border, buttons, top, 'tamagotch' label with characters, and stars surrounding screen.",
+                    },
+                    {
+                        name: Orange,
+                        img: osumesu_orange,
+                        alt: "White shell. Bright orange screen border, buttons, top, 'tamagotch' label with characters, and hearts surrounding screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: Original Remakes (Oritama)
             generations:
                 - name: Gen 1
                   shells:
                       [
-                          [Flames, flames, "Black shell and buttons. Silver screen border. Purple flame design on bottom. White 'Tamagotchi' label."],
-                          [Ginjirotchi Comic, ginjiro_comic, "Black screen border. Light pink buttons. Purple/blue/pink comic book cells featuring Ginjirotchi character. White 'Tamagotchi' label."],
-                          [
-                              Kuchipatchi Comic,
-                              kuchipa_comic,
-                              "Black screen border. Bright orange buttons. Pink/green/orange comic book cells featuring Kuchipatchi character. White 'Tamagotchi' label.",
-                          ],
-                          [Mametchi Comic, mame_comic, "Black screen border. Dark blue buttons. Dark blue/yellow/red comic book cells featuring Mametchi character. White 'Tamagotchi' label."],
+                          {
+                              name: Flames,
+                              img: flames,
+                              alt: "Black shell and buttons. Silver screen border. Purple flame design on bottom. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Ginjirotchi Comic,
+                              img: ginjiro_comic,
+                              alt: "Black screen border. Light pink buttons. Purple/blue/pink comic book cells featuring Ginjirotchi character. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Kuchipatchi Comic,
+                              img: kuchipa_comic,
+                              alt: "Black screen border. Bright orange buttons. Pink/green/orange comic book cells featuring Kuchipatchi character. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Mametchi Comic,
+                              img: mame_comic,
+                              alt: "Black screen border. Dark blue buttons. Dark blue/yellow/red comic book cells featuring Mametchi character. White 'Tamagotchi' label.",
+                          },
                       ]
-
                 - name: divider
-
                 - name: Gen 2
                   shells:
                       [
-                          [Mimitchi Comic, mimi_comic, "Black screen border and buttons. Dark blue/yellow/teal comic book cells featuring Mimitchi character. White 'Tamagotchi' label."],
-                          [Pochitchi Comic, pochi_comic, "Black screen border. Yellow buttons. Yellow/orange/light blue comic book cells featuring Pochitchi character. White 'Tamagotchi' label."],
-                          [Rock Glitter, rock_glitter, "Black glitter shell. Red screen border and buttons. Red and white stripes/stars/checks/dots surrounding screen. White 'Tamagotchi' label."],
-                          [
-                              Tama Picnic,
-                              tama_picnic,
-                              "Light green transparent shell. Light blue screen border. Pink buttons. Characters laying on a checkered picnic blanket surrounded by flowers and picnic foods. White 'Tamagotchi' label.",
-                          ],
+                          {
+                              name: Mimitchi Comic,
+                              img: mimi_comic,
+                              alt: "Black screen border and buttons. Dark blue/yellow/teal comic book cells featuring Mimitchi character. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Pochitchi Comic,
+                              img: pochi_comic,
+                              alt: "Black screen border. Yellow buttons. Yellow/orange/light blue comic book cells featuring Pochitchi character. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Rock Glitter,
+                              img: rock_glitter,
+                              alt: "Black glitter shell. Red screen border and buttons. Red and white stripes/stars/checks/dots surrounding screen. White 'Tamagotchi' label.",
+                          },
+                          {
+                              name: Tama Picnic,
+                              img: tama_picnic,
+                              alt: "Light green transparent shell. Light blue screen border. Pink buttons. Characters laying on a checkered picnic blanket surrounded by flowers and picnic foods. White 'Tamagotchi' label.",
+                          },
                       ]
-
                 - name: divider
-
                 - name: Gen 3
                   shells:
                       [
-                          [
-                              Angel Sky,
-                              angel_sky,
-                              "Light blue transparent shell. Light blue screen border and buttons. White wings on either side of shell. Gold 'Tamagotchi' label, pixelated stars and swirls surrounding screen.",
-                          ],
-                          [
-                              Angel Party,
-                              angel_party,
-                              "Blue, yellow, and pink multicolored shell. Purple screen border. Pink buttons. White wings on either side of shell. Pink 'Tamagotchi' label and stars surrounding screen.",
-                          ],
+                          {
+                              name: Angel Sky,
+                              img: angel_sky,
+                              alt: "Light blue transparent shell. Light blue screen border and buttons. White wings on either side of shell. Gold 'Tamagotchi' label, pixelated stars and swirls surrounding screen.",
+                          },
+                          {
+                              name: Angel Party,
+                              img: angel_party,
+                              alt: "Blue, yellow, and pink multicolored shell. Purple screen border. Pink buttons. White wings on either side of shell. Pink 'Tamagotchi' label and stars surrounding screen.",
+                          },
                       ]
-
     - name: Connections Era
       series:
           - name: V1
             shells:
                 [
-                    [
-                        Green Squares,
-                        green_squares,
-                        "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background.",
-                    ],
-                    [Pearl Purple, pearl_purple, "Shiny purple shell and screen border. Bright purple buttons. 'Tamagotchi Connection' label on dark blue background."],
+                    {
+                        name: Green Squares,
+                        img: green_squares,
+                        alt: "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background.",
+                    },
+                    {
+                        name: Pearl Purple,
+                        img: pearl_purple,
+                        alt: "Shiny purple shell and screen border. Bright purple buttons. 'Tamagotchi Connection' label on dark blue background.",
+                    },
                 ]
-
           - name: divider
-
           - name: V2
             shells:
                 [
-                    [Clear Pink, clear_pink, "Transparent pink shell and screen border. Light pink buttons."],
-                    [True Friends - Flames (Black), flames_black, "Black shell. Yellow screen border, buttons. Red flame motif surrounding shell."],
-                    [True Friends - Flames (Gold), flames_gold, "Gold shell. Black screen border, buttons. Red flame motif surrounding shell."],
-                    [
-                        Island,
-                        island,
-                        "Light blue shell. Light green screen border. Yellow buttons. Ocean and beach scene with surf board and palm tree surrounding screen. 'Tamagotchi Connection' label on dark orange background.",
-                    ],
+                    { name: Clear Pink, img: clear_pink, alt: "Transparent pink shell and screen border. Light pink buttons." },
+                    {
+                        name: True Friends - Flames (Black),
+                        img: flames_black,
+                        alt: "Black shell. Yellow screen border, buttons. Red flame motif surrounding shell.",
+                    },
+                    {
+                        name: True Friends - Flames (Gold),
+                        img: flames_gold,
+                        alt: "Gold shell. Black screen border, buttons. Red flame motif surrounding shell.",
+                    },
+                    {
+                        name: Island,
+                        img: island,
+                        alt: "Light blue shell. Light green screen border. Yellow buttons. Ocean and beach scene with surf board and palm tree surrounding screen. 'Tamagotchi Connection' label on dark orange background.",
+                    },
                 ]
-
           - name: divider
-
           - name: K-Tama
-            shells: [[Lemon Yellow, lemon_yellow, "Bright yellow shell. Yellow green screen border. Bright green buttons and antenna cap. Bright yellow 'TMGC' label on bright green background."]]
-
+            shells:
+                [
+                    {
+                        name: Lemon Yellow,
+                        img: lemon_yellow,
+                        alt: "Bright yellow shell. Yellow green screen border. Bright green buttons and antenna cap. Bright yellow 'TMGC' label on bright green background.",
+                    },
+                ]
           - name: divider
-
           - name: Akai
             shells:
                 [
-                    [Pink Grapes, pink_grapes, "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen."],
-                    [Pirate, pirate, "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat."],
-                    [Viking, viking, "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen."],
+                    {
+                        name: Pink Grapes,
+                        img: pink_grapes,
+                        alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen.",
+                    },
+                    {
+                        name: Pirate,
+                        img: pirate,
+                        alt: "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat.",
+                    },
+                    {
+                        name: Viking,
+                        img: viking,
+                        alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: V3
             shells:
                 [
-                    [Arctic Camo, arctic_camo, "Light blue shell. White screen border and buttons. Blue/black camo print surrounding screen. 'Tamagotchi' label on blue background."],
-                    [
-                        Graffiti,
-                        graffiti,
-                        "Gray shell. Black screen border. Light blue buttons. Skull, peace signs, 'PEACE', 'YO', 'COOL', 'SWEET' in graffiti style surrounding screen. 'Tamagotchi Connection' label.",
-                    ],
-                    [Ice Cream, v3_ice_cream, "Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label."],
-                    [
-                        Japan,
-                        japan,
-                        "Black shell. Gray screen border and buttons. Red circle, gray dots, 'Nihon' in Japanese print surrounding screen. White 'Tamagotchi Connection' label on black background.",
-                    ],
-                    [Pink Bows, pink_bows, "Light pink shell. White screen border. Pink buttons. Pink/silver bows surrounding screen. Silver 'Tamagotchi' label."],
-                    [Red Stars, red_stars, "Red shell. Purple screen border. White buttons. Yellow sunburst, blue stars surrounding screen. 'Tamagotchi Connection' label on green background."],
-                    [
-                        Starry Sky,
-                        starry_sky,
-                        "Dark blue shell. Black screen border. Light blue buttons. Yellow stars connected by dashed lines surrounding screen. 'Tamagotchi Connection' label on light blue background.",
-                    ],
-                    [Waves, waves, "Light blue shell. Teal screen border. Yellow buttons. Blue/green wave shapes surrounding screen. 'Tamagotchi' label on dark blue background."],
+                    {
+                        name: Arctic Camo,
+                        img: arctic_camo,
+                        alt: "Light blue shell. White screen border and buttons. Blue/black camo print surrounding screen. 'Tamagotchi' label on blue background.",
+                    },
+                    {
+                        name: Graffiti,
+                        img: graffiti,
+                        alt: "Gray shell. Black screen border. Light blue buttons. Skull, peace signs, 'PEACE', 'YO', 'COOL', 'SWEET' in graffiti style surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: Ice Cream,
+                        img: v3_ice_cream,
+                        alt: "Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: Japan,
+                        img: japan,
+                        alt: "Black shell. Gray screen border and buttons. Red circle, gray dots, 'Nihon' in Japanese print surrounding screen. White 'Tamagotchi Connection' label on black background.",
+                    },
+                    {
+                        name: Pink Bows,
+                        img: pink_bows,
+                        alt: "Light pink shell. White screen border. Pink buttons. Pink/silver bows surrounding screen. Silver 'Tamagotchi' label.",
+                    },
+                    {
+                        name: Red Stars,
+                        img: red_stars,
+                        alt: "Red shell. Purple screen border. White buttons. Yellow sunburst, blue stars surrounding screen. 'Tamagotchi Connection' label on green background.",
+                    },
+                    {
+                        name: Starry Sky,
+                        img: starry_sky,
+                        alt: "Dark blue shell. Black screen border. Light blue buttons. Yellow stars connected by dashed lines surrounding screen. 'Tamagotchi Connection' label on light blue background.",
+                    },
+                    {
+                        name: Waves,
+                        img: waves,
+                        alt: "Light blue shell. Teal screen border. Yellow buttons. Blue/green wave shapes surrounding screen. 'Tamagotchi' label on dark blue background.",
+                    },
                 ]
-
           - name: divider
-
           - name: Entama
             shells:
                 [
-                    [Blue Guts, blue_guts, "Light blue shell. Light pink screen border. Yellow buttons and antenna ball. Yellow/pink dotted 'Guts' label and flower motif surrounding screen."],
-                    [Guts Summer, guts_summer, "Split white/green shell. White screen border. Contrasting grass/clouds motif surrounding shell. Orange/white 'Guts Summer' label."],
-                    [Guts Swimming, guts_swimming, "Split white/blue shell. White screen border. Contrasting wave motif surrounding screen. Pink/white 'Guts Swimming' label."],
+                    {
+                        name; Blue Guts,
+                        img: blue_guts,
+                        alt: "Light blue shell. Light pink screen border. Yellow buttons and antenna ball. Yellow/pink dotted 'Guts' label and flower motif surrounding screen.",
+                    },
+                    {
+                        name: Guts Summer,
+                        img: guts_summer,
+                        alt: "Split white/green shell. White screen border. Contrasting grass/clouds motif surrounding shell. Orange/white 'Guts Summer' label.",
+                    },
+                    {
+                        name: Guts Swimming,
+                        img: guts_swimming,
+                        alt: "Split white/blue shell. White screen border. Contrasting wave motif surrounding screen. Pink/white 'Guts Swimming' label.",
+                    },
                 ]
-
           - name: divider
-
           - name: V4
             shells:
                 [
-                    [Binary, binary, "Yellow shell, screen border, buttons. Red antenna ball. Orange/yellow/red binary print across front. 'Tamagotchi Connection' on red background."],
-                    [
-                        Black Lightning,
-                        black_lightning,
-                        "Black shell. Silver screen border. Red buttons and antenna ball. Silver lightning shapes surrounding screen. 'Tamagotchi Connection' label on red background.",
-                    ],
+                    {
+                        name: Binary,
+                        img: binary,
+                        alt: "Yellow shell, screen border, buttons. Red antenna ball. Orange/yellow/red binary print across front. 'Tamagotchi Connection' on red background.",
+                    },
+                    {
+                        name: Black Lightning,
+                        img: black_lightning,
+                        alt: "Black shell. Silver screen border. Red buttons and antenna ball. Silver lightning shapes surrounding screen. 'Tamagotchi Connection' label on red background.",
+                    },
                 ]
-
           - name: divider
-
           - name: Uratama
             shells:
                 [
-                    [
-                        Ura Circus,
-                        ura_circus,
-                        "White shell. Yellow screen border. Light purple buttons. Pink antenna star. Red stripes, orange/pink flags, balls, and characters surrounding screen. Red stripes on bottom.",
-                    ],
+                    {
+                        name: Ura Circus,
+                        img: ura_circus,
+                        alt: "White shell. Yellow screen border. Light purple buttons. Pink antenna star. Red stripes, orange/pink flags, balls, and characters surrounding screen. Red stripes on bottom.",
+                    },
                 ]
-
           - name: divider
-
           - name: V4.5
             shells:
                 [
-                    [
-                        Girls Rock,
-                        girls_rock,
-                        "Purple shell. Pink screen border, buttons, antenna star. Pink/purple/blue/white swirls surrounding screen. 'Tamagotchi Connection' on purple background.",
-                    ],
-                    [
-                        Puzzle Pieces,
-                        puzzle_pieces,
-                        "Purple shell and screen border. Bright green buttons and antenna star. Light purple/green/blue puzzle pieces surrounding screen. 'Tamagotchi Connection' on light purple background.",
-                    ],
-                    [
-                        Tribal Tattoo,
-                        tribal_tattoo,
-                        "Light green shell. Dark green screen border. Brown buttons and antenna star. Light green/black swirls surrounding screen. 'Tamagotchi Connection' on brown background.",
-                    ],
+                    {
+                        name: Girls Rock,
+                        img: girls_rock,
+                        alt: "Purple shell. Pink screen border, buttons, antenna star. Pink/purple/blue/white swirls surrounding screen. 'Tamagotchi Connection' on purple background.",
+                    },
+                    {
+                        name: Puzzle Pieces,
+                        img: puzzle_pieces,
+                        alt: "Purple shell and screen border. Bright green buttons and antenna star. Light purple/green/blue puzzle pieces surrounding screen. 'Tamagotchi Connection' on light purple background.",
+                    },
+                    {
+                        name: Tribal Tattoo,
+                        img: tribal_tattoo,
+                        alt: "Light green shell. Dark green screen border. Brown buttons and antenna star. Light green/black swirls surrounding screen. 'Tamagotchi Connection' on brown background.",
+                    },
                 ]
-
           - name: divider
-
           - name: V5
-            shells: [[Love, love, "Pink shell. Blue screen border. Yellow buttons. Pink antenna roof. Yellow/blue/pink characters, hearts, flowers surrounding screen. 'Love My Family' label."]]
-
+            shells:
+                [
+                    {
+                        name: Love,
+                        img: love,
+                        alt: "Pink shell. Blue screen border. Yellow buttons. Pink antenna roof. Yellow/blue/pink characters, hearts, flowers surrounding screen. 'Love My Family' label.",
+                    },
+                ]
           - name: divider
-
           - name: V6
-            shells: [[Glam Rock, glam_rock, "Black shell, screen border, buttons. Pink/purple flame, white star motif surrounding shell. 'Tamagotchi' label on pink background."]]
-
+            shells:
+                [
+                    {
+                        name: Glam Rock,
+                        img: glam_rock,
+                        alt: "Black shell, screen border, buttons. Pink/purple flame, white star motif surrounding shell. 'Tamagotchi' label on pink background.",
+                    },
+                ]
           - name: divider
-
           - name: Connection Remakes (RV3)
             shells:
                 [
-                    [
-                        Ice Cream,
-                        rv3_ice_cream,
-                        "Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label on dark purple background.",
-                    ],
-                    [Bubbles, bubbles, "Light blue shell. Blue screen border. Teal buttons. Teal/white/blue bubble motif surrounding screen. 'Tamagotchi Connection' label on blue background."],
-                    [Melon Soda, melon_soda, "Glittery teal shell and screen border. White buttons and antenna cap. White glass and bubbles motif surrounding screen. 'Tamagotchi Connection' label."],
-                    [True Friends - Aura (Heart), heart_aura, "Red screen border. White buttons. Concentric heart motif surrounding screen. 'Tamagotchi Connection' label."],
-                    [True Friends - Aura (Star), star_aura, "Dark blue screen border. White buttons. Concentric star motif surrounding screen. 'Tamagotchi Connection' label."],
-                    [
-                        True Friends - Graffiti (Blue),
-                        blue_graffiti,
-                        "Light blue shell. Black screen border, buttons. Multicolor zig-zag, lightning graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
-                    ],
-                    [
-                        True Friends - Graffiti (Pink),
-                        pink_graffiti,
-                        "Light pink shell. Black screen border. White buttons. Multicolor heart graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
-                    ],
+                    {
+                        name: Ice Cream,
+                        img: rv3_ice_cream,
+                        alt: Pink shell. Light purple screen border. Yellow buttons. Icecream/popsicle motif surrounding screen. 'Tamagotchi Connection' label on dark purple background.",
+                    },
+                    {
+                        name: Bubbles,
+                        img: bubbles,
+                        alt: "Light blue shell. Blue screen border. Teal buttons. Teal/white/blue bubble motif surrounding screen. 'Tamagotchi Connection' label on blue background.",
+                    },
+                    {
+                        name: Melon Soda,
+                        img: melon_soda,
+                        alt: "Glittery teal shell and screen border. White buttons and antenna cap. White glass and bubbles motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: True Friends - Aura (Heart),
+                        img: heart_aura,
+                        alt: "Red screen border. White buttons. Concentric heart motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: True Friends - Aura (Star),
+                        img: star_aura,
+                        alt: "Dark blue screen border. White buttons. Concentric star motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: True Friends - Graffiti (Blue),
+                        img: blue_graffiti,
+                        alt: "Light blue shell. Black screen border, buttons. Multicolor zig-zag, lightning graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
+                    {
+                        name: True Friends - Graffiti (Pink),
+                        img: pink_graffiti,
+                        alt: "Light pink shell. Black screen border. White buttons. Multicolor heart graffiti motif surrounding screen. 'Tamagotchi Connection' label.",
+                    },
                 ]
-
     - name: Modern Era
       series:
           - name: iD L
-            shells: [[Pink, idl_pink, "Pink shell, gem-cut faceplate. White buttons."]]
-
+            shells: [{ name: Pink, img: idl_pink, alt: "Pink shell, gem-cut faceplate. White buttons." }]
           - name: divider
-
           - name: Friends
             shells:
                 [
-                    [Polka Dot, friends_polkadot, "Pink shell. Black faceplate with white polkadots motif. White buttons. Pink bow above screen. 'Tamagotchi Friends' label."],
-                    [
-                        Friends Dream Town,
-                        friends_plaid,
-                        "Purple shell. Purple plaid faceplate. Pink heart decal above screen with 'Tamagotchi Friends' label. 'Tamagotchi Dream Town' in gold script below screen.",
-                    ],
+                    {
+                        name: Polka Dot,
+                        img: friends_polkadot,
+                        alt: "Pink shell. Black faceplate with white polkadots motif. White buttons. Pink bow above screen. 'Tamagotchi Friends' label.",
+                    },
+                    {
+                        name: Friends Dream Town,
+                        img: friends_plaid,
+                        alt: "Purple shell. Purple plaid faceplate. Pink heart decal above screen with 'Tamagotchi Friends' label. 'Tamagotchi Dream Town' in gold script below screen.",
+                    },
                 ]
-
           - name: divider
-
           - name: 4U
             shells:
                 [
-                    [Blue, 4u_blue, "Blue shell. White buttoms. Silver faceplate."],
-                    [Blue (American Comic), 4u_comic, "Blue shell. White buttons. Faceplate featuring comic book-style art and tamagotchi characters. Red 'TMGC' label in comicbook font."],
-                    [Pink (TMGC Friends), 4u_friends, "Pink shell. White buttoms. Faceplate featuring popular tamagotchi characters. Pastel 'TMGC' label in blocky font."],
+                    { name: Blue, img: 4u_blue, alt: "Blue shell. White buttoms. Silver faceplate." },
+                    {
+                        name: Blue (American Comic),
+                        img: 4u_comic,
+                        alt: "Blue shell. White buttons. Faceplate featuring comic book-style art and tamagotchi characters. Red 'TMGC' label in comicbook font.",
+                    },
+                    {
+                        name: Pink (TMGC Friends),
+                        img: 4u_friends,
+                        alt: "Pink shell. White buttoms. Faceplate featuring popular tamagotchi characters. Pastel 'TMGC' label in blocky font.",
+                    },
                 ]
-
           - name: divider
-
           - name: Pix
-            shells: [[Nature, pix_nature, "Light green shell. White buttons. White/dark green leaf motif surrounding screen."]]
-
+            shells: [{ name: Nature, img: pix_nature, alt: "Light green shell. White buttons. White/dark green leaf motif surrounding screen." }]
           - name: divider
-
           - name: Uni
             shells:
                 [
-                    [Angel Festival, uni_angel, "Pink shell. Blue buttons. Blue faceplate with pink/white cloud, yellow star motif. Pink 'Tamagotchi Uni' label."],
-                    [Monster Carnival, uni_monster, "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label."],
-                    [Custom, uni_custom, "Red transparent shell. Black buttons. Purple faceplate with light purple butterfly and cloud motif surrounding shell. White 'Tamagotchi Uni' label."],
+                    {
+                        name: Angel Festival,
+                        img: uni_angel,
+                        alt: "Pink shell. Blue buttons. Blue faceplate with pink/white cloud, yellow star motif. Pink 'Tamagotchi Uni' label.",
+                    },
+                    {
+                        name: Monster Carnival,
+                        img: uni_monster,
+                        alt: "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label.",
+                    },
+                    {
+                        name: Custom,
+                        img: uni_custom,
+                        alt: "Red transparent shell. Black buttons. Purple faceplate with light purple butterfly and cloud motif surrounding shell. White 'Tamagotchi Uni' label.",
+                    },
                 ]
-
           - name: divider
-
           - name: Paradise
-            shells: [[Purple Sky, paradise_purple, "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label."]]
-
+            shells:
+                [
+                    {
+                        name: Purple Sky,
+                        img: paradise_purple,
+                        alt: "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label.",
+                    },
+                ]
     - name: Other Vpets
       series:
           - name: GigaPets (Vintage)
             shells:
                 [
-                    [Digital Doggie, gp_doggie, "Purple translucent shell. Green buttons. 'GigaPets' and 'Digital Doggie' labels, and dog illustrations surrounding screen."],
-                    [Komputer Koala, gp_koala, "Pink translucent shell. Orange buttons. 'GigaPets' and 'Komputer Koala' labels, and koala illustrations surrounding screen."],
-                    [Salem the Cat, gp_salem, "Black shell. Pink buttons. 'GigaPets', 'Sabrina the Teenage Witch', and 'Salem the Cat' labels, and stars/cat illustrations surrounding screen."],
+                    {
+                        name: Digital Doggie,
+                        img: gp_doggie,
+                        alt: "Purple translucent shell. Green buttons. 'GigaPets' and 'Digital Doggie' labels, and dog illustrations surrounding screen.",
+                    },
+                    {
+                        name: Komputer Koala,
+                        img: gp_koala,
+                        alt: "Pink translucent shell. Orange buttons. 'GigaPets' and 'Komputer Koala' labels, and koala illustrations surrounding screen.",
+                    },
+                    {
+                        name: Salem the Cat,
+                        img: gp_salem,
+                        alt: "Black shell. Pink buttons. 'GigaPets', 'Sabrina the Teenage Witch', and 'Salem the Cat' labels, and stars/cat illustrations surrounding screen.",
+                    },
                 ]
           - name: divider
-
           - name: GigaPets (Remakes)
-            shells: [[Cryptids, gp_cryptid, "Orange translucent shell. Green buttons. 'GigaPets' label above screen. Fall leaf illustrations surrounding screen."]]
+            shells:
+                [
+                    {
+                        name: Cryptids,
+                        img: gp_cryptid,
+                        alt: "Orange translucent shell. Green buttons. 'GigaPets' label above screen. Fall leaf illustrations surrounding screen.",
+                    },
+                ]

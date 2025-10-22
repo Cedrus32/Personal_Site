@@ -36,8 +36,8 @@ permalink: /tamas/collection
 		{% for shell in gen.shells %}
 		<li>
 			<figure>
-				<img loading="lazy" src="{{ site.data.collection.root | append: shell[1] | append: site.data.collection.ext }}" alt="{{shell[2]}}" />
-				<figcaption>{{shell[0]}}</figcaption>
+				<img loading="lazy" src="{{site.data.collection.root | append: shell.img | append: site.data.collection.ext}}" alt="{{shell.alt}}" />
+				<figcaption>{{shell.name}}</figcaption>
 			</figure>
 		</li>
 		{% endfor %}
@@ -49,8 +49,8 @@ permalink: /tamas/collection
 		{% for shell in series.shells %}
 		<li>
 			<figure>
-				<img loading="lazy" src="{{ site.data.collection.root | append: shell[1] | append: site.data.collection.ext }}" alt="{{shell[2]}}" />
-				<figcaption>{{shell[0]}}</figcaption>
+				<img loading="lazy" src="{{site.data.collection.root | append: shell.img | append: site.data.collection.ext}}" alt="{{shell.alt}}" />
+				<figcaption>{{shell.name}}</figcaption>
 			</figure>
 		</li>
 		{% endfor %}

@@ -1,4 +1,4 @@
-{% assign name = include.chart_name %} {% for chart in site.data.charts.list %} {% if chart.name == name %}
+{% for chart in site.data.charts.list %} {% if chart.name == include.chart_name %}
 <table class="growth-chart">
 	<caption tabindex="0">{{chart.title}}</caption>
 	<thead>

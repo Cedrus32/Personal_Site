@@ -20,25 +20,27 @@ to_top: true
 <section class="link-group">
 	<h2>Other Sites</h2>
 	<span>
-		These are sites I find helpful, interesting, cute, or otherwise enjoyable. While I don't personally feature strong language and adult themes, I am an adult and so are the owners of these
-		spaces.
+		These are sites I find helpful, interesting, cute, or otherwise enjoyable. While I don't personally feature strong language and adult themes,
+		I am an adult and so are the owners of these spaces.
 	</span>
 	<h3>Personals</h3>
 	<ul class="img-group">
-		{% for link in site.data.links.personal.items %}
+		{% for link in site.data.links.personal.links %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.alt}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
+				class="freeze" {% endif %} alt="{{link.alt}}" /></a
 			>
 		</li>
 		{% endfor %}
 	</ul>
 	<h3>Non-Personals</h3>
 	<ul class="img-group">
-		{% assign root = site.data.links.non-personal.root %} {% for link in site.data.links.non-personal.items %}
+		{% for link in site.data.links.non-personal.links %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %} class="freeze" {% endif %} alt="{{link.alt}}" /></a
+				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
+				class="freeze" {% endif %} alt="{{link.alt}}" /></a
 			>
 		</li>
 		{% endfor %}
@@ -49,49 +51,29 @@ to_top: true
 	<h2>Webrings & Directories</h2>
 	<p>I do not feature explicit content. The same cannot be said for others in the webrings/directories below.</p>
 	<ul class="img-group">
+		{% for link in site.data.links.webrings.links %}
 		<li>
-			<nav class="lissa webring">
+			<nav class="{{link.class}} webring">
 				<ul>
-					<li class="nav"><a href="https://genlissa.baccyflap.com/?prv&s=ced" target="_top" title="previous">« prev</a></li>
-					<li>
-						<a href="https://genlissa.baccyflap.com" target="_blank" title="Gen Lissa Webring Home"> 🌈 I'm Gen Lissa ☮️ </a>
-					</li>
-					<li><a href="https://genlissa.baccyflap.com/?rnd" target="_blank" title="random">(?)</a></li>
-					<li class="nav"><a href="https://genlissa.baccyflap.com/?nxt&s=ced" target="_top" title="next">next »</a></li>
+					<li class="nav"><a href="{{link.prev}}" target="_top" title="previous">{{site.data.links.webrings.prev_text}}</a></li>
+					<li class="nav"><a href="{{link.home}}" target="_blank" title="link.title">{{link.main_text}}</a></li>
+					{% if link.rand %}
+					<li class="nav"><a href="{{link.rand}}" target="_top" title="random">{{site.data.links.webrings.rand_text}}</a></li>
+					{% endif %}
+					<li class="nav"><a href="{{link.next}}" target="_top" title="next">{{site.data.links.webrings.next_text}}</a></li>
 				</ul>
 			</nav>
 		</li>
+		{% endfor %}
+	</ul>
+	<ul class="img-group">
+		{% for link in site.data.links.directories.links %}
 		<li>
-			<nav class="noai webring">
-				<ul>
-					<li class="nav"><a href="https://baccyflap.com/noai/?prv&s=ced" target="_top" title="previous">« prev</a></li>
-					<li><a href="https://baccyflap.com/noai" target="_blank" title="No AI Webring Home">no ai &#x1f6ab; &#129302; webring</a></li>
-					<li><a href="https://baccyflap.com/noai/?rnd" target="_top" title="random">(?)</a></li>
-					<li class="nav"><a href="https://baccyflap.com/noai/?nxt&s=ced" target="_top" title="next">next »</a></li>
-				</ul>
-			</nav>
-		</li>
-		<li>
-			<nav class="tama webring">
-				<ul>
-					<li class="nav"><a href="https://maybesomething.neocities.org/" target="_top" title="previous">« prev</a></li>
-					<li>
-						<a href="https://underkat.neocities.org/tamaring" title="Tamagotchi Webring Home"> TAMAGOTCHI 🥚 WEBRING </a>
-					</li>
-					<li class="nav"><a href="https://underkat.neocities.org/tamaring" target="_top" title="next">next »</a></li>
-				</ul>
-			</nav>
-		</li>
-		<li>
-			<a href="https://kalechips.net/responsive/index"><img loading="lazy" src="/assets/images/links/webrings/responsiveweb.png" alt="Responsive Webring Homepage" /></a>
-		</li>
-		<li>
-			<a href="https://www.beepbird.net/webring/index.html"><img loading="lazy" src="/assets/images/links/webrings/focusfirst.png" alt="Focus First Webring Homepage" /></a>
-		</li>
-		<li>
-			<a rel="external" href="https://pinkvampyr.leprd.space/accessiblenet/index.php">
-				<img loading="lazy" src="/assets/images/links/webrings/accessible.png" alt="Accessible Webring Homepage" />
+			<a href="{{link.url}}">
+				<img loading="lazy" src="{{site.data.links.directories.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
+				class="freeze" {% endif %} alt="{{link.alt}}" />
 			</a>
 		</li>
+		{% endfor %}
 	</ul>
 </section>

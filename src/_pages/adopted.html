@@ -15,8 +15,8 @@ permalink: /pixels/adopted
 	{% for set in site.data.adopted.sets %}
 	<li>
 		<a rel="external" href="{{ set.url }}">
-			{% for item in set.items %} {% assign img = item[0] | split: '.' %} <img loading="lazy" src="{{ site.data.adopted.root | append: item[0] }}" {% if img[1] == 'gif' %} class="freeze" {%
-			endif %} alt="{{item[1]}}" /> {% endfor %}
+			{% for item in set.items %} <img loading="lazy" src="{{ site.data.adopted.root | append: item.img | append: item.ext }}" {% if item.ext ==
+			'.gif' %} class="freeze" {% endif %} alt="{{item.alt}}" /> {% endfor %}
 		</a>
 	</li>
 	{% endfor %}
