@@ -6,19 +6,19 @@ list:
       title: Tamagotchi Akai Growth Chart
       credit: https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus_Akai/Character_list
       stages:
-          - name: baby,
+          - name: baby
             chars:
                 [
                     { name: Heartchi, alt: "Red upside down heart shape character.", complete: false, date: null },
                     { name: ShiroHeartchi, alt: "White heart shape character.", complete: true, date: 09/28/2025 },
                 ]
-          - name: toddler,
+          - name: toddler
             chars:
                 [
                     { name: Cherrytchi, alt: "Cherry-shaped character.", complete: true, date: 09/28/2025 },
                     { name: Kuribotchi, alt: "Acorn-shaped character.", complete: false, date: null },
                 ]
-          - name: teens,
+          - name: teens
             chars:
                 [
                     { name: Ringotchi, alt: "Apple-shaped character.", complete: true, date: 10/12/2025 },
