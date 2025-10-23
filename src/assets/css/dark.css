@@ -5,9 +5,8 @@
 	--med-blue: #91bad8;
 	--dark-blue: #1d5480;
 	--green: #baf2d1;
-	--darkgreen: #006611;
 	--yellow: #ffe45c;
-	--darklissa: #9e009e;
+	--red: #ffc7dd;
 	--box-bg: #236190;
 	--open-bg: rgb(35, 97, 144, 0.9);
 }
@@ -72,8 +71,8 @@ dialog button {
 }
 
 .incomplete {
-	background-color: var(--darklissa);
+	color: var(--red);
 }
 .complete {
-	background-color: var(--darkgreen);
+	color: var(--green);
 }
