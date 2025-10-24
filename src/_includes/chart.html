@@ -22,7 +22,7 @@
 							{% assign name = char.name | downcase | split: " " | join: "" %}
 							<img loading="lazy" src='{{site.data.charts.root | append: chart.dir | append: name | append: site.data.charts.ext}}'/>
 							<figcaption>{{char.name}}</figcaption>
-							<span>{% if char.complete == false %} Ⅹ (incomplete) {% else if char.complete == true %} {% assign completed = completed | plus: 1 %} ✓ ({{char.date}}) {% endif %}</span>
+							<span>{% if char.complete == false %} Ｘ incomplete {% else if char.complete == true %} {% assign completed = completed | plus: 1 %} <span aria-label="complete" role="img">✔</span> {{char.date}} {% endif %}</span>
 						</figure>
 					</li>
 					{% endfor %}

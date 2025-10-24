@@ -53,7 +53,7 @@ webrings:
     links:
         [
             {
-                main_text: "🌈 I'm Gen Lissa ☮️",
+                main_text: "I'm Gen Lissa",
                 title: "Fen Lissa Webring Home",
                 home: https://genlissa.baccyflap.com,
                 prev: https://genlissa.baccyflap.com/?prv&s=ced,
@@ -62,7 +62,7 @@ webrings:
                 class: lissa,
             },
             {
-                main_text: "no ai 🚫🤖 webring",
+                main_text: "no ai webring",
                 title: "No AI Webring Home",
                 home: https://baccyflap.com/noai,
                 prev: https://baccyflap.com/noai/?prv&s=ced,
@@ -71,7 +71,7 @@ webrings:
                 class: noai,
             },
             {
-                main_text: "TAMAGOTCHI 🥚 WEBRING",
+                main_text: "TAMAGOTCHI WEBRING",
                 title: "Tamagotchi Webring Home",
                 home: https://underkat.neocities.org/tamaring,
                 prev: https://maybesomething.neocities.org/,
