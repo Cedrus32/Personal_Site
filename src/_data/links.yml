@@ -20,17 +20,21 @@ personal:
             { url: https://joejoefashosho.neocities.org, img: joejoe, ext: .gif, alt: "Joejoefashosho" },
             { url: https://kiosrel.com/, img: Kioweb-button, ext: .gif, alt: "Kiosrel" },
             { url: https://lazybones.neocities.org, img: lazybgif, ext: .gif, alt: "Lazybones" },
+            { url: https://lint.neocities.org, img: lint, ext: .png, alt: "Lintnaya" },
             { url: https://maya.land, img: mayaland, ext: .png, alt: "Maya Land" },
             { url: https://renkotsuban.com/index.html, img: hcOScjp0ia-88, ext: .png, alt: "Midnight Reading Renkon's Personal Blog" },
             { url: https://miela583.neocities.org, img: miela_button, ext: .gif, alt: "Miela583" },
             { url: https://nenrikido.neocities.org, img: nenrikido_button, ext: .gif, alt: "Nenrikido" },
             { url: https://norea3a.neocities.org, img: norasDigitalUndergroundButton, ext: .png, alt: "Nora's Digital Underground" },
             { url: https://oopsiedoodle.com, img: OopsieDoodleButton, ext: .png, alt: "Oopsie Doodle" },
+            { url: https://pixelglade.net.au, img: pixelglade, ext: .png, alt: "Pixelglade" },
+            { url: https://ratwalks.neocities.org, img: ratwalks, ext: .png, alt: "Ratwalks" },
             { url: https://blamensir.neocities.org/, img: sanktblamensir, ext: .png, alt: "Sankt Blamensir" },
             { url: https://starry-knight.neocities.org/, img: button-starrys-grove, ext: .png, alt: "Starry's Grove" },
             { url: https://sweetcharm.net, img: sweetcharm, ext: .gif, alt: "Sweet Charm" },
             { url: https://virtualobserver.moe, img: virtualobserver, ext: .png, alt: "Virtual Observer" },
             { url: https://waywardlamb.neocities.org/, img: waywardlamb5, ext: .png, alt: "Wayward Lamb" },
+            { url: https://yarnfish.neocities.org, img: yarnfish, ext: .gif, alt: "Yarnfish" },
         ]
 non-personal:
     root: /assets/images/links/other_sites/

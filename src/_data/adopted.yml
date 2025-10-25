@@ -127,3 +127,17 @@ sets:
     - name: Peachnuts
       url: https://peachnuts.neocities.org
       items: [{ img: sunglasses, ext: .png, alt: "Black Chanel sunglasses." }, { img: flameboot, ext: .png, alt: "Cowboy boot with flame design." }]
+    - name: yarnfish
+      url: https://yarnfish.neocities.org/
+      items:
+          [
+              { img: crochet_hook_yellow, ext: .png, alt: "Crochet hook with yellow handle." },
+              { img: skein_yellow, ext: .png, alt: "Skein of yellow yarn." },
+          ]
+    - name: Cobyzaby,
+      url: https://cobyzaby.neocities.org/home
+      items:
+          [
+              { img: little_devil, ext: .png, alt: "Devil character with wings and pitchfork." },
+              { img: yum_eye2, ext: .png, alt: "Purple and blue eye open wide." },
+          ]
