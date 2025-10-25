@@ -3,47 +3,47 @@ personal:
     root: /assets/images/links/other_sites/
     links:
         [
-            { url: https://karma.computer, img: CqWV3QPpEA-88, ext: .png, alt: "10kph homepage" },
-            { url: https://14-4ml.neocities.org/, img: 144ml, ext: .gif, alt: "14.4ml homepage" },
-            { url: https://www.autisticasfxxk.com, img: autisticasfxxk, ext: .gif, alt: "Autistic As Fuck homepage" },
-            { url: https://www.beepbird.net/, img: greenowl, ext: .png, alt: "Beep Bird homepage" },
-            { url: https://cervidaze.me, img: cervidaze_button, ext: .png, alt: "Cervidaze homepage" },
-            { url: https://cloverbell.neocities.org/, img: cloverbell, ext: .gif, alt: "Cloverbell homepage" },
-            { url: https://colrana.neocities.org/, img: col_button, ext: .gif, alt: "Colrana homepage" },
-            { url: https://craftinatorics.com/credits/, img: craftinatorics_button, ext: .png, alt: "Craftinatorics homepage" },
-            { url: https://doqmeat.com, img: doqmeat, ext: .png, alt: "Des' Digital Jornal homepage" },
-            { url: https://digipiedra.neocities.org, img: digipiedraBtn, ext: .png, alt: "Digipiedra homepage" },
-            { url: https://dollarchive.neocities.org, img: dollarchive, ext: .gif, alt: "Doll Archive homepage" },
-            { url: https://dustbunnybedroom.neocities.org, img: dstbnnybdrm-button, ext: .gif, alt: "Dust Bunny Bedroom homepage" },
-            { url: https://www.thefrugalgamer.net/, img: frugalgamer_button1, ext: .png, alt: "The Frugal Gamer homepage" },
-            { url: https://garblegarden.neocities.org, img: garblegarden, ext: .png, alt: "Garblegarden homepage" },
-            { url: https://joejoefashosho.neocities.org, img: joejoe, ext: .gif, alt: "Joejoefashosho homepage" },
-            { url: https://kiosrel.com/, img: Kioweb-button, ext: .gif, alt: "Kiosrel homepage" },
-            { url: https://lazybones.neocities.org, img: lazybgif, ext: .gif, alt: "Lazybones homepage" },
-            { url: https://maya.land, img: mayaland, ext: .png, alt: "Maya Land homepage" },
+            { url: https://karma.computer, img: CqWV3QPpEA-88, ext: .png, alt: "10kph" },
+            { url: https://14-4ml.neocities.org/, img: 144ml, ext: .gif, alt: "14.4ml" },
+            { url: https://www.autisticasfxxk.com, img: autisticasfxxk, ext: .gif, alt: "Autistic As Fuck" },
+            { url: https://www.beepbird.net/, img: greenowl, ext: .png, alt: "Beep Bird" },
+            { url: https://cervidaze.me, img: cervidaze_button, ext: .png, alt: "Cervidaze" },
+            { url: https://cloverbell.neocities.org/, img: cloverbell, ext: .gif, alt: "Cloverbell" },
+            { url: https://colrana.neocities.org/, img: col_button, ext: .gif, alt: "Colrana" },
+            { url: https://craftinatorics.com/credits/, img: craftinatorics_button, ext: .png, alt: "Craftinatorics" },
+            { url: https://doqmeat.com, img: doqmeat, ext: .png, alt: "Des' Digital Jornal" },
+            { url: https://digipiedra.neocities.org, img: digipiedraBtn, ext: .png, alt: "Digipiedra" },
+            { url: https://dollarchive.neocities.org, img: dollarchive, ext: .gif, alt: "Doll Archive" },
+            { url: https://dustbunnybedroom.neocities.org, img: dstbnnybdrm-button, ext: .gif, alt: "Dust Bunny Bedroom" },
+            { url: https://www.thefrugalgamer.net/, img: frugalgamer_button1, ext: .png, alt: "The Frugal Gamer" },
+            { url: https://garblegarden.neocities.org, img: garblegarden, ext: .png, alt: "Garblegarden" },
+            { url: https://joejoefashosho.neocities.org, img: joejoe, ext: .gif, alt: "Joejoefashosho" },
+            { url: https://kiosrel.com/, img: Kioweb-button, ext: .gif, alt: "Kiosrel" },
+            { url: https://lazybones.neocities.org, img: lazybgif, ext: .gif, alt: "Lazybones" },
+            { url: https://maya.land, img: mayaland, ext: .png, alt: "Maya Land" },
             { url: https://renkotsuban.com/index.html, img: hcOScjp0ia-88, ext: .png, alt: "Midnight Reading Renkon's Personal Blog" },
-            { url: https://miela583.neocities.org, img: miela_button, ext: .gif, alt: "Miela583 homepage" },
-            { url: https://nenrikido.neocities.org, img: nenrikido_button, ext: .gif, alt: "Nenrikido homepage" },
-            { url: https://norea3a.neocities.org, img: norasDigitalUndergroundButton, ext: .png, alt: "Nora's Digital Underground homepage" },
-            { url: https://oopsiedoodle.com, img: OopsieDoodleButton, ext: .png, alt: "Oopsie Doodle homepage" },
-            { url: https://blamensir.neocities.org/, img: sanktblamensir, ext: .png, alt: "Sankt Blamensir homepage" },
-            { url: https://starry-knight.neocities.org/, img: button-starrys-grove, ext: .png, alt: "Starry's Grove homepage" },
-            { url: https://sweetcharm.net, img: sweetcharm, ext: .gif, alt: "Sweet Charm homepage" },
-            { url: https://virtualobserver.moe, img: virtualobserver, ext: .png, alt: "Virtual Observer homepage" },
-            { url: https://waywardlamb.neocities.org/, img: waywardlamb5, ext: .png, alt: "Wayward Lamb homepage" },
+            { url: https://miela583.neocities.org, img: miela_button, ext: .gif, alt: "Miela583" },
+            { url: https://nenrikido.neocities.org, img: nenrikido_button, ext: .gif, alt: "Nenrikido" },
+            { url: https://norea3a.neocities.org, img: norasDigitalUndergroundButton, ext: .png, alt: "Nora's Digital Underground" },
+            { url: https://oopsiedoodle.com, img: OopsieDoodleButton, ext: .png, alt: "Oopsie Doodle" },
+            { url: https://blamensir.neocities.org/, img: sanktblamensir, ext: .png, alt: "Sankt Blamensir" },
+            { url: https://starry-knight.neocities.org/, img: button-starrys-grove, ext: .png, alt: "Starry's Grove" },
+            { url: https://sweetcharm.net, img: sweetcharm, ext: .gif, alt: "Sweet Charm" },
+            { url: https://virtualobserver.moe, img: virtualobserver, ext: .png, alt: "Virtual Observer" },
+            { url: https://waywardlamb.neocities.org/, img: waywardlamb5, ext: .png, alt: "Wayward Lamb" },
         ]
 non-personal:
     root: /assets/images/links/other_sites/
     links:
         [
-            { url: https://32bit.cafe, img: 32bitty-loren, ext: .png, alt: "32-Bit Cafe homepage" },
-            { url: https://www.a11ycat.net, img: a11ycat, ext: .png, alt: "Alley Cat homepage" },
-            { url: https://afterthebeep.tel/, img: afterthebeep, ext: .png, alt: "After The Beep homepage" },
+            { url: https://32bit.cafe, img: 32bitty-loren, ext: .png, alt: "32-Bit Cafe" },
+            { url: https://www.a11ycat.net, img: a11ycat, ext: .png, alt: "Alley Cat" },
+            { url: https://afterthebeep.tel/, img: afterthebeep, ext: .png, alt:" After The Beep" },
             { url: https://frutigeraeroarchive.org, img: frutigeraeroarchive_button, ext: .png, alt: "Frutiger Aero Archive" },
             { url: https://archive.org, img: e-ia, ext: .png, alt: "Internet Archive" },
             { url: https://motherfuckingwebsite.com, img: mfwebsite, ext: .png, alt: "Motherfucking Website" },
             { url: https://readingproject.au, img: ReadingProjectButton2, ext: .png, alt: "The Reading Project Archive" },
-            { url: https://surfscape.neocities.org, img: surfscape_v2, ext: .png, alt: "Surfscape homepage" },
+            { url: https://surfscape.neocities.org, img: surfscape_v2, ext: .png, alt: "Surfscape" },
         ]
 webrings:
     root: /assets/images/links/webrings/
@@ -54,7 +54,7 @@ webrings:
         [
             {
                 main_text: "I'm Gen Lissa",
-                title: "Fen Lissa Webring Home",
+                title: "Gen Lissa Webring",
                 home: https://genlissa.baccyflap.com,
                 prev: https://genlissa.baccyflap.com/?prv&s=ced,
                 next: https://genlissa.baccyflap.com/?nxt&s=ced,
@@ -63,7 +63,7 @@ webrings:
             },
             {
                 main_text: "no ai webring",
-                title: "No AI Webring Home",
+                title: "No AI Webring",
                 home: https://baccyflap.com/noai,
                 prev: https://baccyflap.com/noai/?prv&s=ced,
                 next: https://baccyflap.com/noai/?nxt&s=ced,
@@ -72,7 +72,7 @@ webrings:
             },
             {
                 main_text: "TAMAGOTCHI WEBRING",
-                title: "Tamagotchi Webring Home",
+                title: "Tamagotchi Webring",
                 home: https://underkat.neocities.org/tamaring,
                 prev: https://maybesomething.neocities.org/,
                 next: https://gumbahgoo.neocities.org,
@@ -83,7 +83,8 @@ directories:
     root: /assets/images/links/webrings/
     links:
         [
-            { url: https://kalechips.net/responsive/index, img: responsiveweb, ext: .png, alt: "Responsive Webring Homepage" },
-            { url: https://www.beepbird.net/webring/index.html, img: focusfirst, ext: .png, alt: "Focus First Webring Homepage" },
-            { url: https://pinkvampyr.leprd.space/accessiblenet/index.php, img: accessible, ext: .png, alt: "Accessible Webring Homepage" },
+            { url: https://pixscape.neocities.org, img: pixscape, ext: .png, alt: "Pixscape Directory" },
+            { url: https://kalechips.net/responsive/index, img: responsiveweb, ext: .png, alt: "Responsive Wed Directory" },
+            { url: https://www.beepbird.net/webring/index.html, img: focusfirst, ext: .png, alt: "Focus First Webring & Directory" },
+            { url: https://pinkvampyr.leprd.space/accessiblenet/index.php, img: accessible, ext: .png, alt: "Accessible Net Directory" },
         ]
