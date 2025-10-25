@@ -684,6 +684,30 @@ dialog::backdrop {
 	color: #e993ad;
 }
 
+.collector {
+	background-color: #6a3d39;
+}
+.collector a,
+.collector a:hover {
+	color: #d4afaf;
+}
+
+.joy {
+	background-color: #8db0aa;
+}
+.joy a,
+.joy a:hover {
+	color: #1e1e1e;
+}
+
+.webmaster {
+	background-color: #2c7aba;
+}
+.webmaster a,
+.webmaster a:hover {
+	color: #ffffff;
+}
+
 /* FONTS */
 /* nunito-regular - latin */
 @font-face {

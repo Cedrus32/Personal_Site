@@ -78,6 +78,33 @@ webrings:
                 next: https://gumbahgoo.neocities.org,
                 class: tama,
             },
+            {
+                main_text: "Collectors Webring",
+                title: "Collectors Webring",
+                home: https://gutz-nd-teeth.neocities.org/webring,
+                prev: https://webri.ng/webring/collectorwebring/previous?via=https%3A%2F%2Fcedrus.nekoweb.org%2F,
+                next: https://webri.ng/webring/collectorwebring/next?via=https%3A%2F%2Fcedrus.nekoweb.org%2F,
+                rand: https://webri.ng/webring/collectorwebring/random?via=https%3A%2F%2Fcedrus.nekoweb.org%2F,
+                class: collector,
+            },
+            {
+                main_text: "CSS JOY",
+                title: "CSS Joy",
+                home,
+                prev: https://webri.ng/webring/cssjoy/previous?via=https://cedrus.nekoweb.org,
+                next: https://webri.ng/webring/cssjoy/next?via=https://cedrus.nekoweb.org,
+                rand: https://webri.ng/webring/cssjoy/random?via=https://cedrus.nekoweb.org,
+                class: joy,
+            },
+            {
+                main_text: "Webmaster Webring",
+                title: "Webmaster Webring",
+                home: https://webmasterwebring.netlify.app,
+                prev: https://webmasterwebring.netlify.app?ced-previous,
+                next: https://webmasterwebring.netlify.app?ced-random,
+                rand: https://webmasterwebring.netlify.app?ced-next,
+                class: webmaster,
+            },
         ]
 directories:
     root: /assets/images/links/webrings/
