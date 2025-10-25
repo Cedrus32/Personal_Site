@@ -90,7 +90,7 @@ webrings:
             {
                 main_text: "CSS JOY",
                 title: "CSS Joy",
-                home,
+                home: https://cs.sjoy.lol,
                 prev: https://webri.ng/webring/cssjoy/previous?via=https://cedrus.nekoweb.org,
                 next: https://webri.ng/webring/cssjoy/next?via=https://cedrus.nekoweb.org,
                 rand: https://webri.ng/webring/cssjoy/random?via=https://cedrus.nekoweb.org,
