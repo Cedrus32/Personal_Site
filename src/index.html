@@ -15,30 +15,10 @@ to_top: false
 		{% for item in site.data.buttons.items %}
 		<li>
 			{% if item.ext == '.gif' %} {% if item.url %}
-			<a rel="external" href="{{ item.url }}">
-				<picture>
-					<source
-						srcset="{{ site.data.buttons.root | append: item.img | append: '.png' }}"
-						type="image/png"
-						media="(prefers-reduced-motion: reduce)" />
-					<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.gif' }}" alt="{{ item.alt }}" />
-				</picture>
-			</a>
-			{% else %}
-			<picture>
-				<source
-					srcset="{{ site.data.buttons.root | append: item.img | append: '.png' }}"
-					type="image/png"
-					media="(prefers-reduced-motion: reduce)" />
-				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.gif' }}" alt="{{ item.alt }}" />
-			</picture>
-			{% endif %} {% else %} {% if item.url %}
-			<a rel="external" href="{{ item.url }}">
-				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.png' }}" alt="{{ item.alt }}" />
-			</a>
-			{% else %}
-			<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.png' }}" alt="{{ item.alt }}" />
-			{% endif %} {% endif %}
+			<a rel="external" href="{{ item.url }}"> {% include gif.html root=site.data.buttons.root img=item.img alt=img.alt %} </a>
+			{% else %} {% include gif.html root=site.data.buttons.root img=item.img alt=img.alt %} {% endif %} {% else %} {% if item.url %}
+			<a rel="external" href="{{ item.url }}"> {% include png.html root=site.data.buttons.root img=item.img alt=item.alt %} </a>
+			{% else %} {% include png.html root=site.data.buttons.root img=item.img alt=item.alt %} {% endif %} {% endif %}
 		</li>
 		{% endfor %}
 	</ul>

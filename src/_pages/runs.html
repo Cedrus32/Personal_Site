@@ -25,7 +25,10 @@ permalink: /tamas/runs
 				</figure>
 				{% if run.chart %}
 				<button id="{{run.chart}}" onClick="openDialog(this)">growth chart ↗</button>
-				<dialog id="{{run.chart}}-dialog" class="chart"> {% assign name = run.chart %} {% include chart.html chart_name=name %} </dialog>
+				<dialog id="{{run.chart}}-dialog" class="chart">
+					<!-- {% assign name = run.chart %} -->
+					{% include chart.html chart_name=run.chart %}
+				</dialog>
 				{% else %} (no growth chart) {% endif %}
 			</li>
 			{% endfor %}
