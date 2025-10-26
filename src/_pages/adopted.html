@@ -15,8 +15,17 @@ permalink: /pixels/adopted
 	{% for set in site.data.adopted.sets %}
 	<li>
 		<a rel="external" href="{{ set.url }}">
-			{% for item in set.items %} <img loading="lazy" src="{{ site.data.adopted.root | append: item.img | append: item.ext }}" {% if item.ext ==
-			'.gif' %} class="freeze" {% endif %} alt="{{item.alt}}" /> {% endfor %}
+			{% for item in set.items %} {% if item.ext == '.gif' %}
+			<picture>
+				<source
+					srcset="{{ site.data.adopted.root | append: item.img | append: '.png' }}"
+					type="image/png"
+					media="(prefers-reduced-motion: reduce)" />
+				<img loading="lazy" src="{{ site.data.adopted.root | append: item.img | append: '.gif' }}" alt="{{ item.alt }}" />
+			</picture>
+			{% else %}
+			<img loading="lazy" src="{{ site.data.adopted.root | append: item.img | append: '.png' }}" alt="{{item.alt}}" />
+			{% endif %} {% endfor %}
 		</a>
 	</li>
 	{% endfor %}

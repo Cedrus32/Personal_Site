@@ -28,9 +28,18 @@ to_top: true
 		{% for link in site.data.links.personal.links %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
-				class="freeze" {% endif %} alt="{{link.alt}}" /></a
-			>
+				{% if link.ext == '.gif' %}
+				<picture>
+					<source
+						srcset="{{ site.data.links.personal.root | append: link.img | append: '.png' }}"
+						type="image/png"
+						media="(prefers-reduced-motion: reduce)" />
+					<img loading="lazy" src="{{ site.data.links.personal.root | append: link.img | append: '.gif' }}" alt="{{ link.alt }}" />
+				</picture>
+				{% else %}
+				<img loading="lazy" src="{{ site.data.links.personal.root | append: link.img | append: '.png' }}" alt="{{ link.alt }}" />
+				{% endif %}
+			</a>
 		</li>
 		{% endfor %}
 	</ul>
@@ -39,9 +48,18 @@ to_top: true
 		{% for link in site.data.links.non-personal.links %}
 		<li>
 			<a rel="external" href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.personal.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
-				class="freeze" {% endif %} alt="{{link.alt}}" /></a
-			>
+				{% if link.ext == '.gif' %}
+				<picture>
+					<source
+						srcset="{{ site.data.links.non-personal.root | append: link.img | append: '.png' }}"
+						type="image/png"
+						media="(prefers-reduced-motion: reduce)" />
+					<img loading="lazy" src="{{ site.data.links.non-personal.root | append: link.img | append: '.gif' }}" alt="{{ link.alt }}" />
+				</picture>
+				{% else %}
+				<img loading="lazy" src="{{ site.data.links.non-personal.root | append: link.img | append: '.png' }}" alt="{{ link.alt }}" />
+				{% endif %}
+			</a>
 		</li>
 		{% endfor %}
 	</ul>
@@ -70,8 +88,17 @@ to_top: true
 		{% for link in site.data.links.directories.links %}
 		<li>
 			<a href="{{link.url}}">
-				<img loading="lazy" src="{{site.data.links.directories.root | append: link.img | append: link.ext}}" {% if link.ext == '.gif' %}
-				class="freeze" {% endif %} alt="{{link.alt}}" />
+				{% if link.ext == '.gif' %}
+				<picture>
+					<source
+						srcset="{{ site.data.links.directories.root | append: link.img | append: '.png' }}"
+						type="image/png"
+						media="(prefers-reduced-motion: reduce)" />
+					<img loading="lazy" src="{{ site.data.links.directories.root | append: link.img | append: '.gif' }}" alt="{{ link.alt }}" />
+				</picture>
+				{% else %}
+				<img loading="lazy" src="{{ site.data.links.directories.root | append: link.img | append: '.png' }}" alt="{{ link.alt }}" />
+				{% endif %}
 			</a>
 		</li>
 		{% endfor %}

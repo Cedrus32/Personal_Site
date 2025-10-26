@@ -14,12 +14,31 @@ to_top: false
 	<ul class="img-group">
 		{% for item in site.data.buttons.items %}
 		<li>
-			{% if item.url %}
+			{% if item.ext == '.gif' %} {% if item.url %}
 			<a rel="external" href="{{ item.url }}">
-				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.alt }}" />
+				<picture>
+					<source
+						srcset="{{ site.data.buttons.root | append: item.img | append: '.png' }}"
+						type="image/png"
+						media="(prefers-reduced-motion: reduce)" />
+					<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.gif' }}" alt="{{ item.alt }}" />
+				</picture>
 			</a>
-			{% else %} <img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: item.ext }}" {% if item.ext == '.gif' %} class="freeze" {% endif %} alt="{{ item.alt }}" /> {%
-			endif %}
+			{% else %}
+			<picture>
+				<source
+					srcset="{{ site.data.buttons.root | append: item.img | append: '.png' }}"
+					type="image/png"
+					media="(prefers-reduced-motion: reduce)" />
+				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.gif' }}" alt="{{ item.alt }}" />
+			</picture>
+			{% endif %} {% else %} {% if item.url %}
+			<a rel="external" href="{{ item.url }}">
+				<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.png' }}" alt="{{ item.alt }}" />
+			</a>
+			{% else %}
+			<img loading="lazy" src="{{ site.data.buttons.root | append: item.img | append: '.png' }}" alt="{{ item.alt }}" />
+			{% endif %} {% endif %}
 		</li>
 		{% endfor %}
 	</ul>
