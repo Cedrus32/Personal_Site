@@ -4,7 +4,7 @@ function applyInitText() {
 	let animateSwitch = root.parentElement.children[1].children[1].children[0];
 	let fontSwitch = root.parentElement.children[1].children[2].children[0].children[1].children;
 	const style = localStorage.getItem("style");
-	const animate = localStorage.getItem("animate");
+	const animate = sessionStorage.getItem("sessionAnimate");
 	const font = localStorage.getItem("font");
 	styleSwitch.textContent = "theme: " + style;
 	animateSwitch.textContent = "animate: " + animate;

@@ -1,4 +1,7 @@
 <picture>
-	<source srcset="{{ include.root | append: include.img | append: '.png' }}" type="image/png" media="(prefers-reduced-motion: reduce)" />
-	<img loading="lazy" src="{{ include.root | append: include.img | append: '.gif' }}" alt="{{ include.alt }}" />
+	<source
+		srcset="{{ include.root | append: include.img | append: '.png' }}"
+		type="image/png"
+		media="(prefers-reduced-motion: reduce) and (scripting: none)" />
+	<img loading="lazy" src="{{ include.root | append: include.img | append: '.gif' }}" class="freeze" alt="{{ include.alt }}" />
 </picture>
