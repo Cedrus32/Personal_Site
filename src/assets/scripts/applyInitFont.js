@@ -5,7 +5,7 @@ function applyInitFont() {
 	}
 
 	document.querySelector("body").style.fontFamily = font;
-	sessionStorage.setItem("font", font);
+	sessionStorage.setItem("sessionFont", font);
 
 	// set session font preference
 	// apply preference to page
