@@ -3,7 +3,7 @@ function applyInitText() {
 	let styleSwitch = root.parentElement.children[1].children[0].children[0];
 	let animateSwitch = root.parentElement.children[1].children[1].children[0];
 	let fontSwitch = root.parentElement.children[1].children[2].children[0].children[1].children;
-	const style = localStorage.getItem("style");
+	const style = sessionStorage.getItem("sessionStyle");
 	const animate = sessionStorage.getItem("sessionAnimate");
 	const font = localStorage.getItem("font");
 	styleSwitch.textContent = "theme: " + style;

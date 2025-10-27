@@ -1,13 +1,23 @@
-function toggleStyle() {
-	let style = localStorage.getItem("style");
-	if (style === "light") {
-		style = "dark";
-	} else if (style === "dark") {
-		style = "light";
+function changePref() {
+	let sessionStyle = sessionStorage.getItem("sessionStyle");
+	if (sessionStyle === "light") {
+		sessionStorage.setItem("sessionStyle", "dark");
+	} else if (sessionStyle === "dark") {
+		sessionStorage.setItem("sessionStyle", "light");
 	}
+}
 
-	document.querySelector("#theme").setAttribute("href", "/assets/css/" + style + ".css");
-	localStorage.setItem("style", style);
-	let styleSwitch = document.querySelector("#style-switch");
-	styleSwitch.textContent = "theme: " + style;
+function applyPref() {
+	document.querySelector("#theme").setAttribute("href", "/assets/css/" + sessionStorage.getItem("sessionStyle") + ".css");
+}
+
+function toggleStyle() {
+	changePref();
+	applyPref();
+
+	document.querySelector("#style-switch").textContent = "theme: " + sessionStorage.getItem("sessionStyle");
+
+	// change session preference in session storage
+	// apply new session preference to page style
+	// reflect session preference to switch text
 }

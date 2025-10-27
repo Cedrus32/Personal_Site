@@ -45,7 +45,6 @@ function applyInitAnimate() {
 	applyPref();
 
 	let animateSwitch = document.getElementById("animate-switch");
-	console.log(animateSwitch);
 
 	// set session animate/system reduce preference
 	// apply preference to images
