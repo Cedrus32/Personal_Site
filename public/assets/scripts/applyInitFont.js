@@ -1,11 +1,14 @@
 function applyInitFont() {
-	let font = localStorage.getItem("font");
+	let font = sessionStorage.getItem("sessionFont");
 	if (font == null) {
 		font = "Nunito";
 	}
 
 	document.querySelector("body").style.fontFamily = font;
-	localStorage.setItem("font", font);
+	sessionStorage.setItem("font", font);
+
+	// set session font preference
+	// apply preference to page
 }
 
 applyInitFont();
