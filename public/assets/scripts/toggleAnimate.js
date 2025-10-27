@@ -1,4 +1,4 @@
-function changePref() {
+function changeAnimationPref() {
 	let sessionAnimate = sessionStorage.getItem("sessionAnimate");
 	if (sessionAnimate === "on") {
 		sessionStorage.setItem("sessionAnimate", "off");
@@ -7,7 +7,7 @@ function changePref() {
 	}
 }
 
-function applyPref() {
+function applyAnimationPref() {
 	let images = document.querySelectorAll(".freeze img, img.freeze");
 	if (sessionStorage.getItem("sessionAnimate") === "off") {
 		images.forEach((img) => (img.src = img.src.slice(0, -3) + "png"));
@@ -17,8 +17,8 @@ function applyPref() {
 }
 
 function toggleAnimate() {
-	changePref();
-	applyPref();
+	changeAnimationPref();
+	applyAnimationPref();
 
 	document.getElementById("animate-switch").textContent = "animate: " + sessionStorage.getItem("sessionAnimate");
 

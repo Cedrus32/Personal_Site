@@ -1,4 +1,4 @@
-function changePref() {
+function changeStylePref() {
 	let sessionStyle = sessionStorage.getItem("sessionStyle");
 	if (sessionStyle === "light") {
 		sessionStorage.setItem("sessionStyle", "dark");
@@ -7,13 +7,13 @@ function changePref() {
 	}
 }
 
-function applyPref() {
+function applyStylePref() {
 	document.querySelector("#theme").setAttribute("href", "/assets/css/" + sessionStorage.getItem("sessionStyle") + ".css");
 }
 
 function toggleStyle() {
-	changePref();
-	applyPref();
+	changeStylePref();
+	applyStylePref();
 
 	document.querySelector("#style-switch").textContent = "theme: " + sessionStorage.getItem("sessionStyle");
 
