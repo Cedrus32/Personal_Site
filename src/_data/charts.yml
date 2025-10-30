@@ -31,7 +31,7 @@ list:
                         date: null,
                     },
                     { name: Darumatchi, alt: "Daruma doll-shaped character.", complete: false, date: null },
-                    { name: Young Oyajitchi, alt: "Round character balding hairline.", complete: false, date: null },
+                    { name: Young Oyajitchi, alt: "Round character with balding hairline.", complete: false, date: null },
                 ]
           - name: adults
             chars:
@@ -76,4 +76,238 @@ list:
                         date: null,
                     },
                     { name: Wooltchi, alt: "Sheep-like character.", complete: false, date: null },
+                ]
+    - name: v2
+      dir: v2/
+      title: Tamagotchi Connection V2 Growth Chart
+      credit: https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_2/Character_list
+      stages:
+          - name: baby
+            chars:
+                [
+                    { name: Petitchi, alt: "Dark blue droplet-shaped character.", complete: false, date: null },
+                    { name: Shiropetitchi, alt: "White droplet-shaped character.", complete: false, date: null },
+                ]
+          - name: toddler
+            chars:
+                [
+                    { name: Hitodetchi, alt: "Star-shaped character.", complete: false, date: null },
+                    { name: Marutchi, alt: "Smiling round blob.", complete: false, date: null },
+                    { name: Kinakomotchi, alt: "Gourd-shaped character", complete: false, date: null },
+                    { name: Kuribotchi, alt: "Acorn-shaped character", complete: false, date: null },
+                ]
+          - name: teen
+            chars:
+                [
+                    { name: Ringotchi, alt: "Apple-shaped character", complete: false, date: null },
+                    { name: UFOtchi, alt: "UFO-shaped character", complete: false, date: null },
+                    {
+                        name: Young Mametchi,
+                        alt: "Character with large head, blue hat, and short ears on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Nikatchi, alt: "Grinning blob with point on top.", complete: false, date: null },
+                    { name: Oniontchi, alt: "Onion-shaped character", complete: false, date: null },
+                    { name: Hinatchi, alt: "Gray duck-shaped character with a tuft of hair on top.", complete: false, date: null },
+                    { name: Ichigotchi, alt: "Strawberry-shaped character.", complete: false, date: null },
+                    { name: Young Mimitchi, alt: "Blobby character, blue hat, long ears on top of their head.", complete: false, date: null },
+                    { name: Hinotamatchi, alt: "Flaming blob.", complete: false, date: null },
+                    { name: Propellertchi, alt: "Seed-shaped character with sprout-shaped propeller on their head.", complete: false, date: null },
+                ]
+          - name: adult
+            chars:
+                [
+                    { name: Mametchi, alt: "Character with large head, blue hat, and short ears on top of their head.", complete: false, date: null },
+                    { name: Pyonchitchi, alt: "Chubby gerbil-shaped character.", complete: false, date: null },
+                    {
+                        name: Violetchi,
+                        alt: "Purple character with large head, yellow and green flowers where their ears would be.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Ginjirotchi, alt: "Blue frog-like character.", complete: false, date: null },
+                    { name: Kuchipatchi, alt: "Green platapus-like character without a tail.", complete: false, date: null },
+                    { name: Pochitchi, alt: "Yellow laborador-like character.", complete: false, date: null },
+                    { name: Kusatchi, alt: "Flower-like character with no petals.", complete: false, date: null },
+                    { name: Nyorotchi, alt: "Thin worm-like character with a very large head.", complete: false, date: null },
+                    {
+                        name: Tarakotchi,
+                        alt: "Potato-shaped character with legs, lips, and a tuft of hair on their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Hanatchi, alt: "Worm-like character with a large nose.", complete: false, date: null },
+                    { name: Kaerutchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: Takotchi, alt: "Red blobby character with blue hat, short ears, and short legs.", complete: false, date: null },
+                    { name: Kiwitchi, alt: "Round character with duck lips and one antenna on their head.", complete: false, date: null },
+                    { name: Masktchi, alt: "Character with a very large head covered by a red mask.", complete: false, date: null },
+                    { name: Whaletchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: ChoHimetchi, alt: "Pink bear-shaped character with a tall crown.", complete: false, date: null },
+                    { name: Marumimitchi, alt: "Mouse-like character without a tail.", complete: false, date: null },
+                    { name: Mimitchi, alt: "Blobby character, blue hat, long ears on top of their head.", complete: false, date: null },
+                    {
+                        name: Debatchi,
+                        alt: "Chick-shaped character with buck teeth and a tuft of hair atop their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Memetchi, alt: "Character with very large head and one hair in a swirl atop their head.", complete: false, date: null },
+                    { name: Toratchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: Butterflytchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: Dorotchi, alt: "Ghost-like character.", complete: false, date: null },
+                    { name: Kabutchi, alt: "Blueberry-shaped character with arms and feet.", complete: false, date: null },
+                    { name: Androtchi, alt: "Robot-like character.", complete: false, date: null },
+                    { name: Flowertchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: Wooltchi, alt: "Sheep-like character.", complete: false, date: null },
+                    { name: Gozarutchi, alt: "Ninja-like character.", complete: false, date: null },
+                    { name: Hiratchi, alt: "Floating dog-like character with two antennae on their head.", complete: false, date: null },
+                    {
+                        name: Zuccitchi,
+                        alt: "Blob-shaped character with four thin legs, blue mask, long ears on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                ]
+          - name: senior
+            chars:
+                [
+                    {
+                        name: Ojitchi,
+                        alt: "Round character with balding hairline and mustache. Resembles a very old man.",
+                        complete: false,
+                        date: null,
+                    },
+                    {
+                        name: Otokitchi,
+                        alt: "Round character with gray hair in a top bun and wrinkles. Resembles an old woman.",
+                        complete: false,
+                        date: null,
+                    },
+                ]
+          - name: special
+            chars:
+                [
+                    {
+                        name: Oyajitchi,
+                        alt: "Round character with balding hairline and mustache. Resembles an old man.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Pandatchi, img: false, alt: "no artwork", complete: false, date: null },
+                    { name: Kigurumitchi, img: false, alt: "no artwork", complete: false, date: null },
+                ]
+    - name: v6
+      dir: v6/
+      title: Tamagotchi Connection V6 (Music Star) Growth Chart
+      credit: https://tamagotchi.fandom.com/wiki/Tamagotchi_Music_Star/Character_list
+      stages:
+          - name: baby
+            chars:
+                [
+                    { name: Petitchi, alt: "Dark blue droplet-shaped character.", complete: false, date: null },
+                    { name: Shiropetitchi, alt: "White droplet-shaped character.", complete: false, date: null },
+                ]
+          - name: child
+            chars:
+                [
+                    { name: Kuribotchi, alt: "Acorn-shaped character.", complete: false, date: null },
+                    { name: Kuchitamatchi, alt: "Small blog with large round beak.", complete: false, date: null },
+                    { name: Hitodetchi, alt: "Star-shaped character.", complete: false, date: null },
+                    { name: Tamatchi, alt: "Round, smiling character with arms and legs.", complete: false, date: null },
+                ]
+          - name: teen
+            chars:
+                [
+                    { name: Kikitchi, alt: "Monkey-like character with bandana around their neck.", complete: false, date: null },
+                    { name: Hinotamatchi, alt: "Flaming blob.", complete: false, date: null },
+                    { name: Nonopotchi, alt: "Penguin-like character wearing a light blue hooded snuggy outfit.", complete: false, date: null },
+                    {
+                        name: Chamametchi,
+                        alt: "Character with large head, pink hat and dress, and short ears on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Ichigotchi, alt: "Strawberry-shaped character.", complete: false, date: null },
+                    { name: Ringotchi, alt: "Apple-shaped character.", complete: false, date: null },
+                ]
+          - name: adult
+            chars:
+                [
+                    { name: Mametchi, alt: "Character with large head, blue hat, and short ears on top of their head.", complete: false, date: null },
+                    { name: Shimashimatchi, alt: "Bee-like character.", complete: false, date: null },
+                    { name: Kuchipatchi, alt: "Green platapus-like character without a tail.", complete: false, date: null },
+                    {
+                        name: Tarakotchi,
+                        alt: "Potato-shaped character with legs, lips, and a tuft of hair on their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Gozarutchi, alt: "Ninja-like character.", complete: false, date: null },
+                    { name: Mimitchi, alt: "Blobby character, blue hat, long ears on top of their head.", complete: false, date: null },
+                    { name: Memetchi, alt: "Character with very large head and one hair in a swirl atop their head.", complete: false, date: null },
+                    {
+                        name: Violetchi,
+                        alt: "Purple character with large head, yellow and green flowers where their ears would be.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Sebiretchi, alt: "Dinosaur-like character.", complete: false, date: null },
+                    { name: Masktchi, alt: "Character with a very large head covered by a red mask.", complete: false, date: null },
+                    {
+                        name: Kuromametchi,
+                        alt: "Character with large head, black hat and clothes, and short ears with piercings on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Togetchi, alt: "Round fuzzy character with yellow hat.", complete: false, date: null },
+                    { name: Dorotchi, alt: "Ghost-like character.", complete: false, date: null },
+                    { name: Androtchi, alt: "Robot-like character.", complete: false, date: null },
+                    { name: Tosakatchi, alt: "Grimmacing character with large head and red cap.", complete: false, date: null },
+                    {
+                        name: Chantotchi,
+                        alt: "Character with large head, light yellow hat, red shirt, and short floppy ears on top of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    {
+                        name: Makiko,
+                        alt: "Character with very large head and curlicue pigtails on either side of their head.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Onputchi, alt: "Music-note shaped character.", complete: false, date: null },
+                    { name: Maidtchi, alt: "Maid-like character.", complete: false, date: null },
+                    { name: Kunoitchi, alt: "Cat-like ninja character.", complete: false, date: null },
+                ]
+          - name: senior
+            chars:
+                [
+                    {
+                        name: Ojitchi,
+                        alt: "Round character with balding hairline and mustache. Resembles a very old man.",
+                        complete: false,
+                        date: null,
+                    },
+                    {
+                        name: Otokitchi,
+                        alt: "Round character with gray hair in a top bun and wrinkles. Resembles an old woman.",
+                        complete: false,
+                        date: null,
+                    },
+                    { name: Rexitchi, alt: "Square-shaped character with large sunglasses and pompadour hairstyle.", complete: false, date: null },
+                    {
+                        name: Dango Obatchi,
+                        alt: "Tall rectangle-shaped character with their hair tied up in a bun with a hair pin.",
+                        complete: false,
+                        date: null,
+                    },
+                ]
+          - name: special
+            chars:
+                [
+                    { name: Dreamitchi, alt: "Boyband idol.", complete: false, date: null },
+                    { name: Dazzilitchi, alt: "Girl group idol.", complete: false, date: null },
+                    { name: Mochatchi, alt: "Pink cat character.", complete: false, date: null },
+                    { name: Spotchi, alt: "Spotted dog character.", complete: false, date: null },
                 ]

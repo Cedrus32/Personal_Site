@@ -13,50 +13,75 @@ groups:
                   alt: "Purple shell. Pink cap, spinner, buttons. Pink, purple star stickers on shell. Sky scene inset surrounding screen. 'Tamagotchi' label.",
                   chart: null,
               },
+              {
+                  name: V6 Music Star,
+                  shell: Glam Rock,
+                  img: glam_rock,
+                  alt: "Black shell, screen border, buttons. Pink/purple flame, white star motif surrounding shell. 'Tamagotchi' label on pink background.",
+                  chart: v6,
+              },
+              {
+                  name: V2,
+                  shell: True Friends - Flames (Black),
+                  img: flames_black,
+                  alt: "Black shell. Yellow screen border, buttons. Red flame motif surrounding shell.",
+                  chart: v2,
+              },
+              {
+                  name: V2,
+                  shell: True Friends - Flames (Gold),
+                  img: flames_gold,
+                  alt: "Gold shell. Black screen border, buttons. Red flame motif surrounding shell.",
+                  chart: v2,
+              },
           ]
     - name: Seasonals
-      runs:
-          [
-              {
-                  name: Football Season - SKOL!,
-                  shell: Akai Viking,
-                  img: viking,
-                  alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen.",
-                  chart: akai,
-              },
-              {
-                  name: Local Clob October Hatch - Halloween,
-                  shell: Akai Pirate,
-                  img: pirate,
-                  alt: "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat.",
-                  chart: akai,
-              },
-              {
-                  name: Local Club October Hatch - Halloween,
-                  shell: Monster Carnival Uni,
-                  img: uni_monster,
-                  alt: "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label.",
-                  chart: null,
-              },
-          ]
+      runs: null
     - name: Completed
       runs: null
-
 hiatus:
     [
         {
-            name: Connection V1,
+            name: null,
             shell: Green Squares,
             img: green_squares,
             alt: "Bright green shell. Orange screen border and buttons. Blue green/yellow squares in white grid surrounding screen. 'Tamagotchi Connection' label on blue green background.",
             chart: v1,
         },
-        { name: Connection V2, shell: Clear Pink, img: clear_pink, alt: "Transparent pink shell and screen border. Light pink buttons.", chart: v2 },
+        { name, shell: Clear Pink, img: clear_pink, alt: "Transparent pink shell and screen border. Light pink buttons.", chart: v2 },
         {
-            name: Akai,
+            name: null,
+            shell: Akai Pirate,
+            img: pirate,
+            alt: "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat.",
+            chart: akai,
+        },
+        {
+            name: null,
             shell: Akai Pink Grapes,
             img: pink_grapes,
             alt: "Light pink shell. Red buttons and antenna cap. Orange/pink/red grapes and sun surrounding screen.",
             chart: akai,
+        },
+        {
+            name: null,
+            shell: Akai Viking,
+            img: viking,
+            alt: "Purple shell. Yellow screen border, buttons. Yellow antenna with purple cap. Yellow coins, silver 'TMGC' label and pirate hat surrounding screen.",
+            chart: akai,
+        },
+        {
+            name: null,
+            shell: Akai Pirate,
+            img: pirate,
+            alt: "Transparent black shell. Gold screen border. Red buttons and antenna cap. Gold/silver 'TMGC' label and pirate hat.",
+            chart: akai,
+        },
+        {
+            name: null,
+            shell: Monster Carnival Uni,
+            img: uni_monster,
+            alt: "Purple shell. Green buttons. Green faceplate with white/black clouds, pink lightning motif surrounding screen. Pink 'Tamagotchi Uni' label.",
+            chart: null,
         },
     ]

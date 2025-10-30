@@ -1,44 +1,54 @@
-{% for chart in site.data.charts.list %} {% if chart.name == include.chart_name %}
-<table class="growth-chart">
-	<caption tabindex="0">{{chart.title}}</caption>
-	<thead>
-		<tr>
-			<th scope="column">Stage</th>
-			<th scope="column">Characters</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% assign completed = 0 %}
-		{% assign total = 0 %}
-		{% for stage in chart.stages %}
-		<tr class="chart-row">
-			<th scope="row" tabindex="0">{{stage.name}}</th>
-			<td>
-				<ul>
-					{% for char in stage.chars %}
-					{% assign total = total | plus: 1 %}
-					<li {% if char.complete == false %} class="incomplete" {% else if char.complete == true %} class="complete" {% endif %}>
-						<figure>
-							{% assign name = char.name | downcase | split: " " | join: "" %}
-							<img loading="lazy" src='{{site.data.charts.root | append: chart.dir | append: name | append: site.data.charts.ext}}'/>
-							<figcaption>{{char.name}}</figcaption>
-							<span>{% if char.complete == false %} Ｘ incomplete {% else if char.complete == true %} {% assign completed = completed | plus: 1 %} <span aria-label="complete" role="img">✔</span> {{char.date}} {% endif %}</span>
-						</figure>
-					</li>
-					{% endfor %}
-				</ul>
-			</td>
-		</tr>
-		{% endfor %}
-	</tbody>
-	<tfoot>
-		<tr>
-			<th scope="row"><label for="progress" tabindex="0">Progress:</label></th>
-			<td><progress value="{{completed}}" max="{{total}}">{{completed}} / {{total}}</progress></td>
-		</tr>
-	</tfoot>
-</table>
-<footer>Images from the <a href="{{chart.credit}}" rel="external">Tamagotchi Wiki</a>.</footer>
-{% endif %} {% break %} {% endfor %}
+{% for chart in site.data.charts.list %}
+	{% if chart.name == include.chart_name %}
+		<table class="growth-chart">
+			<caption tabindex="0">{{chart.title}}</caption>
+			<thead>
+				<tr>
+					<th scope="column">Stage</th>
+					<th scope="column">Characters</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% assign completed = 0 %}
+				{% assign total = 0 %}
+				{% for stage in chart.stages %}
+					<tr class="chart-row">
+						<th scope="row" tabindex="0">{{stage.name}}</th>
+						<td>
+							<ul>
+								{% for char in stage.chars %}
+									{% assign total = total | plus: 1 %}
+									<li {% if char.complete == false %} class="incomplete" {% else if char.complete == true %} class="complete" {% endif %} >
+										<figure>
+											{% assign name = char.name | downcase | split: " " | join: "" %}
+											<img loading="lazy" {% if char.img == false %} src="{{site.data.charts.root | append: 'placeholder.webp'}}" {% else %} src="{{site.data.charts.root | append: chart.dir | append: name | append: site.data.charts.ext}}" {% endif %} alt="{{char.alt}}"/>
+											<figcaption>{{char.name}}</figcaption>
+											<span>
+												{% if char.complete == false %}
+													X incomplete
+												{% else if char.complete == true %}
+													{% assign completed = completed | plus: 1 %}
+													<span aria-label="complete" role="img">✔</span> {{char.date}}
+												{% endif %}
+											</span>
+										</figure>
+									</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row"><label for="progress" tabindex=""0">Progress</label></th>
+					<td><progress value="{{completed}}" max="{{total}}">{{completed}} / {{total}}</progress></td>
+				</tr>
+			</tfoot>
+		</table>
+		<footer>Images from the <a rel="external" href="{{chart.credit}}">Tamagotchi Wiki</a>.</footer>
+		{% break %}
+	{% endif %}
+{% endfor %}
 
 <button id="close" onClick="closeDialog(this)">[close growth chart]</button>
